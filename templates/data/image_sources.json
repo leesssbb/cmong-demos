@@ -1,0 +1,112 @@
+[
+ {
+  "name": "Unsplash",
+  "url": "https://unsplash.com/license",
+  "license": "Unsplash License",
+  "commercial": true,
+  "attribution": "optional",
+  "portrait_note": "라이선스 페이지에 인물·모델 릴리스·상표 관련 경고 없음. 대신 '상당한 변형 없이 이미지 판매 불가' 조항 있음.",
+  "hotlink_api": "핫링크 언급 없음. 별도 API Terms 존재. 이미지를 모아 유사·경쟁 서비스를 만드는 행위 금지.",
+  "verdict": "use",
+  "fetched_ok": true
+ },
+ {
+  "name": "Pexels",
+  "url": "https://www.pexels.com/license/",
+  "license": "Pexels License (Free Stock Photo & Video License)",
+  "commercial": true,
+  "attribution": "optional",
+  "portrait_note": "식별 가능한 인물을 부정적·모욕적으로 묘사 금지. 인물·브랜드가 제품을 보증하는 것처럼 표현 금지. 상표·상호·서비스표로 사용 금지.",
+  "hotlink_api": "Image & Video API 제공(라이선스 페이지에 핫링크 세부 규정 없음). 다른 스톡·월페이퍼 플랫폼에 재배포·판매 금지.",
+  "verdict": "use",
+  "fetched_ok": true
+ },
+ {
+  "name": "Pixabay",
+  "url": "https://pixabay.com/service/license-summary/",
+  "license": "Pixabay Content License",
+  "commercial": true,
+  "attribution": "optional",
+  "portrait_note": "식별 가능한 인물을 비도덕적·불법적으로 사용 금지. 식별 가능한 상표·로고·브랜드 포함 콘텐츠는 상업적 사용 불가. 제3자 동의·추가 라이선스 필요 여부 확인은 이용자 책임.",
+  "hotlink_api": "API 존재하나 요약 페이지에 핫링크 정책 명시 없음. 창작적 가공 없는 콘텐츠의 단독 판매·배포 금지.",
+  "verdict": "avoid — 상표·로고가 보이는 이미지는 상업적 사용이 명시적으로 금지돼 이미지별 개별 판단이 필요함",
+  "fetched_ok": true
+ },
+ {
+  "name": "Openverse",
+  "url": "https://openverse.org/about",
+  "license": "확인 실패 (요청 페이지 HTTP 403)",
+  "commercial": "unknown",
+  "attribution": "unknown",
+  "portrait_note": "확인 실패",
+  "hotlink_api": "대체로 취득한 docs.openverse.org 에 'Openverse is a search engine for openly licensed media' 및 api.openverse.org 공개 API 언급은 있으나, 라이선스 조건 문서는 아님.",
+  "verdict": "avoid — openverse.org/about 이 403 으로 차단되어 라이선스 조건 미확인 (확인 실패)",
+  "fetched_ok": false
+ },
+ {
+  "name": "Lorem Picsum",
+  "url": "https://picsum.photos/",
+  "license": "명시된 라이선스 문구 없음 (이미지 출처가 Unsplash 라고만 안내)",
+  "commercial": "unknown",
+  "attribution": "unknown",
+  "portrait_note": "없음 (페이지에 인물·상표 관련 안내 자체가 없음)",
+  "hotlink_api": "핫링크 전제 서비스. https://picsum.photos/200/300, /id/{image}, /seed/{seed}, ?grayscale, ?blur={1-10}, 메타데이터 /v2/list 엔드포인트 제공.",
+  "verdict": "avoid — 상업적 이용·출처표시에 관한 명시 조항이 전혀 없어 납품용 이미지 근거로 부적합(개발 중 더미 플레이스홀더 한정)",
+  "fetched_ok": true
+ },
+ {
+  "name": "Burst (Shopify)",
+  "url": "https://www.shopify.com/stock-photos",
+  "license": "Burst 무료 이용 조건 (별도 라이선스명 없음). 지정 URL /stock-photos/about 과 /stock-photos/licensing 은 HTTP 404 → 메인 안내 페이지로 대체 확인",
+  "commercial": true,
+  "attribution": "optional",
+  "portrait_note": "해당 페이지에 인물·모델 릴리스·상표 관련 경고 문구 없음",
+  "hotlink_api": "공개 API·핫링크 안내 없음. 사이트에서 직접 다운로드. 크롭·리사이즈·텍스트 추가 등 변형 허용.",
+  "verdict": "use",
+  "fetched_ok": true
+ },
+ {
+  "name": "StockSnap",
+  "url": "https://stocksnap.io/license",
+  "license": "확인 실패 (HTTP 403, /terms 도 403)",
+  "commercial": "unknown",
+  "attribution": "unknown",
+  "portrait_note": "확인 실패",
+  "hotlink_api": "확인 실패",
+  "verdict": "avoid — 라이선스 페이지가 403 으로 차단되어 조건 미확인 (확인 실패)",
+  "fetched_ok": false
+ },
+ {
+  "name": "Kaboompics",
+  "url": "https://kaboompics.com/license",
+  "license": "확인 실패 (HTTP 403)",
+  "commercial": "unknown",
+  "attribution": "unknown",
+  "portrait_note": "확인 실패",
+  "hotlink_api": "확인 실패",
+  "verdict": "avoid — 라이선스 페이지가 403 으로 차단되어 조건 미확인 (확인 실패)",
+  "fetched_ok": false
+ },
+ {
+  "name": "공유마당 (한국저작권위원회)",
+  "url": "https://gongu.copyright.or.kr/gongu/main/main.do",
+  "license": "저작물별로 상이: CCL(CC-BY, CC-BY-ND, CC-BY-NC, CC-BY-NC-ND, CC-BY-SA, CC-BY-NC-SA), 공공누리 제1~4유형, 기증 저작물, 만료 저작물",
+  "commercial": "unknown",
+  "attribution": "required",
+  "portrait_note": "메인 페이지에는 초상권·상표 관련 구체적 주의 문구 없음",
+  "hotlink_api": "직접 다운로드 및 API 제공 언급",
+  "verdict": "avoid — 저작물마다 라이선스가 달라 CC-BY-NC·공공누리 2유형은 상업적 이용 불가이고 출처표시가 필수라 건별 확인 필요",
+  "fetched_ok": true
+ },
+ {
+  "name": "한국관광공사 포토코리아",
+  "url": "https://kto.visitkorea.or.kr/kor/ktom/photo.kto",
+  "license": "확인 실패 (지정 URL HTTP 404. /kor/ktom/photo/photoList.kto 도 404, kphoto.visitkorea.or.kr 은 DNS 미해석)",
+  "commercial": "unknown",
+  "attribution": "unknown",
+  "portrait_note": "확인 실패",
+  "hotlink_api": "확인 실패",
+  "verdict": "avoid — 이용조건 페이지를 찾지 못해 조건 미확인 (확인 실패)",
+  "fetched_ok": false
+ }
+]

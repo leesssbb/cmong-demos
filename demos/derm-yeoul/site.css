@@ -1,0 +1,371 @@
+/* derm-yeoul — 셀파크피부과 실측 재현(흰 바탕 에디토리얼형). 폰트: Cormorant Garamond(TiemposFine 대체) / Noto Serif KR / Pretendard Variable */
+:root{
+  --bg:#ffffff; --fg:#26211f; --ink2:#333333; --muted:#565656; --quote:#79706c; --line:#e6e2df; --ghost:#efedeb;
+  --accent:#382a2a; --accent-fg:#ffffff; --quick:#2a2423; --foot:#070707; --radius:4px;
+  --pad:20px; --sec:64px;
+  --serif:'Cormorant Garamond',Georgia,serif; --kr:'Noto Serif KR',serif; --sans:'Pretendard Variable',Pretendard,system-ui,sans-serif;
+  --ez:cubic-bezier(.22,.61,.36,1); --dur:.5s;
+}
+@media(min-width:760px){:root{--pad:40px;--sec:100px}}
+@media(min-width:1180px){:root{--pad:60px}}
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;background:var(--bg);scroll-padding-top:110px}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:16px;line-height:1.7;letter-spacing:-.01em;
+  overflow-x:hidden;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+ul,ol{list-style:none}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+a,button{touch-action:manipulation;-webkit-tap-highlight-color:rgba(56,42,42,.12)}
+img{display:block;max-width:100%}
+::selection{background:var(--accent);color:#fff}
+:focus-visible{outline:2px solid var(--fg);outline-offset:3px}
+.is-dark :focus-visible{outline-color:#fff}
+.yd-num{font-variant-numeric:tabular-nums}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ── 타이포 (실측) ── */
+.yd-h2{font-family:var(--serif);font-size:clamp(40px,10.8vw,84px);font-weight:400;line-height:1.1;letter-spacing:-.01em;color:var(--fg);text-wrap:balance}
+@media(min-width:760px){.yd-h2{font-size:clamp(56px,5.9vw,84px)}}
+.yd-pre{font-family:var(--serif);font-size:clamp(24px,3vw,42px);font-weight:400;line-height:1.2;color:var(--ink2)}
+.yd-h3{font-family:var(--kr);font-size:clamp(22px,2vw,28px);font-weight:500;line-height:1.28;letter-spacing:-.01em;color:var(--fg);text-wrap:balance}
+.yd-kh{font-family:var(--kr);font-size:clamp(22px,2vw,28px);font-weight:500;line-height:1.28;letter-spacing:-.01em;color:var(--fg)}
+.yd-txt{font-size:clamp(16px,1.25vw,18px);line-height:1.88;letter-spacing:-.01em;color:var(--ink2)}
+.yd-txt+.yd-txt{margin-top:1em}
+.yd-slogan{font-family:var(--kr);font-size:clamp(19px,1.7vw,24px);font-weight:500;line-height:1.5;letter-spacing:-.01em;color:var(--ink2)}
+.yd-more{display:inline-flex;align-items:center;gap:15px;font-family:var(--serif);font-size:24px;line-height:36px;letter-spacing:-.01em;color:#403833}
+.yd-more svg{transition:transform var(--dur) var(--ez)}
+.yd-more:hover svg,.yd-more:focus-visible svg{transform:translateX(8px)}
+.yd-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:44px;padding:10px 28px;border:1px solid var(--fg);border-radius:var(--radius);
+  font-size:16px;letter-spacing:-.01em;color:var(--fg);transition:background-color var(--dur) var(--ez),color var(--dur) var(--ez)}
+.yd-btn:hover{background:var(--fg);color:#fff}
+.yd-btn.is-fill{background:var(--accent);border-color:var(--accent);color:#fff}
+.yd-btn.is-fill:hover{background:var(--fg);border-color:var(--fg)}
+.is-dark .yd-btn{border-color:#fff;color:#fff}
+.is-dark .yd-btn:hover{background:#fff;color:var(--fg)}
+.yd-ghost{position:absolute;font-family:var(--serif);font-size:clamp(56px,7vw,80px);line-height:1;color:var(--ghost);pointer-events:none;user-select:none;white-space:nowrap}
+
+/* ── 커튼 ── */
+.curtain{background:#fff;color:var(--fg)}
+.curtain .c-logo{font-family:var(--serif);font-size:34px;letter-spacing:.1em}
+.curtain .c-bar{height:2px;background:var(--accent)}
+
+/* ── 헤더 (실측: 흰색 h115, 세리프 워드마크 + 갈색 배지, 우측 KR + 햄버거) ── */
+.site-head{background:#fff;transition:box-shadow var(--dur) var(--ez)}
+.site-head.is-scrolled{box-shadow:0 1px 0 var(--line)}
+.head-in{padding:0 var(--pad);height:64px;gap:20px}
+@media(min-width:1024px){.head-in{height:104px;gap:32px}}
+.yd-brand{display:flex;align-items:center;gap:28px;flex:none}
+.yd-logo{display:block;line-height:0}
+.yd-lockup{height:30px;width:auto;display:block}
+@media(min-width:1024px){.yd-lockup{height:38px}}
+.yd-badge{display:none;align-items:center;height:40px;padding:0 24px;border-radius:var(--radius);background:var(--accent);color:#fff;
+  font-family:var(--kr);font-size:15px;font-weight:600;letter-spacing:-.02em;white-space:nowrap}
+@media(min-width:1280px){.yd-badge{display:inline-flex}}
+.gnb{gap:clamp(24px,3vw,44px);margin-left:auto}
+.gnb-link{font-family:var(--kr);font-size:16px;font-weight:500;line-height:104px;color:var(--fg);letter-spacing:-.01em}
+.gnb-link::after{content:'';position:absolute;left:0;right:0;bottom:36px;height:1px;background:var(--fg);transform:scaleX(0);transform-origin:left;
+  transition:transform var(--dur) var(--ez)}
+.gnb-item:hover .gnb-link::after,.gnb-item.is-active .gnb-link::after,.gnb-link:focus-visible::after{transform:scaleX(1)}
+.gnb-drop{min-width:160px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:8px;transform:translate(-50%,0);
+  transition:opacity .25s var(--ez),visibility .25s}
+.gnb-drop a{padding:10px 14px;font-family:var(--kr);font-size:15px;font-weight:500;border-radius:var(--radius)}
+.gnb-drop a:hover{background:#f4f2f0}
+.head-actions{gap:12px}
+.head-cta{display:none;align-items:center;height:40px;padding:0 22px;border-radius:var(--radius);background:var(--accent);color:#fff;
+  font-family:var(--kr);font-size:15px;font-weight:600;letter-spacing:-.02em;transition:background-color var(--dur) var(--ez)}
+@media(min-width:1024px){.head-cta{display:inline-flex}}
+.head-cta:hover{background:var(--fg)}
+.menu-btn{width:44px;height:44px;color:var(--fg)}
+.menu-btn iconify-icon{font-size:26px}
+
+.full-menu{background:var(--quick);color:#dfdfdf;padding:calc(88px + env(safe-area-inset-top,0px)) var(--pad) 3rem}
+.full-menu .fm-close{right:var(--pad);top:calc(10px + env(safe-area-inset-top,0px));width:44px;height:44px;color:#fff}
+.fm-group{padding:18px 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.fm-group>a,.fm-group>span{font-family:var(--kr);font-size:24px;font-weight:600;color:#dfdfdf}
+.fm-sub{gap:8px 22px;margin-top:10px}
+.fm-sub a{font-family:var(--kr);font-size:16px;font-weight:500;color:rgba(223,223,223,.75)}
+.full-menu .btn-press{border-radius:var(--radius)!important;font-family:var(--kr)}
+
+/* ── 우측 고정 아이콘 열 (실측: 70px 원 #2a2423, 간격 8, 흰 원 위로) ── */
+.yd-quick{display:none}
+@media(min-width:1024px){.yd-quick{display:flex;flex-direction:column;gap:12px;position:fixed;right:20px;top:42%;z-index:30}}
+.yd-quick ul{display:grid;gap:8px}
+.yd-quick a,.yd-quick button{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--quick);color:#fff;
+  box-shadow:0 0 10px rgba(42,36,35,.15);transition:transform var(--dur) var(--ez)}
+.yd-quick a:hover,.yd-quick button:hover{transform:translateY(-3px)}
+.yd-quick iconify-icon{font-size:26px}
+.yd-quick button{background:#fff;color:var(--fg);border:1px solid var(--line)}
+
+/* ── 1. 히어로 (실측: 패딩 160 0 0 60, 제목 84, 부제 20 + 브랜드 세리프 24, 우측 점 2, 풀블리드 사진 h914) ── */
+.yd-hero{padding-top:clamp(28px,4vw,56px)}
+.yd-hero .top{padding:0 var(--pad);display:flex;align-items:flex-end;justify-content:space-between;gap:24px}
+.yd-hero h1{font-family:var(--serif);font-size:clamp(34px,6.1vw,88px);font-weight:400;line-height:1.15;letter-spacing:-.01em;text-wrap:balance}
+.yd-hero .sub{margin-top:12px;display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px;font-size:clamp(15px,1.4vw,20px);color:#524242;letter-spacing:-.02em}
+.yd-hero .sub b{font-family:var(--kr);font-size:clamp(18px,1.7vw,24px);font-weight:500;color:var(--fg)}
+.yd-dots{display:flex;gap:25px;padding-bottom:8px;flex:none}
+.yd-dots button{width:22px;height:22px;border-radius:50%;display:grid;place-items:center}
+.yd-dots button::before{content:'';width:12px;height:12px;border-radius:50%;border:1px solid var(--fg);background:#fff;transition:transform var(--dur) var(--ez)}
+.yd-dots button[aria-current]::before{background:var(--fg);transform:scale(1.15)}
+.yd-slides{position:relative;margin-top:clamp(20px,2.4vw,36px);height:clamp(360px,63vw,914px);overflow:hidden}
+.yd-slides figure{position:absolute;inset:0;opacity:0;transition:opacity .8s var(--ez)}
+.yd-slides figure.is-on{opacity:1}
+.yd-slides .ph{display:block;width:100%;height:100%}
+@media(max-width:759px){.yd-slides{margin-left:0;margin-right:var(--pad);border-radius:0 24px 24px 0}}
+
+/* ── 2. Brand Story (실측: x0 텍스트 509 · 프리 42 + 제목 80 + 본문 18 gap 60 · 오른쪽 사진 720 왼쪽 위 둥글게 · 인용 우측 정렬) ── */
+.yd-story{padding-top:clamp(64px,11vw,160px)}
+.yd-story .grid{display:grid;gap:40px}
+@media(min-width:1000px){.yd-story .grid{grid-template-columns:minmax(0,533px) minmax(0,1fr);gap:0;align-items:start}}
+.yd-story .tx{padding:0 var(--pad);display:grid;gap:clamp(28px,4vw,60px)}
+@media(min-width:1000px){.yd-story .tx{padding:20px 0 0 24px}}
+.yd-story .tx .yd-txt{max-width:509px}
+.yd-story figure{justify-self:end;width:100%;padding-left:var(--pad)}
+@media(min-width:1000px){.yd-story figure{padding-left:0;max-width:720px}}
+.yd-story figure{position:relative}
+.yd-story .ph{display:block;width:100%;aspect-ratio:720/480;border-radius:40px 0 0 0;background-position:50% 100%}
+@media(min-width:1000px){.yd-story figure::before{content:'';position:absolute;left:0;top:0;width:100px;height:64px;background:#fff;border-radius:0 0 28px 0}
+  .yd-story figure::after{content:'';position:absolute;right:0;bottom:0;width:26%;height:56px;background:#fff;border-radius:28px 0 0 0}}
+@media(max-width:999px){.yd-story .ph{border-radius:24px 0 0 24px}}
+.yd-story .quote{margin:clamp(40px,4vw,60px) 0 0;padding:0 clamp(20px,11vw,157px) 0 var(--pad);text-align:right;
+  font-family:var(--kr);font-size:clamp(18px,1.7vw,24px);font-weight:500;line-height:1.5;letter-spacing:-.01em;color:var(--quote)}
+@media(max-width:999px){.yd-story .quote{text-align:center;padding:0 var(--pad)}}
+
+/* ── 3. 대표원장 (실측: 왼쪽 x117 폭 475, 세로 hairline x710, 오른쪽 x777 폭 663, 연도 36 세리프 + 16 회색, 아래 가로 hairline) ── */
+.yd-doc{padding:clamp(64px,9vw,130px) 0 0}
+.yd-doc .in{display:grid;gap:48px;padding:0 var(--pad) clamp(48px,6vw,90px);border-bottom:1px solid var(--line)}
+@media(min-width:1000px){.yd-doc .in{grid-template-columns:49.3% minmax(0,1fr);gap:0;margin-right:105px;padding:0 0 90px}
+  .yd-doc .l{padding:0 118px 0 117px;border-right:1px solid var(--line)}
+  .yd-doc .r{padding-left:66px}}
+.yd-doc .l{position:relative}
+.yd-dh{position:relative;display:flex;flex-wrap:wrap;align-items:baseline;gap:12px 40px}
+.yd-dh .big{font-family:var(--serif);font-size:clamp(56px,7vw,80px);font-weight:400;line-height:1;letter-spacing:.01em}
+.yd-dh .nm{font-family:var(--kr);font-size:clamp(24px,2.1vw,30px);font-weight:400;letter-spacing:-.02em}
+.yd-dh .nm small{font-size:.8em;margin-left:8px}
+.yd-dh .yd-ghost{left:clamp(120px,40%,200px);top:-38px}
+.yd-doc .yd-slogan{margin-top:clamp(24px,3vw,36px)}
+.yd-doc .lines{margin-top:clamp(32px,4vw,56px);font-size:clamp(16px,1.25vw,18px);line-height:1.88;color:var(--ink2)}
+.yd-doc .bio{margin-top:28px}
+.yd-doc .yd-more{margin-top:clamp(28px,3vw,44px)}
+.yd-doc .r .ph{display:block;width:100%;aspect-ratio:663/350;border-radius:24px}
+.yd-years{margin-top:clamp(32px,4vw,44px);display:grid;gap:28px}
+.yd-years .y{font-family:var(--serif);font-size:36px;line-height:1;letter-spacing:.01em}
+.yd-years p{margin-top:8px;font-size:16px;line-height:24px;color:var(--muted)}
+
+/* ── 4. 교차 블록 3 (실측: 세로 hairline x570 관통) ── */
+.yd-cross{position:relative;padding-top:clamp(64px,8vw,110px);overflow:hidden}
+@media(min-width:1000px){.yd-cross::before{content:'';position:absolute;left:39.6%;top:0;bottom:0;width:1px;background:var(--line)}}
+.yd-cross>div{position:relative;display:grid;gap:32px;align-items:end}
+.yd-cross .ph{display:block;width:100%}
+.yd-cross .tx{padding:0 var(--pad)}
+.yd-cross .tx .yd-txt{margin-top:clamp(20px,2.4vw,34px)}
+/* (a) 사진 왼쪽 풀블리드 910, 오른쪽 모서리 둥글게 + 오른쪽 x1041 폭 399 */
+.yd-ba .ph{aspect-ratio:910/560;border-radius:0 40px 40px 0}
+@media(min-width:1000px){.yd-ba{grid-template-columns:63.2% minmax(0,1fr);gap:0}
+  .yd-ba .tx{position:relative;padding:160px 96px 0 80px;max-width:530px}
+  .yd-ba .yd-ghost{left:80px;top:0;font-size:clamp(48px,4.4vw,64px)}}
+@media(max-width:999px){.yd-ba figure{padding-right:var(--pad)}.yd-ba .ph{border-radius:0 24px 24px 0}.yd-ba .yd-ghost{display:none}}
+/* (b) 텍스트 우측 정렬 x428 폭 400 + 오른쪽 사진 472 r20 */
+.yd-bb{margin-top:clamp(64px,9vw,130px)}
+.yd-bb .ph{aspect-ratio:472/400;border-radius:20px 0 0 20px}
+@media(min-width:1000px){.yd-bb{grid-template-columns:minmax(0,1fr) 472px;gap:0;align-items:center}
+  .yd-bb .tx{justify-self:end;width:400px;margin-right:140px;padding:28px 0;background:#fff;text-align:right}
+  .yd-bb .ph{border-radius:20px 0 0 20px}}
+@media(max-width:999px){.yd-bb figure{padding-left:var(--pad)}}
+/* (c) 어두운 사진 x60 폭 1040 + 흰 노치 + 오른쪽 좁은 열 196 */
+.yd-bc{margin-top:clamp(64px,9vw,130px)}
+.yd-bc figure{position:relative;margin:0 var(--pad)}
+.yd-bc .ph{aspect-ratio:1040/500;border-radius:24px}
+.yd-bc figure::after{content:'';position:absolute;right:0;bottom:0;width:23%;height:32px;background:#fff;border-radius:16px 0 0 0}
+@media(min-width:1000px){.yd-bc figure::after{height:56px;border-radius:24px 0 0 0}}
+@media(min-width:1000px){.yd-bc{grid-template-columns:minmax(0,1100px) minmax(0,1fr);gap:0;align-items:start}
+  .yd-bc figure{margin:0 0 0 60px}
+  .yd-bc .tx{padding:130px 0 0 84px;max-width:296px}}
+
+/* ── 5. Treatments (실측: 가운데 80 + 24 gap 20, 타일 4열 480x700 gap 0, 제목 28 세리프 대문자 + 부제 18) ── */
+.yd-treat{padding-top:clamp(64px,9vw,130px);text-align:center}
+.yd-treat .hd{display:grid;gap:20px;padding:0 var(--pad)}
+.yd-treat .hd p{font-family:var(--kr);font-size:clamp(18px,1.7vw,24px);font-weight:500;color:var(--ink2)}
+.yd-tiles{margin-top:clamp(36px,5vw,80px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(min-width:1000px){.yd-tiles{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.yd-tiles a{display:grid;gap:clamp(16px,2.8vw,40px)}
+.yd-tiles figure{overflow:hidden}
+.yd-tiles .ph{display:block;width:100%;aspect-ratio:480/700;transition:transform var(--dur) var(--ez)}
+.yd-tiles a:hover .ph,.yd-tiles a:focus-visible .ph{transform:scale(1.04)}
+.yd-tiles .tx{display:grid;gap:10px;padding:0 12px 20px}
+.yd-tile-t{font-family:var(--serif);font-size:clamp(22px,2vw,28px);font-weight:400;letter-spacing:.02em;text-transform:uppercase;color:var(--ink2)}
+.yd-tiles .tx p{font-family:var(--kr);font-size:clamp(15px,1.25vw,18px);font-weight:500;color:var(--ink2);letter-spacing:-.01em}
+@media(max-width:999px){.yd-tiles .ph{aspect-ratio:4/5}}
+
+/* ── 6. Clinic Space (실측: 왼쪽 x0 대문자 세리프 80 3줄 + 오른쪽 x896 폭 544, 풀블리드 사진, 아래 80) ── */
+.yd-space{padding:clamp(64px,10vw,150px) 0 80px}
+.yd-space .grid{display:grid;gap:40px;padding:0 var(--pad)}
+@media(min-width:1000px){.yd-space .grid{grid-template-columns:62.2% minmax(0,1fr);gap:0;padding:0 var(--pad) 0 24px;align-items:center}}
+.yd-space .lines{display:grid;gap:8px;text-transform:uppercase}
+.yd-space .lines .yd-pre{font-size:clamp(28px,4.2vw,60px);color:var(--fg);letter-spacing:.02em}
+.yd-space .lines .yd-h2{letter-spacing:.02em}
+.yd-space .tx{max-width:544px}
+.yd-space .tx .yd-txt{margin-top:34px}
+.yd-space figure{margin-top:clamp(40px,6vw,80px)}
+.yd-space .ph{display:block;width:100%;height:clamp(280px,40vw,560px)}
+
+/* ── 7. 공지 + 전화 예약 (국내 의원 관습으로 추가. 푸터의 아웃라인 버튼 언어) ── */
+.yd-last{padding:clamp(64px,8vw,120px) var(--pad) clamp(64px,8vw,110px);border-top:1px solid var(--line)}
+.yd-last .in{display:grid;gap:48px}
+@media(min-width:1000px){.yd-last .in{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:0}
+  .yd-last .call{border-left:1px solid var(--line);padding-left:60px}
+  .yd-last .notice{padding-right:60px}}
+.yd-last .top{display:flex;justify-content:space-between;align-items:baseline}
+.yd-last .more{font-family:var(--serif);font-size:20px;color:#403833;display:inline-flex;align-items:center;gap:10px}
+.yd-last .more svg{width:40px;transition:transform var(--dur) var(--ez)}
+.yd-last .more:hover svg{transform:translateX(6px)}
+.yd-last ul{margin-top:20px}
+.yd-last li a{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--line);
+  transition:color var(--dur) var(--ez)}
+.yd-last li a:hover{color:var(--quote)}
+.yd-last .tt{font-size:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.yd-last .dt{font-family:var(--serif);font-size:18px;color:var(--muted)}
+.yd-last .call .lb{font-size:18px;font-weight:700}
+.yd-last .tel{display:inline-block;margin-top:6px;font-family:var(--serif);font-size:clamp(36px,3.5vw,48px);line-height:1.3;letter-spacing:.01em}
+.yd-last .call .yd-txt{margin-top:12px}
+.yd-last .call .hours{margin-top:16px;font-size:15px;line-height:1.8;color:var(--muted)}
+.yd-last .btns{margin-top:28px;display:flex;flex-wrap:wrap;gap:10px}
+
+/* ── 푸터 (실측: #070707 패딩 80 0, 3열 세로 hairline, 라벨 18/700, 주소 #bebebe, 링크 17/700 #e2e2e2) ── */
+.site-foot{background:var(--foot);color:#fff;font-size:16px}
+.foot-in{padding:clamp(48px,6vw,80px) var(--pad) 0;gap:36px}
+@media(min-width:900px){.foot-in{grid-template-columns:1fr 1fr 1.2fr;gap:0}
+  .foot-in>div{padding:0 40px}
+  .foot-in>div:first-child{padding-left:0}
+  .foot-in>div+div{border-left:1px solid rgba(255,255,255,.15)}}
+.foot-name{font-family:var(--kr);font-size:24px;font-weight:500;letter-spacing:-.02em}
+.foot-lead{margin-top:16px;max-width:30ch;font-size:16px;line-height:1.75;color:#bebebe}
+.foot-h{font-size:18px;font-weight:700}
+.foot-hours{margin-top:16px;font-size:17px;line-height:1.9;color:#e2e2e2}
+.foot-links{gap:10px 22px;margin-top:16px;font-size:16px;font-weight:600;color:#e2e2e2}
+.foot-links a{transition:color var(--dur) var(--ez)}
+.foot-links a:hover{color:#bebebe}
+.foot-biz{margin-top:24px;font-size:13px;line-height:1.8;color:#9a9a9a}
+.foot-bottom{padding:40px var(--pad) 48px;gap:12px;font-size:13px;color:#9a9a9a}
+.foot-bottom .foot-links{margin-top:0;font-size:15px;font-weight:700;color:#e2e2e2}
+
+/* ── 모바일 하단 바 ── */
+.m-bar{background:#fff;box-shadow:0 -1px 0 var(--line);gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px))}
+.m-bar a{min-height:50px;gap:8px;font-family:var(--kr);font-size:15px;font-weight:600;color:var(--fg);border:1px solid var(--fg);border-radius:var(--radius)}
+.m-bar a.main{background:var(--accent);border-color:var(--accent);color:#fff}
+.m-bar-space{height:72px}
+
+/* ── 공용 페이지·서브 비주얼 ── */
+.sh-btn,.sh-back a,.sh-search button,.sh-search input,.pager a,.pager span{border-radius:var(--radius)}
+.subvis{min-height:300px;display:flex;align-items:flex-end;background:#fff}
+@media(min-width:900px){.subvis{min-height:420px}}
+.subvis>img{left:auto;width:44%;border-radius:0 0 0 40px}
+@media(max-width:899px){.subvis>img{display:none}}
+.subvis-in{padding:clamp(40px,5vw,72px) var(--pad) clamp(28px,4vw,56px)}
+@media(min-width:900px){.subvis-in{max-width:56%}}
+.subvis h1{font-family:var(--kr);font-size:clamp(30px,3.4vw,48px);font-weight:500;letter-spacing:-.02em;line-height:1.3}
+.subvis p{color:var(--muted)}
+.crumbs{gap:8px;padding:18px 0 0;font-size:14px;color:var(--muted)}
+.crumbs a:hover{color:var(--fg)}
+.lnb{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.lnb-in{padding:0 var(--pad);gap:32px}
+.lnb a{padding:18px 0;font-family:var(--kr);font-size:16px;font-weight:500;color:var(--muted)}
+.lnb a[aria-current]{color:var(--fg);box-shadow:inset 0 -1px 0 var(--fg)}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* ── 하위페이지 공통: 왼쪽 라벨 열 + 오른쪽 내용, 위 hairline ── */
+.yd-sec{padding:clamp(56px,7vw,110px) var(--pad)}
+.yd-sec+.yd-sec{border-top:1px solid var(--line)}
+.yd-sh{display:grid;grid-template-columns:minmax(0,1fr);gap:28px}
+.yd-sh>.bd{min-width:0}
+@media(min-width:1000px){.yd-sh{grid-template-columns:minmax(0,38%) minmax(0,1fr);gap:0}
+  .yd-sh>.hd{padding-right:60px;border-right:1px solid var(--line)}
+  .yd-sh>.bd{padding-left:66px}}
+.yd-sh .hd .yd-pre{margin-bottom:8px;font-size:clamp(20px,2vw,28px);color:var(--quote)}
+.yd-sh .lead{margin-top:14px;font-size:16px;line-height:1.75;color:var(--muted);max-width:32ch}
+/* 이야기: 홈 교차 블록 (a) 와 같은 언어 */
+.yd-about{padding-left:0;padding-right:0}
+.yd-about .yd-cross{padding-top:0}
+.yd-about .yd-cross::before{display:none}
+.yd-about .yd-ba .tx .yd-pre{font-size:clamp(20px,2vw,28px);color:var(--quote)}
+.yd-about .yd-ba .tx .yd-h3{margin-top:8px}
+.yd-about .yd-ba .tx .yd-txt+.yd-txt{margin-top:1em}
+@media(min-width:1000px){.yd-about .yd-ba .tx{padding-top:40px;align-self:center}}
+/* 번호 행: 세리프 "01," + 제목 + 설명, 가로 hairline */
+.yd-rows{display:grid}
+.yd-rows li{display:grid;gap:10px 40px;padding:28px 0;border-bottom:1px solid var(--line)}
+.yd-rows li:first-child{padding-top:0}
+@media(min-width:760px){.yd-rows li{grid-template-columns:72px minmax(0,1fr)}}
+.yd-rows .n{font-family:var(--serif);font-size:36px;line-height:1;letter-spacing:.01em;color:var(--fg)}
+.yd-rows .yd-kh{font-size:clamp(20px,1.7vw,24px)}
+.yd-rows .d{margin-top:8px;font-size:17px;line-height:1.8;color:var(--ink2)}
+.yd-rows .pr{margin-top:8px;font-size:15px;color:var(--muted)}
+/* 의료진: 홈 대표원장 블록. 두 번째는 좌우 뒤집음 */
+.yd-people .yd-doc{padding-top:0}
+.yd-people .yd-doc .in{border-bottom:0;padding-bottom:0}
+@media(min-width:1000px){.yd-people .yd-doc .in{margin-right:0;grid-template-columns:52% minmax(0,1fr)}
+  .yd-people .yd-doc .l{padding:0 100px 0 24px}
+  .yd-people .yd-doc .r{padding-left:66px}
+  .yd-people .yd-doc .in.is-flip{grid-template-columns:minmax(0,1fr) 52%}
+  .yd-people .yd-doc .in.is-flip .l{order:2;border-right:0;border-left:1px solid var(--line);padding:0 24px 0 100px}
+  .yd-people .yd-doc .in.is-flip .r{order:1;padding:0 66px 0 0}}
+.yd-people .yd-doc+.yd-doc{margin-top:clamp(56px,7vw,110px);padding-top:clamp(56px,7vw,110px);border-top:1px solid var(--line)}
+.yd-people .yd-doc .r .ph{aspect-ratio:4/3}
+/* 진료 절차: 4열 세로 hairline */
+.yd-steps{display:grid;gap:28px}
+@media(min-width:760px){.yd-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1200px){.yd-steps{grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+  .yd-steps li{padding:0 28px}.yd-steps li:first-child{padding-left:0}.yd-steps li+li{border-left:1px solid var(--line)}}
+.yd-steps .n{font-family:var(--serif);font-size:36px;line-height:1}
+.yd-steps .w{margin-top:18px;font-size:14px;letter-spacing:.02em;color:var(--quote)}
+.yd-steps .yd-kh{margin-top:6px;font-size:clamp(19px,1.6vw,22px)}
+.yd-steps .d{margin-top:10px;font-size:16px;line-height:1.75;color:var(--ink2)}
+/* 비급여 표 */
+.yd-table{overflow-x:auto;min-width:0}
+.yd-table table{width:100%;min-width:520px;border-collapse:collapse;border-top:1px solid var(--fg)}
+.yd-table th,.yd-table td{text-align:left;padding:16px 12px;border-bottom:1px solid var(--line);font-size:16px;vertical-align:top}
+.yd-table th{font-size:14px;font-weight:600;color:var(--muted)}
+.yd-table td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap}
+.yd-table td:last-child{color:var(--muted)}
+.yd-note{margin-top:20px;font-size:14px;line-height:1.8;color:var(--muted)}
+/* FAQ: hairline 아코디언, 세리프 + 기호 */
+.yd-faq details{border-bottom:1px solid var(--line)}
+.yd-faq details:first-child{border-top:1px solid var(--fg)}
+.yd-faq summary{list-style:none;cursor:pointer;position:relative;display:flex;gap:18px;align-items:baseline;padding:22px 48px 22px 0;
+  font-family:var(--kr);font-size:clamp(17px,1.4vw,19px);font-weight:500;letter-spacing:-.01em}
+.yd-faq summary::-webkit-details-marker{display:none}
+.yd-faq summary::before{content:'Q';font-family:var(--serif);font-size:24px;line-height:1;color:var(--quote);flex:none}
+.yd-faq summary::after{content:'';position:absolute;right:8px;top:50%;width:10px;height:10px;margin-top:-7px;border-right:1px solid var(--fg);border-bottom:1px solid var(--fg);
+  transform:rotate(45deg);transition:transform var(--dur) var(--ez)}
+.yd-faq details[open] summary::after{transform:rotate(225deg);margin-top:-2px}
+.yd-faq .a{padding:0 48px 26px 42px;font-size:16px;line-height:1.8;color:var(--ink2)}
+/* 오시는 길 */
+.yd-map{height:clamp(220px,30vw,360px);border-radius:24px;background:#f4f2f0;display:grid;place-items:center;text-align:center;padding:24px;
+  font-size:15px;color:var(--muted)}
+.yd-info{margin-top:28px}
+.yd-info>div{display:grid;grid-template-columns:6rem minmax(0,1fr);gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.yd-info>div:first-child{border-top:1px solid var(--fg)}
+.yd-info dt{font-size:15px;font-weight:600;color:var(--muted)}
+.yd-info dd{font-size:17px;line-height:1.7;color:var(--ink2)}
+.yd-chan{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.yd-hours{margin-top:32px;display:grid;gap:0}
+.yd-hours>div{display:grid;grid-template-columns:8rem minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.yd-hours>div:first-child{border-top:1px solid var(--fg)}
+.yd-hours dt{font-size:16px;font-weight:600}
+.yd-hours dd{font-size:17px;color:var(--ink2)}
+/* 상담 폼: 밑줄 입력 */
+.yd-form{display:grid;gap:26px}
+@media(min-width:760px){.yd-form{grid-template-columns:repeat(3,minmax(0,1fr));gap:26px 32px}}
+.yd-form .full{grid-column:1/-1}
+.yd-form label{display:block;font-size:14px;font-weight:600;color:var(--muted)}
+.yd-form input,.yd-form textarea{width:100%;min-width:0;margin-top:6px;padding:12px 0;border:0;border-bottom:1px solid var(--fg);border-radius:0;background:transparent;
+  font:inherit;font-size:17px;color:var(--fg)}
+.yd-form input::placeholder,.yd-form textarea::placeholder{color:#a8a3a0}
+.yd-form textarea{min-height:140px;resize:vertical}
+.yd-form input:focus-visible,.yd-form textarea:focus-visible{outline:0;border-bottom-color:var(--accent);box-shadow:0 1px 0 var(--accent)}
+.yd-form .consent{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:var(--ink2)}
+.yd-form .consent input{width:18px;height:18px;margin:3px 0 0;accent-color:var(--accent)}
+.yd-form .go{display:flex;justify-content:flex-end}
+.yd-legal{margin-top:36px;display:grid;gap:6px;font-size:13px;line-height:1.8;color:var(--muted)}
+.yd-legal li{padding-left:12px;text-indent:-12px}
+.yd-legal li::before{content:'-';margin-right:6px}

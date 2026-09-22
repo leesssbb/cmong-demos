@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hangyeol-precision.example.com/sitemap.xml

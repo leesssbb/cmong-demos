@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pyeongsangolf.example.com/sitemap.xml

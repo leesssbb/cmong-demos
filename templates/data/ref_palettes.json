@@ -1,0 +1,3044 @@
+[
+{
+"id": "R001",
+"name": "Flora Café",
+"url": "https://www.florawellnesscafe.com/",
+"industry": "cafe",
+"layout": [
+"상단 공지 띠배너",
+"여백 프레임 안 대형 사진 히어로",
+"좌 헤드카피/우 소개문 2단"
+],
+"typography": "필기체 로고 + 이탤릭 세리프 헤드라인 + 모노/그로테스크 보조",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#0e0e0e",
+"ink": "#ffffff",
+"mute": "#a9a9a9",
+"line": "#272727",
+"acc": "#f0523d",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 6.0,
+"muteOnBg": 8.9
+},
+"ok": true
+},
+{
+"id": "R002",
+"name": "Café Binocle",
+"url": "https://www.cafebinocle.com/",
+"industry": "cafe",
+"layout": [
+"상품 카드 그리드 + 장바구니"
+],
+"typography": "Assistant",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fffeec",
+"surface": "#ffe26e",
+"ink": "#594b3c",
+"mute": "#ef5b34",
+"line": "#f8ccdf",
+"acc": "#00a881",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 8.3,
+"accOnBg": 3.0,
+"muteOnBg": 3.3
+},
+"ok": true
+},
+{
+"id": "R003",
+"name": "Café del Mar",
+"url": "https://www.cafedelmar.nl/",
+"industry": "cafe",
+"layout": [
+"좌 카피/우 비대칭 사진 콜라주",
+"지그재그(쉐브론) 컬러 블록 경계"
+],
+"typography": "대형 디스플레이 산세리프(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fce8bd",
+"surface": "#efefef",
+"ink": "#313131",
+"mute": "#b363a7",
+"line": "#faf3e6",
+"acc": "#ed682b",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 10.8,
+"accOnBg": 2.6,
+"muteOnBg": 3.3
+},
+"ok": true
+},
+{
+"id": "R004",
+"name": "D.E Café",
+"url": "https://www.decafes.nl/",
+"industry": "cafe",
+"layout": [
+"갤러리 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#b5191e",
+"surface": "#b5191e",
+"ink": "#ffffff",
+"mute": "#000000",
+"line": "#32373c",
+"acc": "#d09a49",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 6.7,
+"accOnBg": 2.7,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R005",
+"name": "Pinchman's Café & Bakery",
+"url": "https://pinchmans.ca/",
+"industry": "cafe",
+"layout": [
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Lora",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fff8eb",
+"surface": "#fff7ea",
+"ink": "#352824",
+"mute": "#352824",
+"line": "#e1e1e1",
+"acc": "#2c211e",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 13.4,
+"accOnBg": 14.8,
+"muteOnBg": 13.4
+},
+"ok": true
+},
+{
+"id": "R006",
+"name": "Toast Cafe and Deli",
+"url": "https://toastcafeanddeli.co.uk/",
+"industry": "cafe",
+"layout": [
+"풀블리드 사진 히어로",
+"상품 카드 그리드 + 장바구니",
+"대형 정보형 푸터",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Special Elite, Abel",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f7f7f7",
+"surface": "#f2f2f2",
+"ink": "#2a2a2a",
+"mute": "#5472d2",
+"line": "#f0f0f0",
+"acc": "#fe6c61",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 13.4,
+"accOnBg": 2.6,
+"muteOnBg": 4.2
+},
+"ok": true
+},
+{
+"id": "R007",
+"name": "Apocalypse Coffee Roasters",
+"url": "https://apocalypsecoffee.com/",
+"industry": "cafe",
+"layout": [
+"상품 카드 그리드 + 장바구니"
+],
+"typography": "DM Sans, Bebas Neue, DM Mono",
+"source": "Awwwards",
+"tokens": {
+"bg": "#1a1a1a",
+"surface": "#1a0a02",
+"ink": "#f0ede8",
+"mute": "#7a756d",
+"line": "#0d0d0d",
+"acc": "#e06d2d",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 14.9,
+"accOnBg": 5.3,
+"muteOnBg": 3.8
+},
+"ok": true
+},
+{
+"id": "R009",
+"name": "Deadstock Coffee",
+"url": "https://deadstockcoffee.com/",
+"industry": "cafe",
+"layout": [
+"풀블리드 사진 히어로",
+"상품 카드 그리드 + 장바구니"
+],
+"typography": "Inter, Custom Display, Custom Display Air",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#ffdb30",
+"ink": "#000000",
+"mute": "#808080",
+"line": "#ffdb30",
+"acc": "#09000e",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 20.6,
+"muteOnBg": 3.9
+},
+"ok": true
+},
+{
+"id": "R010",
+"name": "Haven Coffee + Kitchen",
+"url": "https://haven-annecy.fr/",
+"industry": "cafe",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#efdacc",
+"surface": "#fffaf7",
+"ink": "#c1643b",
+"mute": "#c1643b",
+"line": "#fffaf7",
+"acc": "#2b1a12",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 3.0,
+"accOnBg": 12.4,
+"muteOnBg": 3.0
+},
+"ok": false
+},
+{
+"id": "R011",
+"name": "Little Amps Coffee",
+"url": "https://littleampscoffee.com/",
+"industry": "cafe",
+"layout": [
+"챕터형 스토리텔링 섹션"
+],
+"typography": "Necto Mono, DM Sans, Roboto Mono",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#000000",
+"ink": "#fff9f2",
+"mute": "#c46500",
+"line": "#522c25",
+"acc": "#c03001",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 20.1,
+"accOnBg": 3.7,
+"muteOnBg": 5.2
+},
+"ok": true
+},
+{
+"id": "R012",
+"name": "Assembly Specialty Coffee",
+"url": "https://assemblycoffee.co.uk/",
+"industry": "cafe",
+"layout": [
+"풀블리드 사진 히어로",
+"챕터형 스토리텔링 섹션",
+"상품 카드 그리드 + 장바구니",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Inter",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fff6f6",
+"ink": "#000000",
+"mute": "#4d4d4d",
+"line": "#f5f6f1",
+"acc": "#0e1311",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 18.8,
+"muteOnBg": 8.5
+},
+"ok": true
+},
+{
+"id": "R013",
+"name": "Coffee Collective",
+"url": "https://coffeecollective.dk/",
+"industry": "cafe",
+"layout": [
+"상품 카드 그리드 + 장바구니",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Inter, Coffee Collective, NB International Pro Mono",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#000000",
+"ink": "#faf6ed",
+"mute": "#faf6ed",
+"line": "#4c4341",
+"acc": "#faf6ed",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 19.5,
+"accOnBg": 19.5,
+"muteOnBg": 19.5
+},
+"ok": true
+},
+{
+"id": "R014",
+"name": "Wake Up Coffee",
+"url": "https://wakeupcoffee.es/",
+"industry": "cafe",
+"layout": [
+"풀블리드 사진 히어로",
+"상품 카드 그리드 + 장바구니",
+"예약·문의 폼 섹션"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f6f6f6",
+"ink": "#000000",
+"mute": "#f0591c",
+"line": "#ebebeb",
+"acc": "#ff6600",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.9,
+"muteOnBg": 3.4
+},
+"ok": true
+},
+{
+"id": "R016",
+"name": "Sonoma Bakery",
+"url": "https://sonomabakery.com/",
+"industry": "cafe",
+"layout": [
+"영상/사진 중심 히어로",
+"챕터형 스토리텔링 섹션",
+"갤러리 그리드",
+"상품 카드 그리드 + 장바구니"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fcfdfd",
+"surface": "#f8f6f0",
+"ink": "#282728",
+"mute": "#c25a1d",
+"line": "#eee9de",
+"acc": "#282728",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 14.6,
+"accOnBg": 14.6,
+"muteOnBg": 4.3
+},
+"ok": true
+},
+{
+"id": "R018",
+"name": "Best Bean Best Cup",
+"url": "https://bestbeanbestcup.com.au",
+"industry": "cafe",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#151515",
+"surface": "#121212",
+"ink": "#f6f5ee",
+"mute": "#008060",
+"line": "#1c1c1c",
+"acc": "#ff0000",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.7,
+"accOnBg": 4.6,
+"muteOnBg": 3.7
+},
+"ok": true
+},
+{
+"id": "R019",
+"name": "BON BOUQUET CAFÉ",
+"url": "https://thehungryfamily.com/bon-bouquet-cafe/",
+"industry": "food",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "Lexend Tera, Noto Sans, vista-sans",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#00966c",
+"line": "#7dd7be",
+"acc": "#d9534f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 4.0,
+"muteOnBg": 3.8
+},
+"ok": true
+},
+{
+"id": "R020",
+"name": "foodnia",
+"url": "https://foodnia.co.jp/",
+"industry": "food",
+"layout": [
+"영상/사진 중심 히어로",
+"챕터형 스토리텔링 섹션"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f5f4f1",
+"ink": "#000000",
+"mute": "#ed6d18",
+"line": "#dbdcdc",
+"acc": "#009f9a",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 3.3,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R021",
+"name": "Qissa - A Tale of Food",
+"url": "https://www.qissa.co.uk/",
+"industry": "food",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#05091a",
+"surface": "#080d20",
+"ink": "#f6f1e7",
+"mute": "#c9a24b",
+"line": "#000000",
+"acc": "#e9a85c",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.6,
+"accOnBg": 9.6,
+"muteOnBg": 8.3
+},
+"ok": true
+},
+{
+"id": "R022",
+"name": "Soufflet Malt",
+"url": "https://www.souffletmalt.com/",
+"industry": "food",
+"layout": [
+"풀블리드 사진 히어로",
+"챕터형 스토리텔링 섹션"
+],
+"typography": "Inter",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#eeeeee",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#d8b452",
+"acc": "#0b0c33",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 18.8,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R023",
+"name": "Le Saint Georges",
+"url": "https://lesaintgeorges.ch/",
+"industry": "food",
+"layout": [
+"서브페이지 정보구조 체계"
+],
+"typography": "Inter, Avenir Next Regular, Open Sans",
+"source": "Awwwards",
+"tokens": {
+"bg": "#e0e0e0",
+"surface": "#dbdbdb",
+"ink": "#000000",
+"mute": "#3858e9",
+"line": "#e6e6e6",
+"acc": "#cc1818",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 15.9,
+"accOnBg": 4.3,
+"muteOnBg": 4.3
+},
+"ok": true
+},
+{
+"id": "R024",
+"name": "Pier88 Coast By MONARQ",
+"url": "https://pier88coast.com",
+"industry": "food",
+"layout": [
+"챕터형 스토리텔링 섹션"
+],
+"typography": "Inter, Tan Mon Cheri, Stevie Sans",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f2f5f7",
+"ink": "#0f0a67",
+"mute": "#69727d",
+"line": "#f4f2ec",
+"acc": "#0274be",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 16.7,
+"accOnBg": 4.9,
+"muteOnBg": 4.9
+},
+"ok": true
+},
+{
+"id": "R026",
+"name": "Lingers",
+"url": "https://www.lingers.it/en",
+"industry": "food",
+"layout": [
+"풀블리드 사진 히어로",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Open Sans, ui-monospace, Cinzel",
+"source": "Awwwards",
+"tokens": {
+"bg": "#e6e6e6",
+"surface": "#e0ddd7",
+"ink": "#777162",
+"mute": "#777367",
+"line": "#d7d7d7",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 3.9,
+"accOnBg": 2.2,
+"muteOnBg": 3.8
+},
+"ok": false
+},
+{
+"id": "R027",
+"name": "Vander Hotel",
+"url": "https://www.vanderhotel.com",
+"industry": "food",
+"layout": [
+"갤러리 그리드",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "세리프 헤드라인 + 산세리프 본문(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fafafa",
+"surface": "#e5f2ff",
+"ink": "#353230",
+"mute": "#353230",
+"line": "#c8c8c8",
+"acc": "#353230",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 12.2,
+"accOnBg": 12.2,
+"muteOnBg": 12.2
+},
+"ok": true
+},
+{
+"id": "R028",
+"name": "/zeroz Brand Site",
+"url": "https://otsuka-air.jp/",
+"industry": "food",
+"layout": [
+"챕터형 스토리텔링 섹션",
+"상품 카드 그리드 + 장바구니",
+"커스텀 헤더/풀스크린 메뉴"
+],
+"typography": "Zen Kaku Gothic Antique",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#e8f6f1",
+"ink": "#111312",
+"mute": "#00a852",
+"line": "#ddeae5",
+"acc": "#133221",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 18.7,
+"accOnBg": 13.9,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R030",
+"name": "White Desert",
+"url": "https://white-desert.com/",
+"industry": "other",
+"layout": [
+"영상/사진 중심 히어로",
+"갤러리 그리드"
+],
+"typography": "세리프 헤드라인 + 산세리프 본문(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#ffffff",
+"acc": "#1f2a44",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 14.3,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R032",
+"name": "Tandjung Sari",
+"url": "https://www.tandjungsarihotel.com/",
+"industry": "other",
+"layout": [
+"가로 스크롤 섹션",
+"챕터형 스토리텔링 섹션",
+"커스텀 헤더/풀스크린 메뉴",
+"브랜드 소개 서브페이지"
+],
+"typography": "Overlock, Optima, Adobe Caslon Pro",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f1ecde",
+"surface": "#fbf6ec",
+"ink": "#a62a23",
+"mute": "#93836c",
+"line": "#e5dfd1",
+"acc": "#7a1d31",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 6.0,
+"accOnBg": 8.7,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R033",
+"name": "Switch Nails",
+"url": "https://switch-nails.com/",
+"industry": "beauty",
+"layout": [
+"챕터형 스토리텔링 섹션",
+"상품 카드 그리드 + 장바구니",
+"커스텀 헤더/풀스크린 메뉴"
+],
+"typography": "Heading Font Italic",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fffccc",
+"ink": "#000000",
+"mute": "#73859f",
+"line": "#faf7ff",
+"acc": "#043f1c",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 12.1,
+"muteOnBg": 3.8
+},
+"ok": true
+},
+{
+"id": "R035",
+"name": "Cure, Unique Nail&Wax Boutique",
+"url": "https://curenails.co/",
+"industry": "beauty",
+"layout": [
+"예약·문의 폼 섹션",
+"브랜드 소개 서브페이지"
+],
+"typography": "Inter, Lato, Noto Sans",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#121212",
+"ink": "#ffffff",
+"mute": "#757575",
+"line": "#1a1a1a",
+"acc": "#d4af37",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 10.0,
+"muteOnBg": 4.6
+},
+"ok": true
+},
+{
+"id": "R039",
+"name": "Bridge Beauty",
+"url": "https://bridgebeauty.com/",
+"industry": "beauty",
+"layout": [
+"영상/사진 중심 히어로",
+"갤러리 그리드",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "mundial, Alike, Mundial",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#faf7f2",
+"ink": "#000000",
+"mute": "#445d58",
+"line": "#f2f2f2",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 7.1
+},
+"ok": true
+},
+{
+"id": "R040",
+"name": "Truekind Skincare",
+"url": "https://truekindskincare.com/",
+"industry": "beauty",
+"layout": [
+"상품 카드 그리드 + 장바구니",
+"대형 정보형 푸터",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Editorial New, PP Mori",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f5f5f5",
+"surface": "#d8d8d8",
+"ink": "#3b3b3b",
+"mute": "#787878",
+"line": "#c8c8c8",
+"acc": "#3b3b3b",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 10.3,
+"accOnBg": 10.3,
+"muteOnBg": 4.0
+},
+"ok": true
+},
+{
+"id": "R041",
+"name": "Koba Skincare",
+"url": "https://kobaskincare.com/",
+"industry": "beauty",
+"layout": [
+"챕터형 스토리텔링 섹션",
+"상품 카드 그리드 + 장바구니",
+"대형 정보형 푸터",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "세리프 헤드라인 + 산세리프 본문(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#0f0f0f",
+"ink": "#e5e5e5",
+"mute": "#707070",
+"line": "#202020",
+"acc": "#f0bf9b",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.7,
+"accOnBg": 12.6,
+"muteOnBg": 4.2
+},
+"ok": true
+},
+{
+"id": "R042",
+"name": "Goldust Spa",
+"url": "https://goldustspa.com/",
+"industry": "beauty",
+"layout": [
+"영상/사진 중심 히어로",
+"커스텀 헤더/풀스크린 메뉴",
+"예약·문의 폼 섹션"
+],
+"typography": "Open Sans, ui-monospace, Pangaia",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f5f0e7",
+"surface": "#f2ebe1",
+"ink": "#605e5b",
+"mute": "#dc2626",
+"line": "#f2e7dc",
+"acc": "#605e5b",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 5.7,
+"accOnBg": 5.7,
+"muteOnBg": 4.3
+},
+"ok": true
+},
+{
+"id": "R045",
+"name": "ALICE Hair & Art",
+"url": "https://www.alicehairart.se/",
+"industry": "beauty",
+"layout": [
+"원페이지 스크롤 구성",
+"갤러리 그리드",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Inter, Px Grotesk Regular",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f0f0f0",
+"surface": "#f5f5f5",
+"ink": "#5c5c5c",
+"mute": "#5c5c5c",
+"line": "#f5f5f5",
+"acc": "#5c5c5c",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 5.9,
+"accOnBg": 5.9,
+"muteOnBg": 5.9
+},
+"ok": true
+},
+{
+"id": "R048",
+"name": "Dhun Wellness",
+"url": "https://dhunwellness.com/",
+"industry": "beauty",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "DM Sans, GeneralSans-Light, Minion3Display-Italic",
+"source": "Awwwards",
+"tokens": {
+"bg": "#fdf8f3",
+"surface": "#f8f3ed",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#ffffff",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.9,
+"accOnBg": 19.9,
+"muteOnBg": 19.9
+},
+"ok": true
+},
+{
+"id": "R049",
+"name": "Core Atelier Pilates",
+"url": "https://coreatelierpilates.com/",
+"industry": "fitness",
+"layout": [
+"풀블리드 인테리어 사진 히어로",
+"좌하단 알약형 CTA + 우하단 언론 로고(Featured in)"
+],
+"typography": "세리프 헤드라인 + 산세리프 본문(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#25140c",
+"surface": "#111827",
+"ink": "#ffffff",
+"mute": "#6366f1",
+"line": "#000000",
+"acc": "#4f46e5",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 17.7,
+"accOnBg": 2.8,
+"muteOnBg": 4.0
+},
+"ok": true
+},
+{
+"id": "R050",
+"name": "Trevor Blount Pilates",
+"url": "https://www.trevorblountpilates.com",
+"industry": "fitness",
+"layout": [
+"서브페이지 정보구조 체계",
+"예약·문의 폼 섹션",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#dee2e6",
+"surface": "#dae0e5",
+"ink": "#007bff",
+"mute": "#6c757d",
+"line": "#ffe8a1",
+"acc": "#dc3545",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 3.1,
+"accOnBg": 3.5,
+"muteOnBg": 3.6
+},
+"ok": false
+},
+{
+"id": "R052",
+"name": "Radiant Hot Yoga",
+"url": "https://radianthotyoga.com/",
+"industry": "fitness",
+"layout": [
+"풀블리드 사진 히어로"
+],
+"typography": "Open Sans, Playfair Display, Solitude",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#18191d",
+"ink": "#ffffff",
+"mute": "#d83227",
+"line": "#1f2124",
+"acc": "#80bae8",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 10.1,
+"muteOnBg": 4.4
+},
+"ok": true
+},
+{
+"id": "R053",
+"name": "Chris Temple Yoga",
+"url": "https://christempleyoga.com/",
+"industry": "fitness",
+"layout": [
+"풀블리드 사진 히어로",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Nunito, Source Sans Pro",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#112337",
+"ink": "#f8f8f8",
+"mute": "#c02b0a",
+"line": "#121961",
+"acc": "#607382",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.8,
+"accOnBg": 4.3,
+"muteOnBg": 3.6
+},
+"ok": true
+},
+{
+"id": "R056",
+"name": "Between The Ears Fitness",
+"url": "https://btwntheears.com/",
+"industry": "fitness",
+"layout": [
+"여백 넓은 미니멀 그리드"
+],
+"typography": "navine-jnkolv",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#0e0e0e",
+"ink": "#ffffff",
+"mute": "#a9a9a9",
+"line": "#272727",
+"acc": "#f0523d",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 6.0,
+"muteOnBg": 8.9
+},
+"ok": true
+},
+{
+"id": "R059",
+"name": "South Cliff Dental Group",
+"url": "https://southcliffdentalgroup.com/",
+"industry": "medical",
+"layout": [
+"챕터형 스토리텔링 섹션"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#061118",
+"surface": "#061118",
+"ink": "#e9eaec",
+"mute": "#e9eaec",
+"line": "#334343",
+"acc": "#e9eaec",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 15.8,
+"accOnBg": 15.8,
+"muteOnBg": 15.8
+},
+"ok": true
+},
+{
+"id": "R060",
+"name": "Aventura Dental Arts",
+"url": "https://aventuradentalarts.com/",
+"industry": "medical",
+"layout": [
+"풀블리드 사진 히어로",
+"영상/사진 중심 히어로"
+],
+"typography": "InterTight, InstrumentSerif",
+"source": "Awwwards",
+"tokens": {
+"bg": "#14151d",
+"surface": "#111115",
+"ink": "#eae8e8",
+"mute": "#eae8e8",
+"line": "#010203",
+"acc": "#eae8e8",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 14.9,
+"accOnBg": 14.9,
+"muteOnBg": 14.9
+},
+"ok": true
+},
+{
+"id": "R061",
+"name": "LAVA dental",
+"url": "https://lavadental.lv/en",
+"industry": "medical",
+"layout": [
+"좌 딥그린 텍스트 패널/우 풍경 사진 분할",
+"분할선 위에 걸친 영상 썸네일 카드"
+],
+"typography": "Josefin Sans, Jost, PP Neue Montreal",
+"source": "Awwwards",
+"tokens": {
+"bg": "#031c14",
+"surface": "#031c14",
+"ink": "#ddefde",
+"mute": "#ddefde",
+"line": "#031c14",
+"acc": "#ddefde",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 14.8,
+"accOnBg": 14.8,
+"muteOnBg": 14.8
+},
+"ok": true
+},
+{
+"id": "R063",
+"name": "Nova Dental Care",
+"url": "https://novadentalcare.co.uk/",
+"industry": "medical",
+"layout": [
+"커스텀 헤더/풀스크린 메뉴",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "대형 디스플레이 산세리프(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#e7e7e7",
+"ink": "#000000",
+"mute": "#0c5adb",
+"line": "#dadada",
+"acc": "#d9534f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 4.0,
+"muteOnBg": 6.0
+},
+"ok": true
+},
+{
+"id": "R064",
+"name": "Sakai Kids Dental Clinic",
+"url": "https://sakai-kids-dc.com/",
+"industry": "medical",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "Quicksand",
+"source": "Awwwards",
+"tokens": {
+"bg": "#e6eef3",
+"surface": "#f0f0f0",
+"ink": "#000000",
+"mute": "#3a5950",
+"line": "#ffffff",
+"acc": "#5b9599",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.9,
+"accOnBg": 2.9,
+"muteOnBg": 6.6
+},
+"ok": true
+},
+{
+"id": "R065",
+"name": "MINEMAL DENTAL AESTHETICS",
+"url": "https://minemal.dental/",
+"industry": "medical",
+"layout": [
+"중앙 인물 사진 + 하단 초대형 워드마크 오버랩"
+],
+"typography": "MinemalTypo(커스텀 기하 산세리프, 초대형)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#242424",
+"surface": "#242424",
+"ink": "#f6f4ef",
+"mute": "#d9a42f",
+"line": "#9a3e3e",
+"acc": "#f6f4ef",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 14.1,
+"accOnBg": 14.1,
+"muteOnBg": 6.9
+},
+"ok": true
+},
+{
+"id": "R066",
+"name": "Natalie Herzel Dental Clinic",
+"url": "https://www.herzel-zahnarzt.de/",
+"industry": "medical",
+"layout": [
+"여백 넓은 미니멀 그리드",
+"커스텀 404 페이지"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f3fbff",
+"surface": "#fbfbfb",
+"ink": "#2d2d2d",
+"mute": "#106285",
+"line": "#e6f2f8",
+"acc": "#49b1d0",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 13.2,
+"accOnBg": 2.4,
+"muteOnBg": 6.5
+},
+"ok": true
+},
+{
+"id": "R067",
+"name": "DENTAL IMPLANT SOLUTIONS",
+"url": "https://slobodiandental.com",
+"industry": "medical",
+"layout": [
+"대형 정보형 푸터",
+"예약·문의 폼 섹션",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Inter, Cormorant Garamond, Fraunces",
+"source": "Awwwards",
+"tokens": {
+"bg": "#1a1612",
+"surface": "#16140f",
+"ink": "#e8dcc8",
+"mute": "#b89d62",
+"line": "#0f0e0c",
+"acc": "#c9b98f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 13.3,
+"accOnBg": 9.3,
+"muteOnBg": 6.9
+},
+"ok": true
+},
+{
+"id": "R068",
+"name": "Alley Dental",
+"url": "https://alleydentaloffice.com.tw/",
+"industry": "medical",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "Noto Serif TC",
+"source": "Awwwards",
+"tokens": {
+"bg": "#1e5a80",
+"surface": "#1e5a80",
+"ink": "#e6e6e6",
+"mute": "#ffffff",
+"line": "#32373c",
+"acc": "#78a6c4",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 5.9,
+"accOnBg": 2.8,
+"muteOnBg": 7.4
+},
+"ok": true
+},
+{
+"id": "R069",
+"name": "Sky Clinics",
+"url": "https://skyclinics.al/",
+"industry": "medical",
+"layout": [
+"구름·산 풀블리드 배경 위 자간 넓은 워드마크",
+"플로팅 캡슐형 내비 + 강조 CTA"
+],
+"typography": "Satoshi",
+"source": "Awwwards",
+"tokens": {
+"bg": "#e8e7e5",
+"surface": "#e8e7e5",
+"ink": "#003934",
+"mute": "#003934",
+"line": "#4db6ac",
+"acc": "#1a9e8f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 10.4,
+"accOnBg": 2.7,
+"muteOnBg": 10.4
+},
+"ok": true
+},
+{
+"id": "R072",
+"name": "KAMINSKYI CLINIC",
+"url": "https://kaminskyi.clinic/en/",
+"industry": "medical",
+"layout": [
+"풀블리드 사진 히어로",
+"갤러리 그리드",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Kaminskyi",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#000a14",
+"ink": "#ffffff",
+"mute": "#6495ed",
+"line": "#09090a",
+"acc": "#00a8ff",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 8.0,
+"muteOnBg": 7.1
+},
+"ok": true
+},
+{
+"id": "R074",
+"name": "Royal Clinic",
+"url": "https://royalclinic.pl/",
+"industry": "medical",
+"layout": [
+"상품 카드 그리드 + 장바구니",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f3ebe5",
+"surface": "#f3f1ef",
+"ink": "#2d1d12",
+"mute": "#6c757d",
+"line": "#f5f5f5",
+"acc": "#d33333",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 13.8,
+"accOnBg": 4.2,
+"muteOnBg": 4.0
+},
+"ok": true
+},
+{
+"id": "R076",
+"name": "Dr. Pink Orthodontics",
+"url": "https://www.drpinkortho.com/",
+"industry": "medical",
+"layout": [
+"여백 넓은 미니멀 그리드"
+],
+"typography": "helveticaneuew01-45ligh, Helvetica-bold, helveticaneuew10-45ligh",
+"source": "Awwwards",
+"tokens": {
+"bg": "#212121",
+"surface": "#1e1e1e",
+"ink": "#ffffff",
+"mute": "#757575",
+"line": "#000000",
+"acc": "#116dff",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.1,
+"accOnBg": 3.6,
+"muteOnBg": 3.5
+},
+"ok": true
+},
+{
+"id": "R077",
+"name": "Marylebone Smile Clinic",
+"url": "https://marylebonesmileclinic.co.uk/",
+"industry": "medical",
+"layout": [
+"브랜드 소개 서브페이지"
+],
+"typography": "Lato",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f2f2f2",
+"surface": "#f3f3f3",
+"ink": "#000000",
+"mute": "#3d5c73",
+"line": "#e7e7e7",
+"acc": "#47a2d7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 18.8,
+"accOnBg": 2.5,
+"muteOnBg": 6.3
+},
+"ok": true
+},
+{
+"id": "R078",
+"name": "Memory Clinic",
+"url": "https://cliniquememoire.ca/",
+"industry": "medical",
+"layout": [
+"커스텀 헤더/풀스크린 메뉴",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Bilo CDLM, FontAwesome, Avenir CDLM",
+"source": "Awwwards",
+"tokens": {
+"bg": "#f8f5e8",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#dc3232",
+"line": "#ffffff",
+"acc": "#31394b",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.2,
+"accOnBg": 10.6,
+"muteOnBg": 4.2
+},
+"ok": true
+},
+{
+"id": "R079",
+"name": "HARUCHIKA Manufacturing Co.Ltd",
+"url": "https://www.haruchika.co.jp/",
+"industry": "industrial",
+"layout": [
+"정형 섹션 구성"
+],
+"typography": "Plus Jakarta Sans",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#d3d3d3",
+"ink": "#000000",
+"mute": "#0037d3",
+"line": "#abd5eb",
+"acc": "#e75f5f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 3.4,
+"muteOnBg": 8.4
+},
+"ok": true
+},
+{
+"id": "R080",
+"name": "Albert Holz – Manufacture of furniture",
+"url": "http://www.albert-holz.de",
+"industry": "industrial",
+"layout": [
+"풀블리드 사진 히어로",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "대형 디스플레이 산세리프(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#101010",
+"ink": "#ffffff",
+"mute": "#df312d",
+"line": "#202020",
+"acc": "#ffffff",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 4.6
+},
+"ok": true
+},
+{
+"id": "R082",
+"name": "Terminal Industries",
+"url": "https://terminal-industries.com",
+"industry": "corporate",
+"layout": [
+"챕터형 스토리텔링 섹션"
+],
+"typography": "ui-monospace, Geist Mono, SuisseIntl",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f3f4f6",
+"ink": "#111827",
+"mute": "#4b5563",
+"line": "#f3f3f3",
+"acc": "#052424",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 17.7,
+"accOnBg": 16.4,
+"muteOnBg": 7.6
+},
+"ok": true
+},
+{
+"id": "R084",
+"name": "Kardev Feed Machinery",
+"url": "https://kardev.com.tr/",
+"industry": "industrial",
+"layout": [
+"상단 언어 선택 컬러 띠",
+"다크 헤더 + 테두리형 견적요청 CTA",
+"우하단 플로팅 WhatsApp 버튼"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#000000",
+"surface": "#111111",
+"ink": "#ffffff",
+"mute": "#9d9d9c",
+"line": "#151313",
+"acc": "#ff9828",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 9.8,
+"muteOnBg": 7.7
+},
+"ok": true
+},
+{
+"id": "R087",
+"name": "MHB - Dutch Masters of Steel",
+"url": "https://mhb.eu/",
+"industry": "industrial",
+"layout": [
+"서브페이지 정보구조 체계",
+"여백 넓은 미니멀 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#291d31",
+"surface": "#112337",
+"ink": "#ffffff",
+"mute": "#607382",
+"line": "#211628",
+"acc": "#fbb800",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.0,
+"accOnBg": 9.1,
+"muteOnBg": 3.3
+},
+"ok": true
+},
+{
+"id": "R088",
+"name": "Minimal Steel",
+"url": "https://www.minimalsteel.com",
+"industry": "industrial",
+"layout": [
+"여백 넓은 미니멀 그리드"
+],
+"typography": "Open Sans, Cormorant",
+"source": "Awwwards",
+"tokens": {
+"bg": "#1a1a1a",
+"surface": "#000000",
+"ink": "#ffffff",
+"mute": "#c09949",
+"line": "#000000",
+"acc": "#ffffff",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.4,
+"accOnBg": 17.4,
+"muteOnBg": 6.5
+},
+"ok": true
+},
+{
+"id": "R090",
+"name": "HONDA WING MARK HISTORY",
+"url": "https://global.honda/jp/wingmark/",
+"industry": "corporate",
+"layout": [
+"챕터형 스토리텔링 섹션"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f2f2f2",
+"ink": "#000000",
+"mute": "#cc0000",
+"line": "#efefef",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 5.9
+},
+"ok": true
+},
+{
+"id": "R092",
+"name": "Distillati Group",
+"url": "https://distillatigroup.com/",
+"industry": "corporate",
+"layout": [
+"가로 스크롤 섹션",
+"챕터형 스토리텔링 섹션"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f5f5f5",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#e4e7e9",
+"acc": "#1c0d44",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 17.6,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R094",
+"name": "M3 Planungsgruppe",
+"url": "https://m3-pg.de",
+"industry": "corporate",
+"layout": [
+"여백 넓은 미니멀 그리드"
+],
+"typography": "대형 디스플레이 산세리프(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f8f9fa",
+"ink": "#0d6efd",
+"mute": "#707070",
+"line": "#f5f5f5",
+"acc": "#dc3545",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 4.5,
+"accOnBg": 4.5,
+"muteOnBg": 5.0
+},
+"ok": true
+},
+{
+"id": "R095",
+"name": "Driessen Architectuur",
+"url": "https://driessenarchitectuur.nl",
+"industry": "corporate",
+"layout": [
+"영상/사진 중심 히어로"
+],
+"typography": "세리프 헤드라인 + 산세리프 본문(폰트명 미확인)",
+"source": "Awwwards",
+"tokens": {
+"bg": "#faf6f2",
+"surface": "#f2f2f2",
+"ink": "#151515",
+"mute": "#719067",
+"line": "#ffffff",
+"acc": "#162b49",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 17.0,
+"accOnBg": 13.2,
+"muteOnBg": 3.3
+},
+"ok": true
+},
+{
+"id": "R096",
+"name": "움버거앤윙스",
+"url": "https://umburger.co.kr",
+"industry": "food",
+"layout": [
+"풀페이지 섹션 스크롤",
+"메뉴 카드 그리드",
+"매장/창업 안내 서브페이지"
+],
+"typography": "Pretendard, SUIT",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#080808",
+"ink": "#ffffff",
+"mute": "#757575",
+"line": "#0c0c0c",
+"acc": "#337ab7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 4.6,
+"muteOnBg": 4.6
+},
+"ok": true
+},
+{
+"id": "R097",
+"name": "금요미식회",
+"url": "https://vendredigourmand.com/",
+"industry": "food",
+"layout": [
+"중앙 원형 플레이팅 사진 + 좌우 분할 카피",
+"하단 초대형 세리프 워드마크",
+"예약 CTA 상단 고정"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#1b1e21",
+"ink": "#dee2e6",
+"mute": "#007bff",
+"line": "#1d2124",
+"acc": "#dc3545",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.1,
+"accOnBg": 4.6,
+"muteOnBg": 5.3
+},
+"ok": true
+},
+{
+"id": "R098",
+"name": "서오릉피자",
+"url": "https://seooreungpizza.com/",
+"industry": "food",
+"layout": [
+"비정형 콜라주 섹션",
+"메뉴 카드 그리드"
+],
+"typography": "Pretendard, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fff6ea",
+"ink": "#533724",
+"mute": "#ea5717",
+"line": "#f9eddd",
+"acc": "#361a0e",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 10.8,
+"accOnBg": 16.0,
+"muteOnBg": 3.6
+},
+"ok": true
+},
+{
+"id": "R099",
+"name": "피치월드",
+"url": "https://pichiworld.co.kr/",
+"industry": "food",
+"layout": [
+"제품 중심 비정형 레이아웃",
+"영상 히어로"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#05020c",
+"ink": "#ffffff",
+"mute": "#4b9ffe",
+"line": "#0a0a08",
+"acc": "#ff90e8",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 10.4,
+"muteOnBg": 7.7
+},
+"ok": true
+},
+{
+"id": "R100",
+"name": "이낙근찹쌀떡",
+"url": "https://leeddeok.co.kr/",
+"industry": "food",
+"layout": [
+"제품 누끼 중심 섹션",
+"브랜드 스토리 챕터",
+"온라인 주문 연결"
+],
+"typography": "Pretendard, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#221815",
+"ink": "#fefcf5",
+"mute": "#79726e",
+"line": "#2e2e2e",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 20.5,
+"accOnBg": 7.7,
+"muteOnBg": 4.4
+},
+"ok": true
+},
+{
+"id": "R101",
+"name": "기영이숯불두마리치킨",
+"url": "https://kiyoungchicken.com/main/main.html",
+"industry": "food",
+"layout": [
+"풀페이지 섹션 스크롤",
+"영상 히어로",
+"가맹 문의 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#2b2b2b",
+"ink": "#ffffff",
+"mute": "#ea5514",
+"line": "#454545",
+"acc": "#17a2b8",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 6.9,
+"muteOnBg": 5.8
+},
+"ok": true
+},
+{
+"id": "R102",
+"name": "SANC 브랜드 사이트",
+"url": "https://sanccorp.com/",
+"industry": "food",
+"layout": [
+"영상 히어로",
+"챕터형 브랜드 스토리",
+"쇼핑몰 연동"
+],
+"typography": "SUIT",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#212b35",
+"ink": "#ffffff",
+"mute": "#ffffff",
+"line": "#212b35",
+"acc": "#5cc4ef",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 10.6,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R104",
+"name": "셀파크피부과의",
+"url": "https://www.cellparkclinic.com/",
+"industry": "medical",
+"layout": [
+"좌상단 대형 영문 세리프 헤드라인 + 한글 서브카피",
+"건물 외관 사진 히어로",
+"우측 플로팅 상담/카톡/인스타/TOP 버튼"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#e9e9e9",
+"surface": "#ececec",
+"ink": "#000000",
+"mute": "#616161",
+"line": "#e2e2e2",
+"acc": "#3a8afd",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.3,
+"accOnBg": 2.8,
+"muteOnBg": 5.1
+},
+"ok": true
+},
+{
+"id": "R105",
+"name": "제니하우스",
+"url": "https://www.jennyhouse.co.kr/index.php",
+"industry": "beauty",
+"layout": [
+"비정형 레이아웃",
+"인물 화보 그리드"
+],
+"typography": "Pretendard, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#e6e6e6",
+"surface": "#e6e6e6",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#959ea9",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.8,
+"accOnBg": 2.2,
+"muteOnBg": 16.8
+},
+"ok": true
+},
+{
+"id": "R106",
+"name": "힌스",
+"url": "https://hince.co.kr/",
+"industry": "beauty",
+"layout": [
+"제품 컷 중심 그리드",
+"페이지 전환"
+],
+"typography": "Pretendard, Noto Sans KR, 나눔 계열, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fbfafa",
+"ink": "#000000",
+"mute": "#a16e72",
+"line": "#f4f4f4",
+"acc": "#ce8a99",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.7,
+"muteOnBg": 4.2
+},
+"ok": true
+},
+{
+"id": "R107",
+"name": "일루미엘",
+"url": "https://illumiel.co.kr/",
+"industry": "beauty",
+"layout": [
+"영상 히어로",
+"제품+인물 교차 섹션"
+],
+"typography": "Pretendard, Noto Sans KR, 나눔 계열, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fbfafa",
+"ink": "#000000",
+"mute": "#828183",
+"line": "#f4f4f4",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.7,
+"muteOnBg": 3.9
+},
+"ok": true
+},
+{
+"id": "R108",
+"name": "봄결성형외과",
+"url": "https://www.bomgyeol.co.kr/",
+"industry": "medical",
+"layout": [
+"비정형 레이아웃",
+"인물 화보형 히어로",
+"크림 프리로더"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#e3e5e8",
+"surface": "#dde7e9",
+"ink": "#000000",
+"mute": "#ff006c",
+"line": "#e7ebf1",
+"acc": "#3a8afd",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.6,
+"accOnBg": 2.7,
+"muteOnBg": 3.0
+},
+"ok": true
+},
+{
+"id": "R109",
+"name": "더가든피부과",
+"url": "https://thegardenclinic.co.kr/",
+"industry": "medical",
+"layout": [
+"풀페이지 섹션 스크롤",
+"영상 히어로",
+"시술 카드 그리드"
+],
+"typography": "Pretendard, 나눔 계열",
+"source": "GDWEB",
+"tokens": {
+"bg": "#f4f3ec",
+"surface": "#f6f6f6",
+"ink": "#150600",
+"mute": "#958478",
+"line": "#e8e8e8",
+"acc": "#ff0000",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.8,
+"accOnBg": 3.6,
+"muteOnBg": 3.2
+},
+"ok": true
+},
+{
+"id": "R110",
+"name": "리엣의원",
+"url": "https://www.liet.co.kr/",
+"industry": "medical",
+"layout": [
+"여백 중심 정렬형 그리드",
+"의료진 소개 섹션",
+"플로팅 퀵메뉴"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fffdf6",
+"ink": "#000000",
+"mute": "#9b7b57",
+"line": "#f7f7f7",
+"acc": "#b49463",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.9,
+"muteOnBg": 3.9
+},
+"ok": true
+},
+{
+"id": "R111",
+"name": "어반블루 피트니스",
+"url": "https://www.urbanblue-fitness.com/",
+"industry": "fitness",
+"layout": [
+"흩어진 라운드 사진 콜라주 히어로",
+"하단 초대형 영문 워드마크",
+"상단 중앙 로고 + 좌 메뉴/우 CTA"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#eaeaea",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#b8b8b8",
+"acc": "#15181e",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 17.5,
+"accOnBg": 14.8,
+"muteOnBg": 17.5
+},
+"ok": true
+},
+{
+"id": "R112",
+"name": "스포애니",
+"url": "https://www.spoany.co.kr/",
+"industry": "fitness",
+"layout": [
+"비정형 레이아웃",
+"영상 히어로",
+"지점 찾기·이벤트 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#f9f9f9",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#ff3c42",
+"line": "#e7e7e7",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.9,
+"accOnBg": 19.9,
+"muteOnBg": 3.3
+},
+"ok": true
+},
+{
+"id": "R113",
+"name": "밝은성모안과",
+"url": "https://oklasik.com/",
+"industry": "medical",
+"layout": [
+"정형 그리드",
+"진료과목 카드",
+"플로팅 상담 퀵메뉴"
+],
+"typography": "Pretendard, Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#d9d9d9",
+"ink": "#000000",
+"mute": "#e57627",
+"line": "#bdbdbd",
+"acc": "#173348",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 13.1,
+"muteOnBg": 3.0
+},
+"ok": true
+},
+{
+"id": "R114",
+"name": "티케이 병원 홈페이지",
+"url": "https://www.toptk.co.kr/",
+"industry": "medical",
+"layout": [
+"정형 그리드",
+"의료진·시설 사진 섹션"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f8f8f8",
+"ink": "#0c6fb8",
+"mute": "#616161",
+"line": "#f3f3f3",
+"acc": "#ae8766",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 5.3,
+"accOnBg": 3.3,
+"muteOnBg": 6.2
+},
+"ok": true
+},
+{
+"id": "R115",
+"name": "가까이한의원",
+"url": "https://kakkai.co.kr/",
+"industry": "medical",
+"layout": [
+"다크 배경 슬라이더 공지 팝업(오늘 열지 않기)",
+"진료과목 메가메뉴",
+"플로팅 퀵메뉴"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#f3f1ec",
+"surface": "#f4f6f8",
+"ink": "#000000",
+"mute": "#8d897d",
+"line": "#f7f7f7",
+"acc": "#003c70",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 18.6,
+"accOnBg": 9.9,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R116",
+"name": "아이누리 한의원",
+"url": "https://inurinet.com/",
+"industry": "medical",
+"layout": [
+"비정형 레이아웃",
+"3D 캐릭터 섹션",
+"지점 안내"
+],
+"typography": "Montserrat(영문)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f8f8f8",
+"ink": "#101010",
+"mute": "#101010",
+"line": "#f6f6f6",
+"acc": "#6b3c30",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.0,
+"accOnBg": 9.1,
+"muteOnBg": 19.0
+},
+"ok": true
+},
+{
+"id": "R117",
+"name": "골드만 비뇨기과",
+"url": "https://www.gold-man.com/",
+"industry": "medical",
+"layout": [
+"정형 그리드",
+"3D 그래픽 히어로",
+"플로팅 상담 버튼"
+],
+"typography": "Pretendard, Noto Sans KR",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f8f8f8",
+"ink": "#000000",
+"mute": "#787878",
+"line": "#f6f6f6",
+"acc": "#fca400",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.0,
+"muteOnBg": 4.4
+},
+"ok": true
+},
+{
+"id": "R118",
+"name": "화천",
+"url": "https://www.hwacheon.com/",
+"industry": "industrial",
+"layout": [
+"풀블리드 제품 영상 히어로",
+"우측 썸네일 슬라이드 인디케이터",
+"우측 플로팅 구매문의/사업장찾기/AS신청"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#e4e6e8",
+"surface": "#e6e6e6",
+"ink": "#000000",
+"mute": "#787878",
+"line": "#d9d9d9",
+"acc": "#0d1015",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 16.8,
+"accOnBg": 15.2,
+"muteOnBg": 3.5
+},
+"ok": true
+},
+{
+"id": "R119",
+"name": "원강금속",
+"url": "http://www.wonkangmetal.co.kr/",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"제품군 카드",
+"연혁/인증 섹션"
+],
+"typography": "Pretendard",
+"source": "GDWEB",
+"tokens": {
+"bg": "#000000",
+"surface": "#000000",
+"ink": "#e9e9e9",
+"mute": "#3a8afd",
+"line": "#373705",
+"acc": "#e9e9e9",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 17.3,
+"accOnBg": 17.3,
+"muteOnBg": 6.2
+},
+"ok": true
+},
+{
+"id": "R120",
+"name": "도루코",
+"url": "https://www.dorco.co.kr",
+"industry": "industrial",
+"layout": [
+"비정형 레이아웃",
+"제품 영상 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#f5f6f6",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#e10600",
+"line": "#d9dcdc",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 19.4,
+"accOnBg": 19.4,
+"muteOnBg": 4.6
+},
+"ok": true
+},
+{
+"id": "R121",
+"name": "대동기어(주)",
+"url": "https://daedonggear.kr/",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"제품 스펙 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fafafa",
+"ink": "#000000",
+"mute": "#ef4023",
+"line": "#f7f7f7",
+"acc": "#3a8afd",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 3.4,
+"muteOnBg": 3.9
+},
+"ok": true
+},
+{
+"id": "R122",
+"name": "니프코코리아",
+"url": "https://www.nifco.co.kr",
+"industry": "industrial",
+"layout": [
+"풀페이지 섹션 스크롤",
+"제품 적용 사례 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f9f9f9",
+"ink": "#000000",
+"mute": "#5997bb",
+"line": "#f6f6f6",
+"acc": "#ee7500",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.9,
+"muteOnBg": 3.2
+},
+"ok": true
+},
+{
+"id": "R123",
+"name": "아이엘로보틱스",
+"url": "https://ilrobotics.co.kr",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"제품 라인업 카드",
+"플로팅 문의 버튼"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#ffffff",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#ffffff",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R124",
+"name": "한빛산업",
+"url": "https://hanvit-ind.com/",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"사업 영역 카드",
+"공장·설비 사진 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#f9f9f9",
+"surface": "#ffffff",
+"ink": "#5e5e5e",
+"mute": "#5e5e5e",
+"line": "#d4d4d4",
+"acc": "#ff7e5f",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 6.2,
+"accOnBg": 2.4,
+"muteOnBg": 6.2
+},
+"ok": true
+},
+{
+"id": "R125",
+"name": "한국전광",
+"url": "https://keoc.kr/",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"제품 카테고리 그리드"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f2f2f2",
+"ink": "#000000",
+"mute": "#0981f1",
+"line": "#dadde2",
+"acc": "#0c1d4b",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 16.2,
+"muteOnBg": 3.9
+},
+"ok": true
+},
+{
+"id": "R126",
+"name": "대한사료",
+"url": "https://daehanfeed.co.kr/",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"풍경·사람 사진 섹션",
+"연혁·ESG 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f2ede0",
+"ink": "#000000",
+"mute": "#266ef0",
+"line": "#d9d5c7",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 4.6
+},
+"ok": true
+},
+{
+"id": "R127",
+"name": "포스코플로우",
+"url": "https://www.poscoflow.com/",
+"industry": "corporate",
+"layout": [
+"영상 히어로",
+"사업 영역 스크롤 섹션"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "GDWEB",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f3f3f3",
+"ink": "#161d27",
+"mute": "#025997",
+"line": "#eff2f5",
+"acc": "#00a3f1",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.9,
+"accOnBg": 2.8,
+"muteOnBg": 7.3
+},
+"ok": true
+},
+{
+"id": "R128",
+"name": "크라운파크호텔",
+"url": "https://www.crownparkhotel.co.kr",
+"industry": "food",
+"layout": [
+"비정형 레이아웃",
+"객실·다이닝 사진 섹션",
+"플로팅 예약 버튼"
+],
+"typography": "SUIT",
+"source": "GDWEB",
+"tokens": {
+"bg": "#e6e6e6",
+"surface": "#e9e9e9",
+"ink": "#000000",
+"mute": "#806344",
+"line": "#f6f3ec",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.8,
+"accOnBg": 2.2,
+"muteOnBg": 4.4
+},
+"ok": true
+},
+{
+"id": "R129",
+"name": "참포도나무병원",
+"url": "https://www.champodonamu.com/",
+"industry": "medical",
+"layout": [
+"영상 히어로",
+"진료센터 카드 그리드",
+"공지·언론보도 게시판"
+],
+"typography": "Montserrat(영문)",
+"source": "dbcut",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f6f8fc",
+"ink": "#000000",
+"mute": "#00816c",
+"line": "#f6f6f6",
+"acc": "#173348",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 13.1,
+"muteOnBg": 4.8
+},
+"ok": true
+},
+{
+"id": "R130",
+"name": "유웰비뇨의학과",
+"url": "https://www.uwurology.com/",
+"industry": "medical",
+"layout": [
+"영상 히어로",
+"진료과목 카드",
+"플로팅 퀵메뉴"
+],
+"typography": "Pretendard",
+"source": "dbcut",
+"tokens": {
+"bg": "#232323",
+"surface": "#15243d",
+"ink": "#ffffff",
+"mute": "#65a9df",
+"line": "#333333",
+"acc": "#007f88",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 15.7,
+"accOnBg": 3.3,
+"muteOnBg": 6.2
+},
+"ok": true
+},
+{
+"id": "R131",
+"name": "두산로보틱스",
+"url": "https://www.doosanrobotics.com/kr",
+"industry": "industrial",
+"layout": [
+"영상 히어로",
+"제품 라인업 카드",
+"적용 산업 탭"
+],
+"typography": "SUIT",
+"source": "dbcut",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f7f7f7",
+"ink": "#151515",
+"mute": "#005eb8",
+"line": "#f5f5f5",
+"acc": "#00287c",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 18.3,
+"accOnBg": 13.2,
+"muteOnBg": 6.4
+},
+"ok": true
+},
+{
+"id": "R132",
+"name": "영신금속공업",
+"url": "http://www.ysmic.com/",
+"industry": "industrial",
+"layout": [
+"슬라이더 히어로",
+"제품군 그리드",
+"인증·연혁"
+],
+"typography": "SUIT",
+"source": "dbcut",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#efefef",
+"ink": "#000000",
+"mute": "#000000",
+"line": "#efefef",
+"acc": "#000000",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 21.0,
+"muteOnBg": 21.0
+},
+"ok": true
+},
+{
+"id": "R133",
+"name": "보틀벙커",
+"url": "https://www.bottlebunker.co.kr/",
+"industry": "food",
+"layout": [
+"매장 소개 원페이지",
+"지점 안내"
+],
+"typography": "국문 고딕 계열(폰트명 미확인)",
+"source": "dbcut",
+"tokens": {
+"bg": "#000000",
+"surface": "#00323a",
+"ink": "#ffffff",
+"mute": "#727171",
+"line": "#00484d",
+"acc": "#e63d2b",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 5.1,
+"muteOnBg": 4.3
+},
+"ok": true
+},
+{
+"id": "R134",
+"name": "설화수",
+"url": "https://www.sulwhasoo.com/",
+"industry": "beauty",
+"layout": [
+"풀블리드 제품·모델 히어로",
+"제품 카드 그리드",
+"브랜드 스토리"
+],
+"typography": "Noto Sans KR, 나눔 계열, Spoqa Han Sans, Montserrat(영문)",
+"source": "dbcut",
+"tokens": {
+"bg": "#e6e6e6",
+"surface": "#e5e5e5",
+"ink": "#000000",
+"mute": "#6d6d6d",
+"line": "#e0e0e0",
+"acc": "#569ff7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.8,
+"accOnBg": 2.2,
+"muteOnBg": 4.1
+},
+"ok": true
+},
+{
+"id": "R135",
+"name": "The Mind Room",
+"url": "https://themindroom.com.au/",
+"industry": "medical",
+"layout": [
+"카드 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Httpster",
+"tokens": {
+"bg": "#000000",
+"surface": "#000000",
+"ink": "#ffffff",
+"mute": "#73859f",
+"line": "#2b333f",
+"acc": "#eed55c",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 14.3,
+"muteOnBg": 5.6
+},
+"ok": true
+},
+{
+"id": "R136",
+"name": "Salus Body",
+"url": "https://salusbody.com.au/",
+"industry": "beauty",
+"layout": [
+"라이트 톤 제품 그리드"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Httpster",
+"tokens": {
+"bg": "#303030",
+"surface": "#1a1a1a",
+"ink": "#ffffff",
+"mute": "#7367f0",
+"line": "#121212",
+"acc": "#005bd3",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 13.2,
+"accOnBg": 2.2,
+"muteOnBg": 3.1
+},
+"ok": true
+},
+{
+"id": "R137",
+"name": "Universal Practice",
+"url": "http://universalpractice.com.au/",
+"industry": "medical",
+"layout": [
+"라이트 톤 사진 중심 레이아웃"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Httpster",
+"tokens": {
+"bg": "#dceff1",
+"surface": "#f3f4f5",
+"ink": "#555d66",
+"mute": "#425863",
+"line": "#f3f4f5",
+"acc": "#555d66",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 5.6,
+"accOnBg": 5.6,
+"muteOnBg": 6.3
+},
+"ok": true
+},
+{
+"id": "R138",
+"name": "Sucre Restaurant Soho",
+"url": "https://www.sucrerestaurant.com/",
+"industry": "food",
+"layout": [
+"타이포 중심 스크롤 레이아웃"
+],
+"typography": "대형 타이포 중심",
+"source": "Httpster",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fcf8e3",
+"ink": "#000000",
+"mute": "#69727d",
+"line": "#f5f5f5",
+"acc": "#337ab7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 4.6,
+"muteOnBg": 4.9
+},
+"ok": true
+},
+{
+"id": "R141",
+"name": "Haleys Beauty",
+"url": "https://haleysbeauty.com/",
+"industry": "beauty",
+"layout": [
+"사진 중심 쇼핑 레이아웃"
+],
+"typography": "산세리프 중심(폰트명 미확인)",
+"source": "Httpster",
+"tokens": {
+"bg": "#000000",
+"surface": "#0c0d12",
+"ink": "#ffffff",
+"mute": "#d43747",
+"line": "#1a1a1a",
+"acc": "#4b3c92",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.4,
+"muteOnBg": 4.4
+},
+"ok": true
+},
+{
+"id": "R142",
+"name": "nail moca (ネイルサロンmoca)",
+"url": "https://nail-moca.jp/",
+"industry": "beauty",
+"layout": [
+"풀블리드 컨셉 사진 히어로",
+"영문+일문 2줄 메뉴",
+"우상단 WEB 쿠폰(예약) 버튼",
+"SCROLL 인디케이터"
+],
+"typography": "일문 고딕 + 영문 산세리프 병기 메뉴",
+"source": "Pinterest",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#ffff82",
+"ink": "#000000",
+"mute": "#706a6a",
+"line": "#fdf6f6",
+"acc": "#ee869a",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.5,
+"muteOnBg": 5.3
+},
+"ok": true
+},
+{
+"id": "R144",
+"name": "吉川化成 (Yoshikawa Kasei)",
+"url": "https://www.ypc-g.com/",
+"industry": "industrial",
+"layout": [
+"기업 사이트 정형 그리드",
+"사업/제품/채용 분리"
+],
+"typography": "일문 고딕 + 영문 산세리프 병기 메뉴",
+"source": "Pinterest",
+"tokens": {
+"bg": "#ea071d",
+"surface": "#0693e3",
+"ink": "#f0f2f2",
+"mute": "#141414",
+"line": "#ff6900",
+"acc": "#f0f2f2",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 4.1,
+"accOnBg": 4.1,
+"muteOnBg": 4.0
+},
+"ok": false
+},
+{
+"id": "R145",
+"name": "川野辺製作所 (Kawanobe Seisakusho)",
+"url": "https://knb-tools.co.jp/",
+"industry": "industrial",
+"layout": [
+"제조업 전문 에이전시 템플릿형 구조",
+"기술·설비 소개 섹션"
+],
+"typography": "일문 고딕 + 영문 산세리프 병기 메뉴",
+"source": "Pinterest",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#fafafa",
+"ink": "#000000",
+"mute": "#949494",
+"line": "#f0f0f0",
+"acc": "#0693e3",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 3.3,
+"muteOnBg": 3.0
+},
+"ok": true
+},
+{
+"id": "R146",
+"name": "星ヶ丘矯正歯科 (Hoshigaoka Orthodontics)",
+"url": "https://hoshigaoka-dc.com",
+"industry": "medical",
+"layout": [
+"부드러운 곡선 섹션",
+"진료 흐름 스텝 섹션"
+],
+"typography": "일문 고딕 + 영문 산세리프 병기 메뉴",
+"source": "Pinterest",
+"tokens": {
+"bg": "#ffffff",
+"surface": "#f3f4f6",
+"ink": "#000000",
+"mute": "#595959",
+"line": "#ede4ce",
+"acc": "#c3a45e",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.4,
+"muteOnBg": 7.0
+},
+"ok": true
+},
+{
+"id": "R147",
+"name": "cobuke coffee",
+"url": "http://cobukecoffee.com/",
+"industry": "cafe",
+"layout": [
+"여백 넓은 미니멀 레이아웃"
+],
+"typography": "일문 고딕 + 영문 산세리프 병기 메뉴",
+"source": "Pinterest",
+"tokens": {
+"bg": "#000000",
+"surface": "#151523",
+"ink": "#ffffff",
+"mute": "#ff1702",
+"line": "#2b2b3b",
+"acc": "#860101",
+"accInk": "#ffffff"
+},
+"contrast": {
+"inkOnBg": 21.0,
+"accOnBg": 2.0,
+"muteOnBg": 5.4
+},
+"ok": true
+}
+]

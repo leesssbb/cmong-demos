@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mildeul-bakery.example.com/sitemap.xml

@@ -1,0 +1,442 @@
+[
+ {
+  "family": "Asta Sans",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Asta+Sans/license"
+ },
+ {
+  "family": "Freesentation",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/Freesentation/Freesentation.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://github.com/fonts-archive/Freesentation"
+ },
+ {
+  "family": "Gothic A1",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Gothic+A1/license"
+ },
+ {
+  "family": "Gowun Dodum",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Gowun+Dodum/license"
+ },
+ {
+  "family": "IBM Plex Sans KR",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/IBM+Plex+Sans+KR/license"
+ },
+ {
+  "family": "LINE Seed KR",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/LINESeedKR/LINESeedKR.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://seed.line.me/"
+ },
+ {
+  "family": "Nanum Gothic",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Nanum+Gothic/license"
+ },
+ {
+  "family": "Nanum Square Neo",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/NanumSquareNeo/NanumSquareNeo.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://hangeul.naver.com/font"
+ },
+ {
+  "family": "Noto Sans KR",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Noto+Sans+KR/license"
+ },
+ {
+  "family": "Orbit",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Orbit/license"
+ },
+ {
+  "family": "Paperlogy",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://github.com/fonts-archive/Paperlogy"
+ },
+ {
+  "family": "Pretendard Variable",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://github.com/orioncactus/pretendard"
+ },
+ {
+  "family": "SUIT Variable",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://sunn.us/suit/"
+ },
+ {
+  "family": "SUITE",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/SUITE/SUITE.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://sunn.us/suite/"
+ },
+ {
+  "family": "Seoul Namsan",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/SeoulNamsan/SeoulNamsan.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://www.seoul.go.kr/seoul/font.do"
+ },
+ {
+  "family": "Spoqa Han Sans Neo",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/spoqa/spoqa-han-sans@latest/css/SpoqaHanSansNeo.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://spoqa.github.io/spoqa-han-sans/"
+ },
+ {
+  "family": "Sunflower",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Sunflower/license"
+ },
+ {
+  "family": "Wanted Sans Variable",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.3/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://github.com/wanteddev/wanted-sans"
+ },
+ {
+  "family": "Bookk Myungjo",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/BookkMyungjo/BookkMyungjo.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://github.com/fonts-archive/BookkMyungjo"
+ },
+ {
+  "family": "Diphylleia",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Diphylleia/license"
+ },
+ {
+  "family": "Gowun Batang",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Gowun+Batang/license"
+ },
+ {
+  "family": "Hahmlet",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Hahmlet/license"
+ },
+ {
+  "family": "Maru Buri",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/MaruBuri/MaruBuri.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://hangeul.naver.com/font/maru-buri"
+ },
+ {
+  "family": "Nanum Myeongjo",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Nanum+Myeongjo/license"
+ },
+ {
+  "family": "Noto Serif KR",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Noto+Serif+KR/license"
+ },
+ {
+  "family": "Song Myung",
+  "category": "Serif",
+  "ko": true,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Song+Myung/license"
+ },
+ {
+  "family": "Bagel Fat One",
+  "category": "Display",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Bagel+Fat+One/license"
+ },
+ {
+  "family": "Cafe24 Ssurround",
+  "category": "Display",
+  "ko": true,
+  "display": true,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/Cafe24Ssurround/Cafe24Ssurround.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://fonts.cafe24.com/"
+ },
+ {
+  "family": "Partial Sans KR",
+  "category": "Display",
+  "ko": true,
+  "display": true,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/PartialSansKR/PartialSansKR.css",
+  "license": "SIL OFL 1.1",
+  "licenseUrl": "https://github.com/fonts-archive/PartialSansKR"
+ },
+ {
+  "family": "Black Han Sans",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Black+Han+Sans/license"
+ },
+ {
+  "family": "Do Hyeon",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Do+Hyeon/license"
+ },
+ {
+  "family": "Dongle",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Dongle/license"
+ },
+ {
+  "family": "Gasoek One",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Gasoek+One/license"
+ },
+ {
+  "family": "Gmarket Sans",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/GmarketSans/GmarketSans.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://company.gmarket.co.kr/company/about/company/company--font.asp"
+ },
+ {
+  "family": "Hakgyoansim Dunggeunmiso",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/HakgyoansimDunggeunmiso/HakgyoansimDunggeunmiso.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://github.com/fonts-archive/HakgyoansimDunggeunmiso"
+ },
+ {
+  "family": "Jua",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Jua/license"
+ },
+ {
+  "family": "KBO Dia Gothic",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "cdn",
+  "css": "https://cdn.jsdelivr.net/gh/fonts-archive/KBODiaGothic/KBODiaGothic.css",
+  "license": "무료(상업 이용 가능)",
+  "licenseUrl": "https://github.com/fonts-archive/KBODiaGothic"
+ },
+ {
+  "family": "Stylish",
+  "category": "Sans Serif",
+  "ko": true,
+  "display": true,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Stylish/license"
+ },
+ {
+  "family": "Archivo",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Archivo/license"
+ },
+ {
+  "family": "Geist",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Geist/license"
+ },
+ {
+  "family": "Geist Mono",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Geist+Mono/license"
+ },
+ {
+  "family": "IBM Plex Mono",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/IBM+Plex+Mono/license"
+ },
+ {
+  "family": "Instrument Sans",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Instrument+Sans/license"
+ },
+ {
+  "family": "Inter Tight",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Inter+Tight/license"
+ },
+ {
+  "family": "JetBrains Mono",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/JetBrains+Mono/license"
+ },
+ {
+  "family": "Plus Jakarta Sans",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Plus+Jakarta+Sans/license"
+ },
+ {
+  "family": "Space Grotesk",
+  "category": "Sans Serif",
+  "ko": false,
+  "display": false,
+  "via": "google",
+  "license": "SIL OFL 1.1 또는 Apache 2.0",
+  "licenseUrl": "https://fonts.google.com/specimen/Space+Grotesk/license"
+ }
+]

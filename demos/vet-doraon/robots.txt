@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://doranon-vet.example.com/sitemap.xml

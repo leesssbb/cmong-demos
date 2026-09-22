@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nobaekjae.example.com/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hansolchae-care.example.com/sitemap.xml

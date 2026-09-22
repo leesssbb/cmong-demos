@@ -1,0 +1,1675 @@
+{
+"L01": {
+"home": [
+"hero",
+"intro-3line",
+"cards-3",
+"zigzag-2",
+"stat-band",
+"map",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"cards-3",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L02": {
+"home": [
+"hero",
+"quick-menu",
+"intro-3line",
+"cards-4",
+"news-band",
+"map",
+"footer-info"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L03": {
+"home": [
+"hero",
+"intro-2line",
+"zigzag-3",
+"spec-table",
+"faq-accordion",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"spec-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L04": {
+"home": [
+"hero-type",
+"work-grid",
+"about-2col",
+"process-timeline",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"about-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"work-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L05": {
+"home": [
+"hero-slider",
+"intro-3line",
+"cards-3",
+"gallery-grid",
+"news-band",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"cards-3",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L06": {
+"home": [
+"hero-offset",
+"editorial-2col",
+"zigzag-2",
+"gallery-masonry",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"editorial-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L07": {
+"home": [
+"hero",
+"logo-wall",
+"cards-3",
+"feature-split",
+"stat-band",
+"pricing",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"cards-3",
+"pricing",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L08": {
+"home": [
+"hero-stat",
+"intro-2line",
+"process-timeline",
+"cert-grid",
+"case-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"case-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L09": {
+"home": [
+"hero-banner",
+"category-row",
+"product-grid",
+"promo-band",
+"review-strip",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"product-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L10": {
+"home": [
+"hero-slim",
+"filter-sidebar",
+"product-grid",
+"pagination",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"product-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L11": {
+"home": [
+"hero-search",
+"category-row",
+"listing-grid",
+"map",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"listing-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L12": {
+"home": [
+"hero-map",
+"info-table",
+"branch-list",
+"transit-guide",
+"contact-form"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"info-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"hero-map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L13": {
+"home": [
+"hero-video",
+"intro-1line",
+"feature-split",
+"gallery-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"gallery-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L14": {
+"home": [
+"hero-type",
+"work-list",
+"about-1col",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"about-1col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L15": {
+"home": [
+"hero",
+"story-scroll",
+"gallery-masonry",
+"stat-band",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-scroll",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L16": {
+"home": [
+"hero-slider",
+"quick-menu",
+"about-2col",
+"news-band",
+"product-grid",
+"partner-logos",
+"footer-info"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"about-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"product-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L17": {
+"home": [
+"hero",
+"intro-2line",
+"year-timeline",
+"cert-grid",
+"org-chart",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L18": {
+"home": [
+"hero",
+"process-timeline",
+"spec-table",
+"cert-grid",
+"rfq-form"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"spec-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L19": {
+"home": [
+"hero-type",
+"price-table",
+"compare-table",
+"faq-accordion",
+"cta"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L20": {
+"home": [
+"hero",
+"room-cards",
+"rate-table",
+"amenity-grid",
+"map",
+"reserve-cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"room-cards",
+"rate-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L21": {
+"home": [
+"hero",
+"menu-list",
+"signature-3",
+"gallery-grid",
+"map",
+"hours-table"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"hours-table",
+"contact-form",
+"cta"
+]
+},
+"L22": {
+"home": [
+"hero-slider",
+"quick-menu",
+"care-grid",
+"doctor-list",
+"price-notice",
+"map"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"care-grid",
+"price-notice",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L23": {
+"home": [
+"hero-form",
+"trust-band",
+"service-list",
+"case-grid",
+"faq-accordion"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"trust-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"service-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L24": {
+"home": [
+"hero-slim",
+"toc-sidebar",
+"long-article",
+"related-list"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"long-article",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L25": {
+"home": [
+"hero-slim",
+"board-tabs",
+"board-list",
+"pagination",
+"search-row"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L26": {
+"home": [
+"hero-type",
+"filter-row",
+"gallery-masonry",
+"lightbox",
+"cta"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L27": {
+"home": [
+"hero",
+"compare-slider",
+"service-list",
+"price-table",
+"faq-accordion"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"service-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L28": {
+"home": [
+"hero-slim",
+"kpi-cards",
+"chart-band",
+"table-list",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"table-list",
+"contact-form",
+"cta"
+]
+},
+"L29": {
+"home": [
+"hero-type",
+"logo-wall",
+"case-grid",
+"stat-band",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-type",
+"case-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L30": {
+"home": [
+"hero",
+"category-row",
+"catalog-3",
+"spec-table",
+"download-list",
+"rfq-form"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"catalog-3",
+"spec-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L31": {
+"home": [
+"hero",
+"story-scroll",
+"pull-quote",
+"gallery-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-scroll",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"gallery-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L32": {
+"home": [
+"hero",
+"iso-diagram",
+"business-3",
+"news-band",
+"partner-logos",
+"footer-info"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"business-3",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L33": {
+"home": [
+"hero-slider",
+"triple-band",
+"notice-col",
+"product-col",
+"contact-col",
+"map"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L34": {
+"home": [
+"hero",
+"zigzag-4",
+"stat-band",
+"faq-accordion",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L35": {
+"home": [
+"hero",
+"cards-4",
+"zigzag-2",
+"price-table",
+"map",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L36": {
+"home": [
+"hero-person",
+"bio-2col",
+"career-timeline",
+"field-list",
+"contact-form"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"bio-2col",
+"career-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L37": {
+"home": [
+"hero-type",
+"cert-grid",
+"stat-band",
+"process-timeline",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L38": {
+"home": [
+"hero",
+"schedule-grid",
+"price-table",
+"coach-list",
+"map",
+"reserve-cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"schedule-grid",
+"contact-form",
+"cta"
+]
+},
+"L39": {
+"home": [
+"hero-type",
+"rule-list",
+"zigzag-2",
+"pull-quote",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L40": {
+"home": [
+"hero",
+"intro-3line",
+"cards-3",
+"gallery-grid",
+"sticky-cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"cards-3",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L41": {
+"home": [
+"hero-offset",
+"story-2col",
+"ingredient-list",
+"product-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"product-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L42": {
+"home": [
+"hero-feature",
+"article-grid",
+"category-rail",
+"popular-list",
+"newsletter"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L43": {
+"home": [
+"hero-slider",
+"fullscreen-sections",
+"gallery-grid",
+"contact-form"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"gallery-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L44": {
+"home": [
+"promo-strip",
+"hero-banner",
+"product-grid",
+"brand-row",
+"review-strip"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"product-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L45": {
+"home": [
+"hero-case",
+"problem-2col",
+"process-timeline",
+"result-stat",
+"related-cases"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"problem-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L46": {
+"home": [
+"hero-type",
+"category-tabs",
+"faq-accordion",
+"contact-form"
+],
+"about": [
+"hero-type",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-type",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-type",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L47": {
+"home": [
+"hero",
+"cards-2",
+"zigzag-2",
+"stat-band",
+"map",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L48": {
+"home": [
+"hero",
+"intro-2line",
+"partner-logos",
+"recruit-band",
+"news-band",
+"footer-info"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L49": {
+"home": [
+"hero-split",
+"fixed-left",
+"scroll-right",
+"gallery-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"gallery-grid",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L50": {
+"home": [
+"hero-stat",
+"stat-band",
+"zigzag-2",
+"stat-band-2",
+"cert-grid",
+"cta"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"stat-band",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L51": {
+"home": [
+"hero",
+"calendar-picker",
+"service-list",
+"price-notice",
+"map"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"service-list",
+"price-notice",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L52": {
+"home": [
+"pdp-gallery",
+"pdp-info",
+"spec-table",
+"related-grid",
+"review-strip"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"spec-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L53": {
+"home": [
+"hero",
+"doctor-list",
+"care-grid",
+"equipment-grid",
+"price-notice",
+"map"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"care-grid",
+"price-notice",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"info-table",
+"contact-form",
+"cta"
+]
+},
+"L54": {
+"home": [
+"hero",
+"track-cards",
+"schedule-grid",
+"fee-table",
+"teacher-list",
+"map"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"year-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"track-cards",
+"fee-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"map",
+"schedule-grid",
+"contact-form",
+"cta"
+]
+},
+"L55": {
+"home": [
+"hero-stat",
+"network-map",
+"fleet-grid",
+"process-timeline",
+"rfq-form",
+"footer-info"
+],
+"about": [
+"hero-slim",
+"intro-2line",
+"story-2col",
+"process-timeline",
+"cta"
+],
+"service": [
+"hero-slim",
+"menu-list",
+"price-table",
+"faq-accordion",
+"cta"
+],
+"contact": [
+"hero-slim",
+"network-map",
+"info-table",
+"contact-form",
+"cta"
+]
+}
+}

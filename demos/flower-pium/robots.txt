@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://piumsanghoe.example.com/sitemap.xml

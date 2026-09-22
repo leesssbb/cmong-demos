@@ -1,0 +1,1739 @@
+[
+ {
+  "id": "T01",
+  "name": "정밀 제조 · 수치 강조형",
+  "layout": "L08",
+  "colorScheme": "CS02",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "stat-band",
+   "process-timeline",
+   "cert-grid",
+   "rfq-form"
+  ],
+  "imagePack": "manufacturing",
+  "industries": [
+   "중소제조",
+   "금속가공",
+   "부품"
+  ],
+  "refs": [
+   "8514686790198845",
+   "533535887116331392"
+  ]
+ },
+ {
+  "id": "T02",
+  "name": "중소 제조 · 공정 중심",
+  "layout": "L18",
+  "colorScheme": "CS07",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "process-timeline",
+   "spec-table",
+   "cert-grid",
+   "rfq-form"
+  ],
+  "imagePack": "manufacturing",
+  "industries": [
+   "중소제조",
+   "사출",
+   "도장"
+  ],
+  "refs": [
+   "86061042863743243",
+   "563018691134726"
+  ]
+ },
+ {
+  "id": "T03",
+  "name": "산업재 카탈로그",
+  "layout": "L30",
+  "colorScheme": "CS23",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "catalog-3",
+   "spec-table",
+   "download-list",
+   "rfq-form"
+  ],
+  "imagePack": "manufacturing",
+  "industries": [
+   "부품",
+   "산업재",
+   "도소매"
+  ],
+  "refs": [
+   "1099230221556996618",
+   "88664686408592664"
+  ]
+ },
+ {
+  "id": "T04",
+  "name": "플랜트 · 사업영역 도해",
+  "layout": "L32",
+  "colorScheme": "CS02",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "iso-diagram",
+   "business-3",
+   "partner-logos",
+   "news-band"
+  ],
+  "imagePack": "manufacturing",
+  "industries": [
+   "플랜트",
+   "에너지",
+   "중공업"
+  ],
+  "refs": [
+   "86061042863743243",
+   "862439397406048453"
+  ]
+ },
+ {
+  "id": "T05",
+  "name": "인증 중심 제조",
+  "layout": "L37",
+  "colorScheme": "CS02",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cert-grid",
+   "stat-band",
+   "process-timeline",
+   "contact-form"
+  ],
+  "imagePack": "manufacturing",
+  "industries": [
+   "제조",
+   "검사",
+   "시험기관"
+  ],
+  "refs": [
+   "334392341108219822",
+   "86061042863743243"
+  ]
+ },
+ {
+  "id": "T06",
+  "name": "물류 · 거점 지도형",
+  "layout": "L55",
+  "colorScheme": "CS24",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "network-map",
+   "fleet-grid",
+   "process-timeline",
+   "rfq-form"
+  ],
+  "imagePack": "logistics",
+  "industries": [
+   "물류",
+   "운송",
+   "창고"
+  ],
+  "refs": [
+   "858920960205923342",
+   "87749892735763050"
+  ]
+ },
+ {
+  "id": "T07",
+  "name": "운송 · 수치 밴드 반복",
+  "layout": "L50",
+  "colorScheme": "CS24",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "stat-band",
+   "zigzag-2",
+   "cert-grid",
+   "rfq-form"
+  ],
+  "imagePack": "logistics",
+  "industries": [
+   "운송",
+   "택배",
+   "3PL"
+  ],
+  "refs": [
+   "533535887116331392",
+   "8514686790198845"
+  ]
+ },
+ {
+  "id": "T08",
+  "name": "도소매 · 사이드바 목록",
+  "layout": "L10",
+  "colorScheme": "CS09",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "filter-sidebar",
+   "product-grid",
+   "pagination"
+  ],
+  "imagePack": "retail",
+  "industries": [
+   "도소매",
+   "유통",
+   "부품"
+  ],
+  "refs": [
+   "18718154688684661",
+   "32791903532752490"
+  ]
+ },
+ {
+  "id": "T09",
+  "name": "유통 · 상품 선반형",
+  "layout": "L09",
+  "colorScheme": "CS09",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "category-row",
+   "product-grid",
+   "promo-band",
+   "review-strip"
+  ],
+  "imagePack": "retail",
+  "industries": [
+   "쇼핑몰",
+   "유통",
+   "식품"
+  ],
+  "refs": [
+   "101331060363067843",
+   "1029635533572161491"
+  ]
+ },
+ {
+  "id": "T10",
+  "name": "프로모션 스트립 커머스",
+  "layout": "L43",
+  "colorScheme": "CS22",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "promo-strip",
+   "product-grid",
+   "brand-row",
+   "review-strip"
+  ],
+  "imagePack": "retail",
+  "industries": [
+   "쇼핑몰",
+   "프랜차이즈",
+   "식품"
+  ],
+  "refs": [
+   "107875353571107145",
+   "8514686790198845"
+  ]
+ },
+ {
+  "id": "T11",
+  "name": "IT 솔루션 · 다크 SaaS",
+  "layout": "L07",
+  "colorScheme": "CS06",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "logo-wall",
+   "feature-split",
+   "stat-band",
+   "pricing"
+  ],
+  "imagePack": "itsolution",
+  "industries": [
+   "IT솔루션",
+   "SaaS",
+   "보안"
+  ],
+  "refs": [
+   "8585055535265061",
+   "3307399721144830"
+  ]
+ },
+ {
+  "id": "T12",
+  "name": "SI · 사례 중심",
+  "layout": "L29",
+  "colorScheme": "CS01",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "logo-wall",
+   "case-grid",
+   "stat-band",
+   "contact-form"
+  ],
+  "imagePack": "itsolution",
+  "industries": [
+   "IT솔루션",
+   "SI",
+   "컨설팅"
+  ],
+  "refs": [
+   "1091700765917489738",
+   "5629568280219721"
+  ]
+ },
+ {
+  "id": "T13",
+  "name": "관리자 화면 소개",
+  "layout": "L28",
+  "colorScheme": "CS06",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "kpi-cards",
+   "chart-band",
+   "table-list"
+  ],
+  "imagePack": "itsolution",
+  "industries": [
+   "IT솔루션",
+   "데이터",
+   "관리자"
+  ],
+  "refs": [
+   "86835099526616702",
+   "5418462038866216"
+  ]
+ },
+ {
+  "id": "T14",
+  "name": "구축 사례 상세",
+  "layout": "L44",
+  "colorScheme": "CS01",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "problem-2col",
+   "process-timeline",
+   "result-stat",
+   "related-cases"
+  ],
+  "imagePack": "itsolution",
+  "industries": [
+   "대행사",
+   "IT솔루션",
+   "시공"
+  ],
+  "refs": [
+   "882072277006064055",
+   "89438742592304665"
+  ]
+ },
+ {
+  "id": "T15",
+  "name": "로펌 · 상담 폼 우선",
+  "layout": "L23",
+  "colorScheme": "CS17",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "trust-band",
+   "service-list",
+   "case-grid",
+   "faq-accordion"
+  ],
+  "imagePack": "lawfirm",
+  "industries": [
+   "로펌",
+   "법무법인",
+   "법률사무소"
+  ],
+  "refs": [
+   "3307399717773543",
+   "5629568280219721"
+  ]
+ },
+ {
+  "id": "T16",
+  "name": "변호사 · 인물 중심",
+  "layout": "L36",
+  "colorScheme": "CS17",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "bio-2col",
+   "career-timeline",
+   "field-list",
+   "contact-form"
+  ],
+  "imagePack": "lawfirm",
+  "industries": [
+   "변호사",
+   "법무",
+   "감정평가"
+  ],
+  "refs": [
+   "3377768457517946",
+   "3307399717773543"
+  ]
+ },
+ {
+  "id": "T17",
+  "name": "세무회계 · 신뢰 정렬",
+  "layout": "L47",
+  "colorScheme": "CS32",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-2",
+   "zigzag-2",
+   "stat-band",
+   "contact-form"
+  ],
+  "imagePack": "office",
+  "industries": [
+   "세무회계",
+   "재무",
+   "기장"
+  ],
+  "refs": [
+   "5488830774146904",
+   "1900024838820619"
+  ]
+ },
+ {
+  "id": "T18",
+  "name": "세무 · 큰 타이포",
+  "layout": "L39",
+  "colorScheme": "CS32",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "rule-list",
+   "zigzag-2",
+   "pull-quote",
+   "contact-form"
+  ],
+  "imagePack": "office",
+  "industries": [
+   "세무사",
+   "회계",
+   "학회"
+  ],
+  "refs": [
+   "184155072260854523",
+   "185773553373529899"
+  ]
+ },
+ {
+  "id": "T19",
+  "name": "노무사 · 단정한 행정",
+  "layout": "L03",
+  "colorScheme": "CS03",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "zigzag-3",
+   "spec-table",
+   "faq-accordion"
+  ],
+  "imagePack": "office",
+  "industries": [
+   "노무사",
+   "행정사",
+   "협회"
+  ],
+  "refs": [
+   "1055599906147130",
+   "185140234676840494"
+  ]
+ },
+ {
+  "id": "T20",
+  "name": "건축사 · 오프셋 에디토리얼",
+  "layout": "L06",
+  "colorScheme": "CS04",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "editorial-2col",
+   "zigzag-2",
+   "gallery-masonry"
+  ],
+  "imagePack": "architecture",
+  "industries": [
+   "건축사",
+   "인테리어",
+   "설계"
+  ],
+  "refs": [
+   "3307399720991608",
+   "54606214230191051"
+  ]
+ },
+ {
+  "id": "T21",
+  "name": "건축 · 세로 분할 고정",
+  "layout": "L49",
+  "colorScheme": "CS27",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "fixed-left",
+   "scroll-right",
+   "gallery-grid"
+  ],
+  "imagePack": "architecture",
+  "industries": [
+   "건축",
+   "인테리어",
+   "스튜디오"
+  ],
+  "refs": [
+   "1900024838820619",
+   "56013589126178250"
+  ]
+ },
+ {
+  "id": "T22",
+  "name": "설계 · 작업 그리드",
+  "layout": "L04",
+  "colorScheme": "CS04",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "work-grid",
+   "about-2col",
+   "process-timeline"
+  ],
+  "imagePack": "architecture",
+  "industries": [
+   "설계",
+   "디자인",
+   "건축"
+  ],
+  "refs": [
+   "184155072260854523",
+   "185773553373529899"
+  ]
+ },
+ {
+  "id": "T23",
+  "name": "한의원 · 진료 그리드",
+  "layout": "L22",
+  "colorScheme": "CS11",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "quick-menu",
+   "care-grid",
+   "doctor-list",
+   "price-notice"
+  ],
+  "imagePack": "clinic",
+  "industries": [
+   "한의원",
+   "한방",
+   "침구"
+  ],
+  "refs": [
+   "534309943317998694",
+   "86342517853576023"
+  ]
+ },
+ {
+  "id": "T24",
+  "name": "한의원 · 세이지 차분형",
+  "layout": "L53",
+  "colorScheme": "CS12",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "doctor-list",
+   "care-grid",
+   "equipment-grid",
+   "price-notice"
+  ],
+  "imagePack": "clinic",
+  "industries": [
+   "한의원",
+   "요양",
+   "치유"
+  ],
+  "refs": [
+   "86342517853576023",
+   "534309943317998694"
+  ]
+ },
+ {
+  "id": "T25",
+  "name": "피부과 · 클리닉 블루",
+  "layout": "L02",
+  "colorScheme": "CS05",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "quick-menu",
+   "cards-4",
+   "price-notice",
+   "map"
+  ],
+  "imagePack": "clinic",
+  "industries": [
+   "피부과",
+   "내과",
+   "검진센터"
+  ],
+  "refs": [
+   "86061042874060761",
+   "87749892735763050"
+  ]
+ },
+ {
+  "id": "T26",
+  "name": "동물병원 · 화이트 틸",
+  "layout": "L40",
+  "colorScheme": "CS15",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-3",
+   "gallery-grid",
+   "price-notice",
+   "sticky-cta"
+  ],
+  "imagePack": "vet",
+  "industries": [
+   "동물병원",
+   "펫",
+   "수의"
+  ],
+  "refs": [
+   "3307399722664525",
+   "89438742592304665"
+  ]
+ },
+ {
+  "id": "T27",
+  "name": "요양원 · 자연 톤",
+  "layout": "L11",
+  "colorScheme": "CS11",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "listing-grid",
+   "care-grid",
+   "price-notice",
+   "map"
+  ],
+  "imagePack": "care",
+  "industries": [
+   "요양원",
+   "주야간보호",
+   "복지"
+  ],
+  "refs": [
+   "86061042874060761",
+   "86835099526616702"
+  ]
+ },
+ {
+  "id": "T28",
+  "name": "예약 캘린더형 의료",
+  "layout": "L51",
+  "colorScheme": "CS05",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "calendar-picker",
+   "service-list",
+   "price-notice",
+   "map"
+  ],
+  "imagePack": "clinic",
+  "industries": [
+   "병원",
+   "상담",
+   "검진"
+  ],
+  "refs": [
+   "86835099526616702",
+   "89438742592304665"
+  ]
+ },
+ {
+  "id": "T29",
+  "name": "입시학원 · 과정 트랙",
+  "layout": "L54",
+  "colorScheme": "CS21",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "track-cards",
+   "schedule-grid",
+   "fee-table",
+   "teacher-list"
+  ],
+  "imagePack": "academy",
+  "industries": [
+   "입시학원",
+   "교습소",
+   "보습"
+  ],
+  "refs": [
+   "3377768457517942",
+   "5488830793559525"
+  ]
+ },
+ {
+  "id": "T30",
+  "name": "학원 · 가격표 중심",
+  "layout": "L19",
+  "colorScheme": "CS21",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "price-table",
+   "compare-table",
+   "faq-accordion"
+  ],
+  "imagePack": "academy",
+  "industries": [
+   "학원",
+   "온라인강의",
+   "구독"
+  ],
+  "refs": [
+   "5488830793559525",
+   "3307399721144830"
+  ]
+ },
+ {
+  "id": "T31",
+  "name": "어린이집 · 따뜻한 톤",
+  "layout": "L02",
+  "colorScheme": "CS22",
+  "type": {
+   "display": "나눔스퀘어네오 ExtraBold",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "quick-menu",
+   "cards-4",
+   "news-band",
+   "map"
+  ],
+  "imagePack": "kids",
+  "industries": [
+   "어린이집",
+   "유치원",
+   "키즈"
+  ],
+  "refs": [
+   "86061042874060761",
+   "87749892735763050"
+  ]
+ },
+ {
+  "id": "T32",
+  "name": "자동차정비 · 전후 비교",
+  "layout": "L27",
+  "colorScheme": "CS23",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "compare-slider",
+   "service-list",
+   "price-table",
+   "faq-accordion"
+  ],
+  "imagePack": "autoshop",
+  "industries": [
+   "자동차정비",
+   "카센터",
+   "튜닝"
+  ],
+  "refs": [
+   "563018691134726",
+   "5629568280219721"
+  ]
+ },
+ {
+  "id": "T33",
+  "name": "정비 · 4열 서비스",
+  "layout": "L35",
+  "colorScheme": "CS23",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-4",
+   "zigzag-2",
+   "price-table",
+   "map"
+  ],
+  "imagePack": "autoshop",
+  "industries": [
+   "정비",
+   "설비",
+   "공사"
+  ],
+  "refs": [
+   "87749892735763050",
+   "563018691134726"
+  ]
+ },
+ {
+  "id": "T34",
+  "name": "이사청소 · 생활 서비스",
+  "layout": "L35",
+  "colorScheme": "CS26",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-4",
+   "price-table",
+   "faq-accordion",
+   "map"
+  ],
+  "imagePack": "cleaning",
+  "industries": [
+   "이사청소",
+   "하우스키핑",
+   "생활"
+  ],
+  "refs": [
+   "87749892735763050",
+   "563018691134726"
+  ]
+ },
+ {
+  "id": "T35",
+  "name": "청소 · 견적 폼 우선",
+  "layout": "L23",
+  "colorScheme": "CS26",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "trust-band",
+   "service-list",
+   "price-table",
+   "faq-accordion"
+  ],
+  "imagePack": "cleaning",
+  "industries": [
+   "청소",
+   "방역",
+   "소독"
+  ],
+  "refs": [
+   "3307399717773543",
+   "5629568280219721"
+  ]
+ },
+ {
+  "id": "T36",
+  "name": "부동산 · 검색 히어로",
+  "layout": "L11",
+  "colorScheme": "CS25",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "hero-search",
+   "listing-grid",
+   "map",
+   "info-table"
+  ],
+  "imagePack": "realestate",
+  "industries": [
+   "부동산중개",
+   "분양",
+   "임대"
+  ],
+  "refs": [
+   "86061042874060761",
+   "86835099526616702"
+  ]
+ },
+ {
+  "id": "T37",
+  "name": "부동산 · 지도 정보표",
+  "layout": "L12",
+  "colorScheme": "CS25",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "info-table",
+   "branch-list",
+   "transit-guide",
+   "contact-form"
+  ],
+  "imagePack": "realestate",
+  "industries": [
+   "중개사무소",
+   "지점안내",
+   "분양"
+  ],
+  "refs": [
+   "86061042874060761",
+   "563018691134726"
+  ]
+ },
+ {
+  "id": "T38",
+  "name": "사진스튜디오 · 매스너리",
+  "layout": "L26",
+  "colorScheme": "CS27",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "filter-row",
+   "gallery-masonry",
+   "lightbox"
+  ],
+  "imagePack": "studio",
+  "industries": [
+   "사진스튜디오",
+   "리터칭",
+   "작가"
+  ],
+  "refs": [
+   "5699937023325100",
+   "54676582970590310"
+  ]
+ },
+ {
+  "id": "T39",
+  "name": "스튜디오 · 타이포 온리",
+  "layout": "L14",
+  "colorScheme": "CS28",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "work-list",
+   "about-1col",
+   "contact-form"
+  ],
+  "imagePack": "studio",
+  "industries": [
+   "포트폴리오",
+   "갤러리",
+   "작가"
+  ],
+  "refs": [
+   "184155072260854523",
+   "53480314319655104"
+  ]
+ },
+ {
+  "id": "T40",
+  "name": "스튜디오 · 차콜 라벤더 예약",
+  "layout": "L40",
+  "colorScheme": "CS20",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-3",
+   "gallery-grid",
+   "calendar-picker",
+   "sticky-cta"
+  ],
+  "imagePack": "studio",
+  "industries": [
+   "사진스튜디오",
+   "공연",
+   "대관"
+  ],
+  "refs": [
+   "3307399722664525",
+   "89438742592304665"
+  ]
+ },
+ {
+  "id": "T41",
+  "name": "베이커리 · 메뉴판",
+  "layout": "L21",
+  "colorScheme": "CS08",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "menu-list",
+   "signature-3",
+   "gallery-grid",
+   "hours-table"
+  ],
+  "imagePack": "bakery",
+  "industries": [
+   "베이커리",
+   "디저트",
+   "떡집"
+  ],
+  "refs": [
+   "882072277006064055",
+   "533958099593541246"
+  ]
+ },
+ {
+  "id": "T42",
+  "name": "한식당 · 딥로즈",
+  "layout": "L21",
+  "colorScheme": "CS29",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "menu-list",
+   "signature-3",
+   "hours-table",
+   "map"
+  ],
+  "imagePack": "restaurant",
+  "industries": [
+   "한식당",
+   "전통",
+   "한정식"
+  ],
+  "refs": [
+   "882072277006064055",
+   "533958099593541246"
+  ]
+ },
+ {
+  "id": "T43",
+  "name": "꽃집 · 갤러리 매스너리",
+  "layout": "L26",
+  "colorScheme": "CS10",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "filter-row",
+   "gallery-masonry",
+   "price-table",
+   "map"
+  ],
+  "imagePack": "florist",
+  "industries": [
+   "꽃집",
+   "플라워",
+   "소품샵"
+  ],
+  "refs": [
+   "5699937023325100",
+   "54676582970590310"
+  ]
+ },
+ {
+  "id": "T44",
+  "name": "브랜드 스토리 · 공방",
+  "layout": "L41",
+  "colorScheme": "CS10",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "story-2col",
+   "ingredient-list",
+   "product-grid"
+  ],
+  "imagePack": "craft",
+  "industries": [
+   "화장품",
+   "식품",
+   "공방"
+  ],
+  "refs": [
+   "3307399717496060",
+   "187110559512776320"
+  ]
+ },
+ {
+  "id": "T45",
+  "name": "펜션 · 객실 카드",
+  "layout": "L20",
+  "colorScheme": "CS30",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "room-cards",
+   "rate-table",
+   "amenity-grid",
+   "reserve-cta"
+  ],
+  "imagePack": "pension",
+  "industries": [
+   "펜션",
+   "리조트",
+   "글램핑"
+  ],
+  "refs": [
+   "5559199536257601",
+   "3377768459353154"
+  ]
+ },
+ {
+  "id": "T46",
+  "name": "숙박 · 영상 히어로",
+  "layout": "L13",
+  "colorScheme": "CS30",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "feature-split",
+   "gallery-grid",
+   "room-cards",
+   "reserve-cta"
+  ],
+  "imagePack": "pension",
+  "industries": [
+   "리조트",
+   "호텔",
+   "풀빌라"
+  ],
+  "refs": [
+   "8514686790198845",
+   "1055599902168668"
+  ]
+ },
+ {
+  "id": "T47",
+  "name": "헬스장 · 블랙 라임",
+  "layout": "L38",
+  "colorScheme": "CS13",
+  "type": {
+   "display": "나눔스퀘어네오 ExtraBold",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "schedule-grid",
+   "price-table",
+   "coach-list",
+   "reserve-cta"
+  ],
+  "imagePack": "gym",
+  "industries": [
+   "헬스장",
+   "크로스핏",
+   "PT"
+  ],
+  "refs": [
+   "3377768457517942",
+   "5488830793559525"
+  ]
+ },
+ {
+  "id": "T48",
+  "name": "골프연습장 · 페일그린",
+  "layout": "L38",
+  "colorScheme": "CS31",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "schedule-grid",
+   "price-table",
+   "coach-list",
+   "map"
+  ],
+  "imagePack": "golf",
+  "industries": [
+   "골프연습장",
+   "스크린골프",
+   "레저"
+  ],
+  "refs": [
+   "3377768457517942",
+   "5488830793559525"
+  ]
+ },
+ {
+  "id": "T49",
+  "name": "네일 · 마젠타 갤러리",
+  "layout": "L26",
+  "colorScheme": "CS18",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "filter-row",
+   "gallery-masonry",
+   "price-table",
+   "sticky-cta"
+  ],
+  "imagePack": "nail",
+  "industries": [
+   "네일",
+   "에스테틱",
+   "헤어"
+  ],
+  "refs": [
+   "5699937023325100",
+   "54676582970590310"
+  ]
+ },
+ {
+  "id": "T50",
+  "name": "필라테스 · 플럼 시간표",
+  "layout": "L38",
+  "colorScheme": "CS19",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "schedule-grid",
+   "price-table",
+   "coach-list",
+   "reserve-cta"
+  ],
+  "imagePack": "pilates",
+  "industries": [
+   "필라테스",
+   "요가",
+   "스튜디오"
+  ],
+  "refs": [
+   "3377768457517942",
+   "5488830793559525"
+  ]
+ },
+ {
+  "id": "T51",
+  "name": "카페 · 스토리 스크롤",
+  "layout": "L31",
+  "colorScheme": "CS08",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "story-scroll",
+   "pull-quote",
+   "gallery-grid",
+   "menu-list"
+  ],
+  "imagePack": "cafe",
+  "industries": [
+   "카페",
+   "로스터리",
+   "공방"
+  ],
+  "refs": [
+   "54606214230191051",
+   "187110559512776320"
+  ]
+ },
+ {
+  "id": "T52",
+  "name": "치과 · 슬라이더 진료",
+  "layout": "L05",
+  "colorScheme": "CS05",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "cards-3",
+   "gallery-grid",
+   "price-notice",
+   "news-band"
+  ],
+  "imagePack": "dental",
+  "industries": [
+   "치과",
+   "교정",
+   "임플란트"
+  ],
+  "refs": [
+   "534309943317998694",
+   "107875353571107145"
+  ]
+ },
+ {
+  "id": "T53",
+  "name": "기업 · 유틸리티 바 국내형",
+  "layout": "L16",
+  "colorScheme": "CS03",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "quick-menu",
+   "about-2col",
+   "news-band",
+   "partner-logos"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "중소기업",
+   "제조",
+   "유통"
+  ],
+  "refs": [
+   "858920960205923342",
+   "86061042863743243"
+  ]
+ },
+ {
+  "id": "T54",
+  "name": "기업 · 연혁 타임라인",
+  "layout": "L17",
+  "colorScheme": "CS02",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "year-timeline",
+   "cert-grid",
+   "org-chart"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "제조",
+   "협회",
+   "법인"
+  ],
+  "refs": [
+   "334392341108219822",
+   "86061042863743243"
+  ]
+ },
+ {
+  "id": "T55",
+  "name": "기관 · 3단 정보 밴드",
+  "layout": "L33",
+  "colorScheme": "CS03",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "triple-band",
+   "notice-col",
+   "product-col",
+   "contact-col"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "중소기업",
+   "협회",
+   "기관"
+  ],
+  "refs": [
+   "87749892735763050",
+   "862439397406048453"
+  ]
+ },
+ {
+  "id": "T56",
+  "name": "기업 · 파트너 + 채용",
+  "layout": "L48",
+  "colorScheme": "CS24",
+  "type": {
+   "display": "Noto Sans KR 700",
+   "body": "Noto Sans KR 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "partner-logos",
+   "recruit-band",
+   "news-band"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "중소기업",
+   "법인",
+   "기관"
+  ],
+  "refs": [
+   "858920960205923342",
+   "862439397406048453"
+  ]
+ },
+ {
+  "id": "T57",
+  "name": "고객지원 · FAQ 중심",
+  "layout": "L46",
+  "colorScheme": "CS01",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "category-tabs",
+   "faq-accordion",
+   "contact-form"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "고객지원",
+   "보험",
+   "서비스"
+  ],
+  "refs": [
+   "3307399721144830",
+   "8585055535265061"
+  ]
+ },
+ {
+  "id": "T58",
+  "name": "공지·자료실 게시판",
+  "layout": "L25",
+  "colorScheme": "CS03",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "board-tabs",
+   "board-list",
+   "pagination",
+   "search-row"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "공지사항",
+   "자료실",
+   "커뮤니티"
+  ],
+  "refs": [
+   "1970393576638728",
+   "576390452335191407"
+  ]
+ },
+ {
+  "id": "T59",
+  "name": "정책·약관 문서형",
+  "layout": "L24",
+  "colorScheme": "CS27",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "toc-sidebar",
+   "long-article",
+   "related-list"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "약관",
+   "정책",
+   "자료실"
+  ],
+  "refs": [
+   "897131188284356543",
+   "576390452335191407"
+  ]
+ },
+ {
+  "id": "T60",
+  "name": "뉴스룸 매거진",
+  "layout": "L42",
+  "colorScheme": "CS28",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "article-grid",
+   "category-rail",
+   "popular-list",
+   "newsletter"
+  ],
+  "imagePack": "corporate",
+  "industries": [
+   "미디어",
+   "블로그",
+   "기관"
+  ],
+  "refs": [
+   "193162271514397026",
+   "191825265371049695"
+  ]
+ },
+ {
+  "id": "T61",
+  "name": "브랜드 · 풀스크린 전환",
+  "layout": "L43",
+  "colorScheme": "CS28",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "fullscreen-sections",
+   "gallery-grid",
+   "contact-form"
+  ],
+  "imagePack": "brand",
+  "industries": [
+   "브랜드",
+   "전시",
+   "자동차"
+  ],
+  "refs": [
+   "107875353571107145",
+   "8514686790198845"
+  ]
+ },
+ {
+  "id": "T62",
+  "name": "브랜드 · 사이드 레일",
+  "layout": "L15",
+  "colorScheme": "CS14",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "story-scroll",
+   "gallery-masonry",
+   "stat-band"
+  ],
+  "imagePack": "brand",
+  "industries": [
+   "브랜드",
+   "전시",
+   "건축"
+  ],
+  "refs": [
+   "1970393584402838",
+   "56013589126178250"
+  ]
+ },
+ {
+  "id": "T63",
+  "name": "리테일 · PDP 상세",
+  "layout": "L52",
+  "colorScheme": "CS09",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "pdp-gallery",
+   "pdp-info",
+   "spec-table",
+   "related-grid"
+  ],
+  "imagePack": "retail",
+  "industries": [
+   "쇼핑몰",
+   "부품",
+   "가구"
+  ],
+  "refs": [
+   "5488830774146904",
+   "5699937023325100"
+  ]
+ },
+ {
+  "id": "T64",
+  "name": "프리미엄 가구 · 스플릿",
+  "layout": "L03",
+  "colorScheme": "CS16",
+  "type": {
+   "display": "Pretendard 600",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "zigzag-3",
+   "spec-table",
+   "faq-accordion"
+  ],
+  "imagePack": "furniture",
+  "industries": [
+   "가구",
+   "프리미엄 리테일",
+   "브랜드"
+  ],
+  "refs": [
+   "1055599906147130",
+   "185140234676840494"
+  ]
+ },
+ {
+  "id": "T65",
+  "name": "컨설팅 · 지그재그 롱폼",
+  "layout": "L34",
+  "colorScheme": "CS01",
+  "type": {
+   "display": "Pretendard 700",
+   "body": "Pretendard 400",
+   "numeric": "Geist"
+  },
+  "components": [
+   "zigzag-4",
+   "stat-band",
+   "faq-accordion"
+  ],
+  "imagePack": "office",
+  "industries": [
+   "서비스업",
+   "컨설팅",
+   "교육"
+  ],
+  "refs": [
+   "1900024838820619",
+   "5488830774146904"
+  ]
+ }
+]

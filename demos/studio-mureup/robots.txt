@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mureup-studio.example.com/sitemap.xml

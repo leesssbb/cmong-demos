@@ -1,0 +1,476 @@
+{
+ "measured": {
+  "sites": 121,
+  "radius": [
+   [
+    "50%",
+    1476
+   ],
+   [
+    "4px",
+    432
+   ],
+   [
+    "10px",
+    394
+   ],
+   [
+    "3px",
+    347
+   ],
+   [
+    "8px",
+    340
+   ],
+   [
+    "100%",
+    329
+   ],
+   [
+    "2px",
+    295
+   ],
+   [
+    "5px",
+    265
+   ],
+   [
+    "12px",
+    237
+   ],
+   [
+    "20px",
+    188
+   ],
+   [
+    "999px",
+    183
+   ],
+   [
+    "30px",
+    159
+   ]
+  ],
+  "dur": [
+   [
+    ".3",
+    3507
+   ],
+   [
+    ".2",
+    1433
+   ],
+   [
+    ".5",
+    1187
+   ],
+   [
+    ".45",
+    798
+   ],
+   [
+    ".4",
+    789
+   ],
+   [
+    "1",
+    681
+   ],
+   [
+    "0",
+    626
+   ],
+   [
+    ".6",
+    585
+   ]
+  ],
+  "border": [
+   [
+    "1",
+    5953
+   ],
+   [
+    "2",
+    1038
+   ],
+   [
+    "3",
+    222
+   ],
+   [
+    "4",
+    215
+   ],
+   [
+    "5",
+    90
+   ]
+  ],
+  "easing": [
+   [
+    "linear",
+    3301
+   ],
+   [
+    "ease-in-out",
+    2215
+   ],
+   [
+    "ease-out",
+    1969
+   ],
+   [
+    "cubic-bezier(.33,1,.68,1)",
+    758
+   ],
+   [
+    "ease-in",
+    717
+   ],
+   [
+    "cubic-bezier(.4,0,.2,1)",
+    387
+   ]
+  ],
+  "shadowPct": 90,
+  "upperPct": 79
+ },
+ "kits": [
+  {
+   "id": "K01",
+   "name": "에디토리얼",
+   "note": "각진 모서리·그림자 없음·구분선 1px·여백 넓음",
+   "radius": "0px",
+   "shadow": "none",
+   "border": "1px",
+   "dur": ".3s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "airy",
+   "grid": "list",
+   "pill": false,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "법무",
+    "세무",
+    "노무",
+    "건축",
+    "출판"
+   ],
+   "css": "/* 에디토리얼 — 각진 모서리·그림자 없음·구분선 1px·여백 넓음 */\n:root{--ui-r:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:7rem!important;padding-bottom:7rem!important}\n.grid{gap:2.5rem!important}\np{line-height:1.75}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:1fr!important}}\n@media(min-width:768px){.grid>article{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}",
+   "cssDemo": "/* 에디토리얼 — 각진 모서리·그림자 없음·구분선 1px·여백 넓음 */\n[data-uikit=\"K01\"]{--radius:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K01\"] [class*=\"-btn\"],[data-uikit=\"K01\"] button[class*=\"-btn\"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K01\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K01\"] [class*=\"-card\"]{border-radius:0px;box-shadow:none;border:1px solid var(--line)}\n[data-uikit=\"K01\"] figure,[data-uikit=\"K01\"] .ph{border-radius:0px}\n[data-uikit=\"K01\"] [class*=\"-sec\"]{padding-top:7rem;padding-bottom:7rem}\n[data-uikit=\"K01\"] [class*=\"-cards\"],[data-uikit=\"K01\"] [class*=\"-gal\"]{gap:2.5rem}\n[data-uikit=\"K01\"] [class*=\"-p\"],[data-uikit=\"K01\"] p{line-height:1.75}\n@media(min-width:900px){[data-uikit=\"K01\"] [class*=\"-cards\"]{grid-template-columns:1fr}}\n@media(min-width:900px){[data-uikit=\"K01\"] [class*=\"-cards\"]>*{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}"
+  },
+  {
+   "id": "K02",
+   "name": "소프트 카드",
+   "note": "둥근 12px·은은한 그림자·테두리 없음·밀집",
+   "radius": "12px",
+   "shadow": "0 1px 3px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06)",
+   "border": "0px",
+   "dur": ".25s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "dense",
+   "grid": "cards3",
+   "pill": true,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "카페",
+    "미용",
+    "반려동물",
+    "네일"
+   ],
+   "css": "/* 소프트 카드 — 둥근 12px·은은한 그림자·테두리 없음·밀집 */\n:root{--ui-r:12px;--ui-dur:.25s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:0 1px 3px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06)!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:3rem!important;padding-bottom:3rem!important}\n.grid{gap:1rem!important}\np{line-height:1.5}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 소프트 카드 — 둥근 12px·은은한 그림자·테두리 없음·밀집 */\n[data-uikit=\"K02\"]{--radius:12px;--ui-dur:.25s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K02\"] [class*=\"-btn\"],[data-uikit=\"K02\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K02\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K02\"] [class*=\"-card\"]{border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06)}\n[data-uikit=\"K02\"] figure,[data-uikit=\"K02\"] .ph{border-radius:12px}\n[data-uikit=\"K02\"] [class*=\"-sec\"]{padding-top:3rem;padding-bottom:3rem}\n[data-uikit=\"K02\"] [class*=\"-cards\"],[data-uikit=\"K02\"] [class*=\"-gal\"]{gap:1rem}\n[data-uikit=\"K02\"] [class*=\"-p\"],[data-uikit=\"K02\"] p{line-height:1.5}\n@media(min-width:900px){[data-uikit=\"K02\"] [class*=\"-cards\"]{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K03",
+   "name": "단단한 박스",
+   "note": "4px·테두리 2px·그림자 없음·또렷한 경계",
+   "radius": "4px",
+   "shadow": "none",
+   "border": "2px",
+   "dur": ".2s",
+   "ez": "ease-out",
+   "density": "normal",
+   "grid": "cards2",
+   "pill": false,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "제조",
+    "물류",
+    "자동차",
+    "건설",
+    "청소",
+    "무역"
+   ],
+   "css": "/* 단단한 박스 — 4px·테두리 2px·그림자 없음·또렷한 경계 */\n:root{--ui-r:4px;--ui-dur:.2s;--ui-ez:ease-out}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:2px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:4.5rem!important;padding-bottom:4.5rem!important}\n.grid{gap:1.5rem!important}\np{line-height:1.6}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 단단한 박스 — 4px·테두리 2px·그림자 없음·또렷한 경계 */\n[data-uikit=\"K03\"]{--radius:4px;--ui-dur:.2s;--ui-ez:ease-out}\n[data-uikit=\"K03\"] [class*=\"-btn\"],[data-uikit=\"K03\"] button[class*=\"-btn\"]{border-radius:4px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K03\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K03\"] [class*=\"-card\"]{border-radius:4px;box-shadow:none;border:2px solid var(--line)}\n[data-uikit=\"K03\"] figure,[data-uikit=\"K03\"] .ph{border-radius:4px}\n[data-uikit=\"K03\"] [class*=\"-sec\"]{padding-top:4.5rem;padding-bottom:4.5rem}\n[data-uikit=\"K03\"] [class*=\"-cards\"],[data-uikit=\"K03\"] [class*=\"-gal\"]{gap:1.5rem}\n[data-uikit=\"K03\"] [class*=\"-p\"],[data-uikit=\"K03\"] p{line-height:1.6}\n@media(min-width:900px){[data-uikit=\"K03\"] [class*=\"-cards\"]{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K04",
+   "name": "알약 미니멀",
+   "note": "알약 버튼·모서리 8px·그림자 없음·여백 넓음",
+   "radius": "8px",
+   "shadow": "none",
+   "border": "1px",
+   "dur": ".3s",
+   "ez": "ease-in-out",
+   "density": "airy",
+   "grid": "cards3",
+   "pill": true,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "필라테스",
+    "요가",
+    "골프",
+    "헬스",
+    "스튜디오",
+    "웰니스"
+   ],
+   "css": "/* 알약 미니멀 — 알약 버튼·모서리 8px·그림자 없음·여백 넓음 */\n:root{--ui-r:8px;--ui-dur:.3s;--ui-ez:ease-in-out}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:7rem!important;padding-bottom:7rem!important}\n.grid{gap:2.5rem!important}\np{line-height:1.75}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 알약 미니멀 — 알약 버튼·모서리 8px·그림자 없음·여백 넓음 */\n[data-uikit=\"K04\"]{--radius:8px;--ui-dur:.3s;--ui-ez:ease-in-out}\n[data-uikit=\"K04\"] [class*=\"-btn\"],[data-uikit=\"K04\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K04\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K04\"] [class*=\"-card\"]{border-radius:8px;box-shadow:none;border:1px solid var(--line)}\n[data-uikit=\"K04\"] figure,[data-uikit=\"K04\"] .ph{border-radius:8px}\n[data-uikit=\"K04\"] [class*=\"-sec\"]{padding-top:7rem;padding-bottom:7rem}\n[data-uikit=\"K04\"] [class*=\"-cards\"],[data-uikit=\"K04\"] [class*=\"-gal\"]{gap:2.5rem}\n[data-uikit=\"K04\"] [class*=\"-p\"],[data-uikit=\"K04\"] p{line-height:1.75}\n@media(min-width:900px){[data-uikit=\"K04\"] [class*=\"-cards\"]{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K05",
+   "name": "깊은 그림자",
+   "note": "둥근 16px·큰 그림자·떠 있는 카드",
+   "radius": "16px",
+   "shadow": "0 2px 8px rgba(0,0,0,.10),0 16px 40px rgba(0,0,0,.10)",
+   "border": "0px",
+   "dur": ".35s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "normal",
+   "grid": "cards3",
+   "pill": true,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "IT",
+    "교육",
+    "학원",
+    "플랫폼",
+    "스타트업"
+   ],
+   "css": "/* 깊은 그림자 — 둥근 16px·큰 그림자·떠 있는 카드 */\n:root{--ui-r:16px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:0 2px 8px rgba(0,0,0,.10),0 16px 40px rgba(0,0,0,.10)!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:4.5rem!important;padding-bottom:4.5rem!important}\n.grid{gap:1.5rem!important}\np{line-height:1.6}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 깊은 그림자 — 둥근 16px·큰 그림자·떠 있는 카드 */\n[data-uikit=\"K05\"]{--radius:16px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K05\"] [class*=\"-btn\"],[data-uikit=\"K05\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K05\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K05\"] [class*=\"-card\"]{border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,.10),0 16px 40px rgba(0,0,0,.10)}\n[data-uikit=\"K05\"] figure,[data-uikit=\"K05\"] .ph{border-radius:16px}\n[data-uikit=\"K05\"] [class*=\"-sec\"]{padding-top:4.5rem;padding-bottom:4.5rem}\n[data-uikit=\"K05\"] [class*=\"-cards\"],[data-uikit=\"K05\"] [class*=\"-gal\"]{gap:1.5rem}\n[data-uikit=\"K05\"] [class*=\"-p\"],[data-uikit=\"K05\"] p{line-height:1.6}\n@media(min-width:900px){[data-uikit=\"K05\"] [class*=\"-cards\"]{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K06",
+   "name": "선 중심",
+   "note": "모서리 2px·테두리 1px·그림자 없음·표처럼 정렬",
+   "radius": "2px",
+   "shadow": "none",
+   "border": "1px",
+   "dur": ".2s",
+   "ez": "linear",
+   "density": "dense",
+   "grid": "list",
+   "pill": false,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "병원",
+    "치과",
+    "피부과",
+    "약국",
+    "동물병원",
+    "금융",
+    "요양",
+    "부동산"
+   ],
+   "css": "/* 선 중심 — 모서리 2px·테두리 1px·그림자 없음·표처럼 정렬 */\n:root{--ui-r:2px;--ui-dur:.2s;--ui-ez:linear}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:3rem!important;padding-bottom:3rem!important}\n.grid{gap:1rem!important}\np{line-height:1.5}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:1fr!important}}\n@media(min-width:768px){.grid>article{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}",
+   "cssDemo": "/* 선 중심 — 모서리 2px·테두리 1px·그림자 없음·표처럼 정렬 */\n[data-uikit=\"K06\"]{--radius:2px;--ui-dur:.2s;--ui-ez:linear}\n[data-uikit=\"K06\"] [class*=\"-btn\"],[data-uikit=\"K06\"] button[class*=\"-btn\"]{border-radius:2px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K06\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K06\"] [class*=\"-card\"]{border-radius:2px;box-shadow:none;border:1px solid var(--line)}\n[data-uikit=\"K06\"] figure,[data-uikit=\"K06\"] .ph{border-radius:2px}\n[data-uikit=\"K06\"] [class*=\"-sec\"]{padding-top:3rem;padding-bottom:3rem}\n[data-uikit=\"K06\"] [class*=\"-cards\"],[data-uikit=\"K06\"] [class*=\"-gal\"]{gap:1rem}\n[data-uikit=\"K06\"] [class*=\"-p\"],[data-uikit=\"K06\"] p{line-height:1.5}\n@media(min-width:900px){[data-uikit=\"K06\"] [class*=\"-cards\"]{grid-template-columns:1fr}}\n@media(min-width:900px){[data-uikit=\"K06\"] [class*=\"-cards\"]>*{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}"
+  },
+  {
+   "id": "K07",
+   "name": "둥근 블록",
+   "note": "20px·색 블록 강조·테두리 없음·시원한 여백",
+   "radius": "20px",
+   "shadow": "none",
+   "border": "0px",
+   "dur": ".3s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "airy",
+   "grid": "cards2",
+   "pill": true,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "어린이",
+    "유치원",
+    "놀이",
+    "이벤트"
+   ],
+   "css": "/* 둥근 블록 — 20px·색 블록 강조·테두리 없음·시원한 여백 */\n:root{--ui-r:20px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:7rem!important;padding-bottom:7rem!important}\n.grid{gap:2.5rem!important}\np{line-height:1.75}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 둥근 블록 — 20px·색 블록 강조·테두리 없음·시원한 여백 */\n[data-uikit=\"K07\"]{--radius:20px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K07\"] [class*=\"-btn\"],[data-uikit=\"K07\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K07\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K07\"] [class*=\"-card\"]{border-radius:20px;box-shadow:none}\n[data-uikit=\"K07\"] figure,[data-uikit=\"K07\"] .ph{border-radius:20px}\n[data-uikit=\"K07\"] [class*=\"-sec\"]{padding-top:7rem;padding-bottom:7rem}\n[data-uikit=\"K07\"] [class*=\"-cards\"],[data-uikit=\"K07\"] [class*=\"-gal\"]{gap:2.5rem}\n[data-uikit=\"K07\"] [class*=\"-p\"],[data-uikit=\"K07\"] p{line-height:1.75}\n@media(min-width:900px){[data-uikit=\"K07\"] [class*=\"-cards\"]{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K08",
+   "name": "원형 강조",
+   "note": "사진 원형·알약 버튼·중간 여백",
+   "radius": "10px",
+   "shadow": "0 1px 2px rgba(0,0,0,.06)",
+   "border": "1px",
+   "dur": ".3s",
+   "ez": "ease-out",
+   "density": "normal",
+   "grid": "cards3",
+   "pill": true,
+   "hover": "lift",
+   "circle": true,
+   "best": [
+    "사진",
+    "인물",
+    "코치",
+    "강사",
+    "의료진"
+   ],
+   "css": "/* 원형 강조 — 사진 원형·알약 버튼·중간 여백 */\n:root{--ui-r:10px;--ui-dur:.3s;--ui-ez:ease-out}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:50%!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:0 1px 2px rgba(0,0,0,.06)!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:4.5rem!important;padding-bottom:4.5rem!important}\n.grid{gap:1.5rem!important}\np{line-height:1.6}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 원형 강조 — 사진 원형·알약 버튼·중간 여백 */\n[data-uikit=\"K08\"]{--radius:10px;--ui-dur:.3s;--ui-ez:ease-out}\n[data-uikit=\"K08\"] [class*=\"-btn\"],[data-uikit=\"K08\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K08\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K08\"] [class*=\"-card\"]{border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid var(--line)}\n[data-uikit=\"K08\"] figure,[data-uikit=\"K08\"] .ph{border-radius:50%}\n[data-uikit=\"K08\"] [class*=\"-sec\"]{padding-top:4.5rem;padding-bottom:4.5rem}\n[data-uikit=\"K08\"] [class*=\"-cards\"],[data-uikit=\"K08\"] [class*=\"-gal\"]{gap:1.5rem}\n[data-uikit=\"K08\"] [class*=\"-p\"],[data-uikit=\"K08\"] p{line-height:1.6}\n@media(min-width:900px){[data-uikit=\"K08\"] [class*=\"-cards\"]{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K09",
+   "name": "촘촘한 격자",
+   "note": "4열·모서리 3px·테두리 1px·그림자 없음·밀집",
+   "radius": "3px",
+   "shadow": "none",
+   "border": "1px",
+   "dur": ".2s",
+   "ez": "ease-out",
+   "density": "dense",
+   "grid": "cards4",
+   "pill": false,
+   "hover": "line",
+   "circle": false,
+   "best": [
+    "쇼핑몰",
+    "카탈로그",
+    "부품",
+    "도서"
+   ],
+   "css": "/* 촘촘한 격자 — 4열·모서리 3px·테두리 1px·그림자 없음·밀집 */\n:root{--ui-r:3px;--ui-dur:.2s;--ui-ez:ease-out}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{box-shadow:inset 0 -2px 0 0 currentColor}\nsection[class*=\"py-\"]{padding-top:3rem!important;padding-bottom:3rem!important}\n.grid{gap:1rem!important}\np{line-height:1.5}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(4,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 촘촘한 격자 — 4열·모서리 3px·테두리 1px·그림자 없음·밀집 */\n[data-uikit=\"K09\"]{--radius:3px;--ui-dur:.2s;--ui-ez:ease-out}\n[data-uikit=\"K09\"] [class*=\"-btn\"],[data-uikit=\"K09\"] button[class*=\"-btn\"]{border-radius:3px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K09\"] [class*=\"-btn\"]:hover{box-shadow:inset 0 -2px 0 0 currentColor}\n[data-uikit=\"K09\"] [class*=\"-card\"]{border-radius:3px;box-shadow:none;border:1px solid var(--line)}\n[data-uikit=\"K09\"] figure,[data-uikit=\"K09\"] .ph{border-radius:3px}\n[data-uikit=\"K09\"] [class*=\"-sec\"]{padding-top:3rem;padding-bottom:3rem}\n[data-uikit=\"K09\"] [class*=\"-cards\"],[data-uikit=\"K09\"] [class*=\"-gal\"]{gap:1rem}\n[data-uikit=\"K09\"] [class*=\"-p\"],[data-uikit=\"K09\"] p{line-height:1.5}\n@media(min-width:900px){[data-uikit=\"K09\"] [class*=\"-cards\"]{grid-template-columns:repeat(4,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K10",
+   "name": "각진 부양",
+   "note": "각진 모서리인데 크게 떠 있다·테두리 없음",
+   "radius": "0px",
+   "shadow": "0 4px 12px rgba(0,0,0,.10),0 20px 48px rgba(0,0,0,.08)",
+   "border": "0px",
+   "dur": ".3s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "normal",
+   "grid": "cards3",
+   "pill": false,
+   "hover": "scale",
+   "circle": false,
+   "best": [
+    "갤러리",
+    "전시",
+    "미디어",
+    "에이전시"
+   ],
+   "css": "/* 각진 부양 — 각진 모서리인데 크게 떠 있다·테두리 없음 */\n:root{--ui-r:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:0 4px 12px rgba(0,0,0,.10),0 20px 48px rgba(0,0,0,.08)!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:scale(1.02)}\nsection[class*=\"py-\"]{padding-top:4.5rem!important;padding-bottom:4.5rem!important}\n.grid{gap:1.5rem!important}\np{line-height:1.6}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(3,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 각진 부양 — 각진 모서리인데 크게 떠 있다·테두리 없음 */\n[data-uikit=\"K10\"]{--radius:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K10\"] [class*=\"-btn\"],[data-uikit=\"K10\"] button[class*=\"-btn\"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K10\"] [class*=\"-btn\"]:hover{transform:scale(1.02)}\n[data-uikit=\"K10\"] [class*=\"-card\"]{border-radius:0px;box-shadow:0 4px 12px rgba(0,0,0,.10),0 20px 48px rgba(0,0,0,.08)}\n[data-uikit=\"K10\"] figure,[data-uikit=\"K10\"] .ph{border-radius:0px}\n[data-uikit=\"K10\"] [class*=\"-sec\"]{padding-top:4.5rem;padding-bottom:4.5rem}\n[data-uikit=\"K10\"] [class*=\"-cards\"],[data-uikit=\"K10\"] [class*=\"-gal\"]{gap:1.5rem}\n[data-uikit=\"K10\"] [class*=\"-p\"],[data-uikit=\"K10\"] p{line-height:1.6}\n@media(min-width:900px){[data-uikit=\"K10\"] [class*=\"-cards\"]{grid-template-columns:repeat(3,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K11",
+   "name": "굵은 아웃라인",
+   "note": "테두리 3px·모서리 0·그림자 없음·여백 넓음",
+   "radius": "0px",
+   "shadow": "none",
+   "border": "3px",
+   "dur": ".15s",
+   "ez": "linear",
+   "density": "airy",
+   "grid": "cards2",
+   "pill": false,
+   "hover": "fill",
+   "circle": false,
+   "best": [
+    "공방",
+    "독립서점",
+    "로컬브랜드",
+    "공연"
+   ],
+   "css": "/* 굵은 아웃라인 — 테두리 3px·모서리 0·그림자 없음·여백 넓음 */\n:root{--ui-r:0px;--ui-dur:.15s;--ui-ez:linear}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:3px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{filter:brightness(.92)}\nsection[class*=\"py-\"]{padding-top:7rem!important;padding-bottom:7rem!important}\n.grid{gap:2.5rem!important}\np{line-height:1.75}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 굵은 아웃라인 — 테두리 3px·모서리 0·그림자 없음·여백 넓음 */\n[data-uikit=\"K11\"]{--radius:0px;--ui-dur:.15s;--ui-ez:linear}\n[data-uikit=\"K11\"] [class*=\"-btn\"],[data-uikit=\"K11\"] button[class*=\"-btn\"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K11\"] [class*=\"-btn\"]:hover{filter:brightness(.92)}\n[data-uikit=\"K11\"] [class*=\"-card\"]{border-radius:0px;box-shadow:none;border:3px solid var(--line)}\n[data-uikit=\"K11\"] figure,[data-uikit=\"K11\"] .ph{border-radius:0px}\n[data-uikit=\"K11\"] [class*=\"-sec\"]{padding-top:7rem;padding-bottom:7rem}\n[data-uikit=\"K11\"] [class*=\"-cards\"],[data-uikit=\"K11\"] [class*=\"-gal\"]{gap:2.5rem}\n[data-uikit=\"K11\"] [class*=\"-p\"],[data-uikit=\"K11\"] p{line-height:1.75}\n@media(min-width:900px){[data-uikit=\"K11\"] [class*=\"-cards\"]{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K12",
+   "name": "말랑 블록",
+   "note": "모서리 28px·테두리 없음·시원한 여백·알약",
+   "radius": "28px",
+   "shadow": "none",
+   "border": "0px",
+   "dur": ".35s",
+   "ez": "cubic-bezier(.33,1,.68,1)",
+   "density": "airy",
+   "grid": "cards2",
+   "pill": true,
+   "hover": "scale",
+   "circle": false,
+   "best": [
+    "베이커리",
+    "디저트",
+    "아이스크림",
+    "키즈카페"
+   ],
+   "css": "/* 말랑 블록 — 모서리 28px·테두리 없음·시원한 여백·알약 */\n:root{--ui-r:28px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:scale(1.02)}\nsection[class*=\"py-\"]{padding-top:7rem!important;padding-bottom:7rem!important}\n.grid{gap:2.5rem!important}\np{line-height:1.75}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(2,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 말랑 블록 — 모서리 28px·테두리 없음·시원한 여백·알약 */\n[data-uikit=\"K12\"]{--radius:28px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}\n[data-uikit=\"K12\"] [class*=\"-btn\"],[data-uikit=\"K12\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K12\"] [class*=\"-btn\"]:hover{transform:scale(1.02)}\n[data-uikit=\"K12\"] [class*=\"-card\"]{border-radius:28px;box-shadow:none}\n[data-uikit=\"K12\"] figure,[data-uikit=\"K12\"] .ph{border-radius:28px}\n[data-uikit=\"K12\"] [class*=\"-sec\"]{padding-top:7rem;padding-bottom:7rem}\n[data-uikit=\"K12\"] [class*=\"-cards\"],[data-uikit=\"K12\"] [class*=\"-gal\"]{gap:2.5rem}\n[data-uikit=\"K12\"] [class*=\"-p\"],[data-uikit=\"K12\"] p{line-height:1.75}\n@media(min-width:900px){[data-uikit=\"K12\"] [class*=\"-cards\"]{grid-template-columns:repeat(2,minmax(0,1fr))}}"
+  },
+  {
+   "id": "K13",
+   "name": "대표 강조",
+   "note": "첫 항목이 2칸·모서리 5px·옅은 그림자",
+   "radius": "5px",
+   "shadow": "0 1px 4px rgba(0,0,0,.07)",
+   "border": "0px",
+   "dur": ".3s",
+   "ez": "ease-out",
+   "density": "normal",
+   "grid": "feature",
+   "pill": true,
+   "hover": "lift",
+   "circle": false,
+   "best": [
+    "포트폴리오",
+    "꽃집",
+    "음식",
+    "숙박",
+    "시그니처",
+    "신메뉴"
+   ],
+   "css": "/* 대표 강조 — 첫 항목이 2칸·모서리 5px·옅은 그림자 */\n:root{--ui-r:5px;--ui-dur:.3s;--ui-ez:ease-out}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:0 1px 4px rgba(0,0,0,.07)!important}\narticle{border:0!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:999px!important;transition:all var(--ui-dur) var(--ui-ez)!important}\na[class*=\"px-\"][class*=\"py-\"]:hover{transform:translateY(-3px)}\nsection[class*=\"py-\"]{padding-top:4.5rem!important;padding-bottom:4.5rem!important}\n.grid{gap:1.5rem!important}\np{line-height:1.6}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(4,minmax(0,1fr))!important}}\n@media(min-width:768px){[class*=\"grid-cols\"]>*:first-child{grid-column:span 2;grid-row:span 2}}",
+   "cssDemo": "/* 대표 강조 — 첫 항목이 2칸·모서리 5px·옅은 그림자 */\n[data-uikit=\"K13\"]{--radius:5px;--ui-dur:.3s;--ui-ez:ease-out}\n[data-uikit=\"K13\"] [class*=\"-btn\"],[data-uikit=\"K13\"] button[class*=\"-btn\"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K13\"] [class*=\"-btn\"]:hover{transform:translateY(-3px)}\n[data-uikit=\"K13\"] [class*=\"-card\"]{border-radius:5px;box-shadow:0 1px 4px rgba(0,0,0,.07)}\n[data-uikit=\"K13\"] figure,[data-uikit=\"K13\"] .ph{border-radius:5px}\n[data-uikit=\"K13\"] [class*=\"-sec\"]{padding-top:4.5rem;padding-bottom:4.5rem}\n[data-uikit=\"K13\"] [class*=\"-cards\"],[data-uikit=\"K13\"] [class*=\"-gal\"]{gap:1.5rem}\n[data-uikit=\"K13\"] [class*=\"-p\"],[data-uikit=\"K13\"] p{line-height:1.6}\n@media(min-width:900px){[data-uikit=\"K13\"] [class*=\"-cards\"]{grid-template-columns:repeat(4,minmax(0,1fr))}}\n@media(min-width:900px){[data-uikit=\"K13\"] [class*=\"-cards\"]>*:first-child{grid-column:span 2;grid-row:span 2}}"
+  },
+  {
+   "id": "K14",
+   "name": "서류형",
+   "note": "모서리 0·테두리 1px·4열·아주 밀집·움직임 없음",
+   "radius": "0px",
+   "shadow": "none",
+   "border": "1px",
+   "dur": ".15s",
+   "ez": "linear",
+   "density": "dense",
+   "grid": "cards4",
+   "pill": false,
+   "hover": "none",
+   "circle": false,
+   "best": [
+    "공공",
+    "기관",
+    "자료실",
+    "학회"
+   ],
+   "css": "/* 서류형 — 모서리 0·테두리 1px·4열·아주 밀집·움직임 없음 */\n:root{--ui-r:0px;--ui-dur:.15s;--ui-ez:linear}\n[class*=\"rounded\"]:not(figure):not(.ui-skip){border-radius:var(--ui-r)!important}\nfigure[class*=\"rounded\"]{border-radius:var(--ui-r)!important}\narticle,table,form,[class*=\"rounded-xl\"]{box-shadow:none!important}\narticle{border:1px solid var(--line)!important}\na[class*=\"px-\"][class*=\"py-\"],button[class*=\"px-\"]{border-radius:var(--ui-r)!important;transition:all var(--ui-dur) var(--ui-ez)!important}\nsection[class*=\"py-\"]{padding-top:3rem!important;padding-bottom:3rem!important}\n.grid{gap:1rem!important}\np{line-height:1.5}\n@media(min-width:768px){[class*=\"grid-cols\"]{grid-template-columns:repeat(4,minmax(0,1fr))!important}}",
+   "cssDemo": "/* 서류형 — 모서리 0·테두리 1px·4열·아주 밀집·움직임 없음 */\n[data-uikit=\"K14\"]{--radius:0px;--ui-dur:.15s;--ui-ez:linear}\n[data-uikit=\"K14\"] [class*=\"-btn\"],[data-uikit=\"K14\"] button[class*=\"-btn\"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}\n[data-uikit=\"K14\"] [class*=\"-card\"]{border-radius:0px;box-shadow:none;border:1px solid var(--line)}\n[data-uikit=\"K14\"] figure,[data-uikit=\"K14\"] .ph{border-radius:0px}\n[data-uikit=\"K14\"] [class*=\"-sec\"]{padding-top:3rem;padding-bottom:3rem}\n[data-uikit=\"K14\"] [class*=\"-cards\"],[data-uikit=\"K14\"] [class*=\"-gal\"]{gap:1rem}\n[data-uikit=\"K14\"] [class*=\"-p\"],[data-uikit=\"K14\"] p{line-height:1.5}\n@media(min-width:900px){[data-uikit=\"K14\"] [class*=\"-cards\"]{grid-template-columns:repeat(4,minmax(0,1fr))}}"
+  }
+ ]
+}

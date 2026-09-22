@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hanbit-autocare.example.com/sitemap.xml

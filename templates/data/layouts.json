@@ -1,0 +1,1565 @@
+[
+ {
+  "id": "L01",
+  "name": "풀블리드 히어로 + 3열 카드",
+  "hero": "fullbleed-image",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "intro-3line",
+   "cards-3",
+   "zigzag-2",
+   "stat-band",
+   "map",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "교차",
+  "bestFor": [
+   "카페",
+   "공방",
+   "스튜디오"
+  ],
+  "seen": 9,
+  "refs": [
+   "10203536648281733",
+   "54606214230191051",
+   "5559199536257601"
+  ],
+  "note": "화면을 꽉 채운 사진 위에 투명 내비를 얹고, 아래는 정보 밀도를 낮춘 교차 섹션으로 내려간다."
+ },
+ {
+  "id": "L02",
+  "name": "풀블리드 히어로 + 퀵메뉴 타일",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "quick-menu",
+   "intro-3line",
+   "cards-4",
+   "news-band",
+   "map",
+   "footer-info"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "병원",
+   "관공서",
+   "협회"
+  ],
+  "seen": 11,
+  "refs": [
+   "86061042874060761",
+   "87749892735763050",
+   "862439397406048453"
+  ],
+  "note": "국내 기업·기관 사이트에서 가장 자주 본 구조. 히어로 바로 아래 4~6개 퀵메뉴 타일이 붙는다."
+ },
+ {
+  "id": "L03",
+  "name": "스플릿 5:5 타이포 히어로",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "intro-2line",
+   "zigzag-3",
+   "spec-table",
+   "faq-accordion",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "가구",
+   "프리미엄 리테일",
+   "브랜드"
+  ],
+  "seen": 8,
+  "refs": [
+   "1055599906147130",
+   "185140234676840494",
+   "5488830774146904"
+  ],
+  "note": "왼쪽 큰 문장 + 오른쪽 사진 하나. 여백이 넓고 섹션이 적다."
+ },
+ {
+  "id": "L04",
+  "name": "타이포 온리 히어로 + 작업 그리드",
+  "hero": "type-only",
+  "nav": "centered-logo",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "work-grid",
+   "about-2col",
+   "process-timeline",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "사진스튜디오",
+   "디자인",
+   "건축"
+  ],
+  "seen": 7,
+  "refs": [
+   "184155072260854523",
+   "185773553373529899",
+   "5699937022531574"
+  ],
+  "note": "사진 없이 큰 글자만으로 첫 화면을 채우고 곧바로 작업물 그리드로 넘어간다."
+ },
+ {
+  "id": "L05",
+  "name": "슬라이더 히어로 + 인덱스 바",
+  "hero": "slider",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero-slider",
+   "intro-3line",
+   "cards-3",
+   "gallery-grid",
+   "news-band",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "병원",
+   "리조트",
+   "제조"
+  ],
+  "seen": 10,
+  "refs": [
+   "534309943317998694",
+   "107875353571107145",
+   "8514686790198845"
+  ],
+  "note": "3~5장을 자동 전환하고 하단에 얇은 인덱스 바를 둔다. 국내 병원·기업에서 반복 관찰."
+ },
+ {
+  "id": "L06",
+  "name": "오프셋 비대칭 에디토리얼",
+  "hero": "offset-asymmetric",
+  "nav": "top-solid",
+  "grid": "12col-offset",
+  "sections": [
+   "hero-offset",
+   "editorial-2col",
+   "zigzag-2",
+   "gallery-masonry",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "가구",
+   "인테리어",
+   "갤러리"
+  ],
+  "seen": 6,
+  "refs": [
+   "3307399720991608",
+   "54606214230191051",
+   "5699937022531574"
+  ],
+  "note": "이미지와 텍스트 블록이 그리드 선을 넘나들며 어긋나게 배치된다."
+ },
+ {
+  "id": "L07",
+  "name": "다크 그라디언트 SaaS",
+  "hero": "dark-gradient",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "logo-wall",
+   "cards-3",
+   "feature-split",
+   "stat-band",
+   "pricing",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "IT솔루션",
+   "SaaS",
+   "보안"
+  ],
+  "seen": 9,
+  "refs": [
+   "8585055535265061",
+   "3307399721144830",
+   "88101736456540517"
+  ],
+  "note": "어두운 배경에 빛 번짐 그라디언트, 로고월과 수치 밴드가 따라붙는다."
+ },
+ {
+  "id": "L08",
+  "name": "수치 강조 히어로",
+  "hero": "stat-hero",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-stat",
+   "intro-2line",
+   "process-timeline",
+   "cert-grid",
+   "case-grid",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "제조",
+   "엔지니어링",
+   "물류"
+  ],
+  "seen": 8,
+  "refs": [
+   "8514686790198845",
+   "533535887116331392",
+   "86061042863743243"
+  ],
+  "note": "히어로 안쪽 또는 바로 아래에 큰 숫자 3~4개를 가로로 깐다."
+ },
+ {
+  "id": "L09",
+  "name": "상품 선반 히어로",
+  "hero": "product-shelf",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-banner",
+   "category-row",
+   "product-grid",
+   "promo-band",
+   "review-strip",
+   "cta"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "쇼핑몰",
+   "유통",
+   "식품"
+  ],
+  "seen": 12,
+  "refs": [
+   "101331060363067843",
+   "1029635533572161491",
+   "18718154688684661"
+  ],
+  "note": "배너 아래 카테고리 아이콘 줄, 그 아래 상품 그리드. 커머스에서 가장 흔하다."
+ },
+ {
+  "id": "L10",
+  "name": "사이드바 필터 + 상품 그리드",
+  "hero": "product-shelf",
+  "nav": "top-solid",
+  "grid": "sidebar-9col",
+  "sections": [
+   "hero-slim",
+   "filter-sidebar",
+   "product-grid",
+   "pagination",
+   "cta"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "쇼핑몰",
+   "부품",
+   "도소매"
+  ],
+  "seen": 6,
+  "refs": [
+   "18718154688684661",
+   "32791903532752490",
+   "5488830793559525"
+  ],
+  "note": "좌측 필터 사이드바 + 우측 그리드. 품목 수가 많은 업종에 맞다."
+ },
+ {
+  "id": "L11",
+  "name": "검색바 히어로",
+  "hero": "hero-search",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-search",
+   "category-row",
+   "listing-grid",
+   "map",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "부동산중개",
+   "구인",
+   "예약"
+  ],
+  "seen": 5,
+  "refs": [
+   "86061042874060761",
+   "86835099526616702",
+   "87749892735763050"
+  ],
+  "note": "첫 화면 중앙에 검색 입력을 두고 바로 목록으로 연결한다."
+ },
+ {
+  "id": "L12",
+  "name": "지도 히어로 + 정보표",
+  "hero": "map",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-map",
+   "info-table",
+   "branch-list",
+   "transit-guide",
+   "contact-form"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "지점안내",
+   "오시는 길",
+   "부동산"
+  ],
+  "seen": 5,
+  "refs": [
+   "86061042874060761",
+   "563018691134726",
+   "3377768457517942"
+  ],
+  "note": "오시는 길 페이지 구조. 지도 크게, 그 아래 표로 주소·전화·영업시간."
+ },
+ {
+  "id": "L13",
+  "name": "영상 히어로 + 앵커 레일",
+  "hero": "video",
+  "nav": "side-rail",
+  "grid": "12col",
+  "sections": [
+   "hero-video",
+   "intro-1line",
+   "feature-split",
+   "gallery-grid",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "리조트",
+   "브랜드",
+   "자동차"
+  ],
+  "seen": 5,
+  "refs": [
+   "8514686790198845",
+   "1055599902168668",
+   "575475658650725969"
+  ],
+  "note": "배경 영상 위 최소 문구. 우측 세로 앵커 레일로 섹션을 이동한다."
+ },
+ {
+  "id": "L14",
+  "name": "햄버거 전용 미니멀",
+  "hero": "type-only",
+  "nav": "hamburger-only",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "work-list",
+   "about-1col",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "포트폴리오",
+   "갤러리",
+   "작가"
+  ],
+  "seen": 6,
+  "refs": [
+   "184155072260854523",
+   "53480314319655104",
+   "185773553373529899"
+  ],
+  "note": "상단에 로고와 햄버거만. 메뉴는 전체화면으로 연다."
+ },
+ {
+  "id": "L15",
+  "name": "사이드 레일 내비 + 롱스크롤",
+  "hero": "fullbleed-image",
+  "nav": "side-rail",
+  "grid": "10col",
+  "sections": [
+   "hero",
+   "story-scroll",
+   "gallery-masonry",
+   "stat-band",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "브랜드",
+   "전시",
+   "건축"
+  ],
+  "seen": 5,
+  "refs": [
+   "1970393584402838",
+   "56013589126178250",
+   "1083326885401299792"
+  ],
+  "note": "왼쪽 고정 레일에 메뉴, 오른쪽이 통째로 스크롤 영역."
+ },
+ {
+  "id": "L16",
+  "name": "유틸리티 바 + 국내 기업형",
+  "hero": "slider",
+  "nav": "top-utility",
+  "grid": "12col",
+  "sections": [
+   "hero-slider",
+   "quick-menu",
+   "about-2col",
+   "news-band",
+   "product-grid",
+   "partner-logos",
+   "footer-info"
+  ],
+  "density": "packed",
+  "rhythm": "교차",
+  "bestFor": [
+   "중소기업",
+   "제조",
+   "유통"
+  ],
+  "seen": 10,
+  "refs": [
+   "858920960205923342",
+   "86061042863743243",
+   "862439397406048453"
+  ],
+  "note": "최상단 얇은 유틸리티 바(로그인·언어), 그 아래 본 내비. 국내 기업 사이트 관용구."
+ },
+ {
+  "id": "L17",
+  "name": "연혁 타임라인 중심",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "intro-2line",
+   "year-timeline",
+   "cert-grid",
+   "org-chart",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "제조",
+   "협회",
+   "법인"
+  ],
+  "seen": 6,
+  "refs": [
+   "334392341108219822",
+   "86061042863743243",
+   "533535887116331392"
+  ],
+  "note": "회사소개 페이지의 뼈대. 연도를 가로로 눕힌 타임라인이 중심."
+ },
+ {
+  "id": "L18",
+  "name": "공정 단계 타임라인",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "process-timeline",
+   "spec-table",
+   "cert-grid",
+   "rfq-form"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "제조",
+   "물류",
+   "시공"
+  ],
+  "seen": 7,
+  "refs": [
+   "86061042863743243",
+   "563018691134726",
+   "88664686408592664"
+  ],
+  "note": "단계를 번호 대신 노드 레일로 잇고 각 단계에 소요일을 붙인다."
+ },
+ {
+  "id": "L19",
+  "name": "가격표 중심",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "price-table",
+   "compare-table",
+   "faq-accordion",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "학원",
+   "헬스장",
+   "구독"
+  ],
+  "seen": 6,
+  "refs": [
+   "5488830793559525",
+   "3307399721144830",
+   "8585055535265061"
+  ],
+  "note": "첫 화면에서 바로 가격표로 내려간다. 비교표가 따라붙는다."
+ },
+ {
+  "id": "L20",
+  "name": "객실·패키지 카드",
+  "hero": "fullbleed-image",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "room-cards",
+   "rate-table",
+   "amenity-grid",
+   "map",
+   "reserve-cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "펜션",
+   "호텔",
+   "글램핑"
+  ],
+  "seen": 7,
+  "refs": [
+   "5559199536257601",
+   "3377768459353154",
+   "3377768457517946"
+  ],
+  "note": "객실 카드 → 요금표 → 편의시설 순. 예약 버튼이 계속 따라다닌다."
+ },
+ {
+  "id": "L21",
+  "name": "메뉴판 리스트",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "menu-list",
+   "signature-3",
+   "gallery-grid",
+   "map",
+   "hours-table"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "한식당",
+   "베이커리",
+   "카페"
+  ],
+  "seen": 6,
+  "refs": [
+   "882072277006064055",
+   "533958099593541246",
+   "3377768457517942"
+  ],
+  "note": "사진보다 품목·가격 목록이 먼저 온다. 영업시간 표로 닫는다."
+ },
+ {
+  "id": "L22",
+  "name": "진료 안내 그리드",
+  "hero": "slider",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-slider",
+   "quick-menu",
+   "care-grid",
+   "doctor-list",
+   "price-notice",
+   "map"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "한의원",
+   "피부과",
+   "동물병원"
+  ],
+  "seen": 8,
+  "refs": [
+   "534309943317998694",
+   "86342517853576023",
+   "89438742592304665"
+  ],
+  "note": "진료 과목 그리드 + 의료진 목록 + 비급여 고지. 후기·전후사진 자리는 두지 않는다."
+ },
+ {
+  "id": "L23",
+  "name": "상담 폼 우선",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-form",
+   "trust-band",
+   "service-list",
+   "case-grid",
+   "faq-accordion"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "로펌",
+   "노무사",
+   "세무회계"
+  ],
+  "seen": 7,
+  "refs": [
+   "3307399717773543",
+   "5629568280219721",
+   "8585055528934763"
+  ],
+  "note": "히어로 오른쪽 절반이 바로 상담 폼. 아래에 신뢰 근거 밴드."
+ },
+ {
+  "id": "L24",
+  "name": "문서형 좌측 목차",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "toc-9col",
+  "sections": [
+   "hero-slim",
+   "toc-sidebar",
+   "long-article",
+   "related-list"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "약관",
+   "정책",
+   "자료실"
+  ],
+  "seen": 4,
+  "refs": [
+   "897131188284356543",
+   "576390452335191407",
+   "1970393576638728"
+  ],
+  "note": "왼쪽 고정 목차 + 오른쪽 긴 본문. 개인정보처리방침·이용약관 구조."
+ },
+ {
+  "id": "L25",
+  "name": "게시판 목록형",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-slim",
+   "board-tabs",
+   "board-list",
+   "pagination",
+   "search-row"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "공지사항",
+   "자료실",
+   "커뮤니티"
+  ],
+  "seen": 5,
+  "refs": [
+   "1970393576638728",
+   "576390452335191407",
+   "86835099526616702"
+  ],
+  "note": "탭 + 표 목록 + 페이지네이션. 국내 사이트 커뮤니티 메뉴의 기본형."
+ },
+ {
+  "id": "L26",
+  "name": "갤러리 매스너리",
+  "hero": "type-only",
+  "nav": "centered-logo",
+  "grid": "masonry",
+  "sections": [
+   "hero-type",
+   "filter-row",
+   "gallery-masonry",
+   "lightbox",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "사진스튜디오",
+   "네일",
+   "꽃집"
+  ],
+  "seen": 8,
+  "refs": [
+   "5699937023325100",
+   "54676582970590310",
+   "187110559512776320"
+  ],
+  "note": "높이가 제각각인 이미지를 벽돌처럼 쌓는다. 상단 필터로 분류."
+ },
+ {
+  "id": "L27",
+  "name": "전후 비교 슬라이드",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "compare-slider",
+   "service-list",
+   "price-table",
+   "faq-accordion"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "자동차정비",
+   "이사청소",
+   "시공"
+  ],
+  "seen": 4,
+  "refs": [
+   "563018691134726",
+   "5629568280219721",
+   "88664686408592664"
+  ],
+  "note": "작업 전후를 좌우로 가르는 비교 슬라이드. 의료 업종에는 쓰지 않는다."
+ },
+ {
+  "id": "L28",
+  "name": "대시보드형 카드",
+  "hero": "dark-gradient",
+  "nav": "side-rail",
+  "grid": "12col",
+  "sections": [
+   "hero-slim",
+   "kpi-cards",
+   "chart-band",
+   "table-list",
+   "cta"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "IT솔루션",
+   "데이터",
+   "관리자"
+  ],
+  "seen": 5,
+  "refs": [
+   "86835099526616702",
+   "5418462038866216",
+   "53480314320062781"
+  ],
+  "note": "카드 안에 수치와 그래프. 관리자 화면 소개용."
+ },
+ {
+  "id": "L29",
+  "name": "로고월 + 사례",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "logo-wall",
+   "case-grid",
+   "stat-band",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "교차",
+  "bestFor": [
+   "IT솔루션",
+   "대행사",
+   "컨설팅"
+  ],
+  "seen": 7,
+  "refs": [
+   "1091700765917489738",
+   "5629568280219721",
+   "8585055535265061"
+  ],
+  "note": "고객사 로고를 가로로 깔고 곧바로 사례 그리드로 넘어간다."
+ },
+ {
+  "id": "L30",
+  "name": "제품 카탈로그 3열",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "category-row",
+   "catalog-3",
+   "spec-table",
+   "download-list",
+   "rfq-form"
+  ],
+  "density": "packed",
+  "rhythm": "교차",
+  "bestFor": [
+   "부품",
+   "산업재",
+   "도소매"
+  ],
+  "seen": 8,
+  "refs": [
+   "1099230221556996618",
+   "88664686408592664",
+   "196047390020525377"
+  ],
+  "note": "제품 카테고리 → 3열 카탈로그 → 규격표 → 카탈로그 다운로드."
+ },
+ {
+  "id": "L31",
+  "name": "풀블리드 + 스토리 스크롤",
+  "hero": "fullbleed-image",
+  "nav": "hamburger-only",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "story-scroll",
+   "pull-quote",
+   "gallery-grid",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "브랜드",
+   "공방",
+   "로스터리"
+  ],
+  "seen": 5,
+  "refs": [
+   "54606214230191051",
+   "187110559512776320",
+   "1970393584402838"
+  ],
+  "note": "한 화면에 한 문장씩. 사진과 문장이 번갈아 붙는다."
+ },
+ {
+  "id": "L32",
+  "name": "아이소메트릭 다이어그램",
+  "hero": "fullbleed-image",
+  "nav": "top-utility",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "iso-diagram",
+   "business-3",
+   "news-band",
+   "partner-logos",
+   "footer-info"
+  ],
+  "density": "packed",
+  "rhythm": "교차",
+  "bestFor": [
+   "플랜트",
+   "에너지",
+   "중공업"
+  ],
+  "seen": 4,
+  "refs": [
+   "86061042863743243",
+   "862439397406048453",
+   "858920960205923342"
+  ],
+  "note": "사업 영역을 등각 투영 그림 하나로 요약해 보여준다."
+ },
+ {
+  "id": "L33",
+  "name": "3단 정보 밴드",
+  "hero": "slider",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-slider",
+   "triple-band",
+   "notice-col",
+   "product-col",
+   "contact-col",
+   "map"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "중소기업",
+   "협회",
+   "기관"
+  ],
+  "seen": 7,
+  "refs": [
+   "87749892735763050",
+   "862439397406048453",
+   "858920960205923342"
+  ],
+  "note": "공지·제품·문의를 한 줄 3칸으로 나눠 담는 국내 관용 밴드."
+ },
+ {
+  "id": "L34",
+  "name": "좌우 지그재그 롱폼",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "zigzag-4",
+   "stat-band",
+   "faq-accordion",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "교차",
+  "bestFor": [
+   "서비스업",
+   "컨설팅",
+   "교육"
+  ],
+  "seen": 9,
+  "refs": [
+   "1900024838820619",
+   "5488830774146904",
+   "3307399717496060"
+  ],
+  "note": "이미지와 글이 좌우를 번갈아 4회 반복. 가장 안전한 기본형."
+ },
+ {
+  "id": "L35",
+  "name": "카드 4열 서비스",
+  "hero": "fullbleed-image",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "cards-4",
+   "zigzag-2",
+   "price-table",
+   "map",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "생활서비스",
+   "정비",
+   "청소"
+  ],
+  "seen": 8,
+  "refs": [
+   "87749892735763050",
+   "563018691134726",
+   "8585055528934763"
+  ],
+  "note": "서비스 항목이 4개일 때의 기본 배치."
+ },
+ {
+  "id": "L36",
+  "name": "인물 중심 소개",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-person",
+   "bio-2col",
+   "career-timeline",
+   "field-list",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "변호사",
+   "세무사",
+   "건축사"
+  ],
+  "seen": 6,
+  "refs": [
+   "3377768457517946",
+   "3307399717773543",
+   "185773553373529899"
+  ],
+  "note": "대표 사진 + 약력. 전문직 개인 사무소에서 반복 관찰."
+ },
+ {
+  "id": "L37",
+  "name": "자격·인증 그리드",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "cert-grid",
+   "stat-band",
+   "process-timeline",
+   "contact-form"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "제조",
+   "검사",
+   "시험기관"
+  ],
+  "seen": 5,
+  "refs": [
+   "334392341108219822",
+   "86061042863743243",
+   "88664686408592664"
+  ],
+  "note": "인증서 이미지를 격자로 깔아 신뢰를 만든다."
+ },
+ {
+  "id": "L38",
+  "name": "시간표 격자",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "schedule-grid",
+   "price-table",
+   "coach-list",
+   "map",
+   "reserve-cta"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "헬스장",
+   "학원",
+   "필라테스"
+  ],
+  "seen": 6,
+  "refs": [
+   "3377768457517942",
+   "5488830793559525",
+   "3307399722664525"
+  ],
+  "note": "요일x시간 격자가 화면 중심. 모바일에서는 가로 스크롤로 접는다."
+ },
+ {
+  "id": "L39",
+  "name": "큰 타이포 + 얇은 선",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "rule-list",
+   "zigzag-2",
+   "pull-quote",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "법무",
+   "회계",
+   "학회"
+  ],
+  "seen": 5,
+  "refs": [
+   "184155072260854523",
+   "185773553373529899",
+   "897131188284356543"
+  ],
+  "note": "장식 없이 큰 글자와 얇은 구분선만으로 위계를 만든다."
+ },
+ {
+  "id": "L40",
+  "name": "풀블리드 + 하단 고정 CTA",
+  "hero": "fullbleed-image",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "intro-3line",
+   "cards-3",
+   "gallery-grid",
+   "sticky-cta"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "예약업종",
+   "병원",
+   "미용"
+  ],
+  "seen": 7,
+  "refs": [
+   "3307399722664525",
+   "89438742592304665",
+   "3377768459353154"
+  ],
+  "note": "모바일 하단에 예약·전화 버튼이 고정으로 따라온다."
+ },
+ {
+  "id": "L41",
+  "name": "브랜드 스토리 2단",
+  "hero": "offset-asymmetric",
+  "nav": "centered-logo",
+  "grid": "12col",
+  "sections": [
+   "hero-offset",
+   "story-2col",
+   "ingredient-list",
+   "product-grid",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "화장품",
+   "식품",
+   "공방"
+  ],
+  "seen": 6,
+  "refs": [
+   "3307399717496060",
+   "187110559512776320",
+   "5488830793559525"
+  ],
+  "note": "가운데 로고, 아래로 브랜드 이야기 2단. 제품은 뒤로 뺀다."
+ },
+ {
+  "id": "L42",
+  "name": "뉴스룸 매거진",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "magazine",
+  "sections": [
+   "hero-feature",
+   "article-grid",
+   "category-rail",
+   "popular-list",
+   "newsletter"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "미디어",
+   "블로그",
+   "기관"
+  ],
+  "seen": 5,
+  "refs": [
+   "193162271514397026",
+   "191825265371049695",
+   "576390452335191407"
+  ],
+  "note": "대표 기사 하나를 크게, 나머지는 격자. 우측에 인기 목록."
+ },
+ {
+  "id": "L43",
+  "name": "풀스크린 슬라이드 전환",
+  "hero": "slider",
+  "nav": "hamburger-only",
+  "grid": "fullscreen",
+  "sections": [
+   "hero-slider",
+   "fullscreen-sections",
+   "gallery-grid",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "브랜드",
+   "전시",
+   "자동차"
+  ],
+  "seen": 4,
+  "refs": [
+   "107875353571107145",
+   "8514686790198845",
+   "53480314319655104"
+  ],
+  "note": "한 화면이 한 섹션. 스크롤이 슬라이드 전환처럼 동작한다."
+ },
+ {
+  "id": "L44",
+  "name": "상단 배너 스트립 + 그리드",
+  "hero": "product-shelf",
+  "nav": "top-utility",
+  "grid": "12col",
+  "sections": [
+   "promo-strip",
+   "hero-banner",
+   "product-grid",
+   "brand-row",
+   "review-strip"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "쇼핑몰",
+   "프랜차이즈",
+   "식품"
+  ],
+  "seen": 6,
+  "refs": [
+   "882072277006064055",
+   "89438742592304665",
+   "101331060363067843"
+  ],
+  "note": "최상단에 얇은 프로모션 띠. 국내 커머스에서 흔하다."
+ },
+ {
+  "id": "L45",
+  "name": "사례 상세 케이스",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-case",
+   "problem-2col",
+   "process-timeline",
+   "result-stat",
+   "related-cases"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "대행사",
+   "IT솔루션",
+   "시공"
+  ],
+  "seen": 5,
+  "refs": [
+   "5629568280219721",
+   "196047390020525420",
+   "1091700765917489738"
+  ],
+  "note": "문제 → 과정 → 결과 수치 순으로 한 건을 깊게 보여준다."
+ },
+ {
+  "id": "L46",
+  "name": "FAQ 아코디언 중심",
+  "hero": "type-only",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero-type",
+   "category-tabs",
+   "faq-accordion",
+   "contact-form"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "고객지원",
+   "보험",
+   "서비스"
+  ],
+  "seen": 4,
+  "refs": [
+   "3307399721144830",
+   "8585055535265061",
+   "576390452335191407"
+  ],
+  "note": "질문 목록이 본문 전부. 탭으로 분류를 가른다."
+ },
+ {
+  "id": "L47",
+  "name": "2열 대칭 카드",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "cards-2",
+   "zigzag-2",
+   "stat-band",
+   "map",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "교차",
+  "bestFor": [
+   "전문직",
+   "컨설팅",
+   "교육"
+  ],
+  "seen": 6,
+  "refs": [
+   "5488830774146904",
+   "1900024838820619",
+   "3307399717496060"
+  ],
+  "note": "3열 대신 2열. 항목이 적을 때 빈칸이 안 생긴다."
+ },
+ {
+  "id": "L48",
+  "name": "파트너 로고 + 채용",
+  "hero": "fullbleed-image",
+  "nav": "top-utility",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "intro-2line",
+   "partner-logos",
+   "recruit-band",
+   "news-band",
+   "footer-info"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "중소기업",
+   "법인",
+   "기관"
+  ],
+  "seen": 5,
+  "refs": [
+   "858920960205923342",
+   "862439397406048453",
+   "334392341108219822"
+  ],
+  "note": "회사 소개 뒤에 협력사 로고와 채용 배너가 붙는 국내 구성."
+ },
+ {
+  "id": "L49",
+  "name": "세로 분할 고정 스크롤",
+  "hero": "split-5050",
+  "nav": "side-rail",
+  "grid": "split-fixed",
+  "sections": [
+   "hero-split",
+   "fixed-left",
+   "scroll-right",
+   "gallery-grid",
+   "cta"
+  ],
+  "density": "airy",
+  "rhythm": "없음",
+  "bestFor": [
+   "건축",
+   "인테리어",
+   "스튜디오"
+  ],
+  "seen": 4,
+  "refs": [
+   "1900024838820619",
+   "56013589126178250",
+   "1970393584402838"
+  ],
+  "note": "왼쪽은 고정, 오른쪽만 스크롤된다."
+ },
+ {
+  "id": "L50",
+  "name": "대형 수치 밴드 반복",
+  "hero": "stat-hero",
+  "nav": "top-transparent",
+  "grid": "12col",
+  "sections": [
+   "hero-stat",
+   "stat-band",
+   "zigzag-2",
+   "stat-band-2",
+   "cert-grid",
+   "cta"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "제조",
+   "물류",
+   "투자"
+  ],
+  "seen": 5,
+  "refs": [
+   "533535887116331392",
+   "8514686790198845",
+   "86061042863743243"
+  ],
+  "note": "수치 밴드를 한 페이지에 두 번 배치해 리듬을 만든다."
+ },
+ {
+  "id": "L51",
+  "name": "상담 예약 캘린더",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "calendar-picker",
+   "service-list",
+   "price-notice",
+   "map"
+  ],
+  "density": "balanced",
+  "rhythm": "없음",
+  "bestFor": [
+   "병원",
+   "상담",
+   "미용"
+  ],
+  "seen": 4,
+  "refs": [
+   "86835099526616702",
+   "89438742592304665",
+   "3307399722664525"
+  ],
+  "note": "날짜 선택 UI를 첫 화면 가까이 둔다. 외부 예약 채널 링크를 먼저 노출."
+ },
+ {
+  "id": "L52",
+  "name": "제품 상세 PDP",
+  "hero": "split-5050",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "pdp-gallery",
+   "pdp-info",
+   "spec-table",
+   "related-grid",
+   "review-strip"
+  ],
+  "density": "packed",
+  "rhythm": "없음",
+  "bestFor": [
+   "쇼핑몰",
+   "부품",
+   "가구"
+  ],
+  "seen": 6,
+  "refs": [
+   "5488830774146904",
+   "5699937023325100",
+   "5418462038866216"
+  ],
+  "note": "왼쪽 이미지 갤러리 + 오른쪽 정보·옵션. 커머스 상세 관용구."
+ },
+ {
+  "id": "L53",
+  "name": "풀블리드 인물 + 진료",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "doctor-list",
+   "care-grid",
+   "equipment-grid",
+   "price-notice",
+   "map"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "한의원",
+   "치과",
+   "동물병원"
+  ],
+  "seen": 6,
+  "refs": [
+   "86342517853576023",
+   "534309943317998694",
+   "89438742592304665"
+  ],
+  "note": "의료진 얼굴을 앞세우고 장비·시설을 뒤에 붙인다."
+ },
+ {
+  "id": "L54",
+  "name": "교육 과정 트랙",
+  "hero": "fullbleed-image",
+  "nav": "top-solid",
+  "grid": "12col",
+  "sections": [
+   "hero",
+   "track-cards",
+   "schedule-grid",
+   "fee-table",
+   "teacher-list",
+   "map"
+  ],
+  "density": "balanced",
+  "rhythm": "교차",
+  "bestFor": [
+   "입시학원",
+   "어린이집",
+   "교습소"
+  ],
+  "seen": 5,
+  "refs": [
+   "3377768457517942",
+   "5488830793559525",
+   "334392341108219822"
+  ],
+  "note": "과정(반) 카드 → 시간표 → 교습비 표. 학원법 교습비 게시 자리를 포함."
+ },
+ {
+  "id": "L55",
+  "name": "거점 지도 + 차량 그리드",
+  "hero": "stat-hero",
+  "nav": "top-utility",
+  "grid": "12col",
+  "sections": [
+   "hero-stat",
+   "network-map",
+   "fleet-grid",
+   "process-timeline",
+   "rfq-form",
+   "footer-info"
+  ],
+  "density": "packed",
+  "rhythm": "교차",
+  "bestFor": [
+   "물류",
+   "운송",
+   "창고"
+  ],
+  "seen": 4,
+  "refs": [
+   "858920960205923342",
+   "87749892735763050",
+   "563018691134726"
+  ],
+  "note": "거점 지도 + 차량/설비 그리드. 물류 사이트에서 반복 관찰."
+ }
+]

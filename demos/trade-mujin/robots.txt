@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mujintools.example.com/sitemap.xml

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gangdogym.example.com/sitemap.xml

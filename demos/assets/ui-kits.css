@@ -1,0 +1,158 @@
+/* 데모 사이트용 UI 킷 — templates/_build/ui_kits.py 가 만든다. 직접 고치지 말 것.
+   쓰는 법: kit.layout(..., ui_kit="K02") → <html data-uikit="K02"> + 이 파일 링크 */
+
+/* 에디토리얼 — 각진 모서리·그림자 없음·구분선 1px·여백 넓음 */
+[data-uikit="K01"]{--radius:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K01"] [class*="-btn"],[data-uikit="K01"] button[class*="-btn"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K01"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K01"] [class*="-card"]{border-radius:0px;box-shadow:none;border:1px solid var(--line)}
+[data-uikit="K01"] figure,[data-uikit="K01"] .ph{border-radius:0px}
+[data-uikit="K01"] [class*="-sec"]{padding-top:7rem;padding-bottom:7rem}
+[data-uikit="K01"] [class*="-cards"],[data-uikit="K01"] [class*="-gal"]{gap:2.5rem}
+[data-uikit="K01"] [class*="-p"],[data-uikit="K01"] p{line-height:1.75}
+@media(min-width:900px){[data-uikit="K01"] [class*="-cards"]{grid-template-columns:1fr}}
+@media(min-width:900px){[data-uikit="K01"] [class*="-cards"]>*{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}
+
+/* 소프트 카드 — 둥근 12px·은은한 그림자·테두리 없음·밀집 */
+[data-uikit="K02"]{--radius:12px;--ui-dur:.25s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K02"] [class*="-btn"],[data-uikit="K02"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K02"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K02"] [class*="-card"]{border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08),0 8px 24px rgba(0,0,0,.06)}
+[data-uikit="K02"] figure,[data-uikit="K02"] .ph{border-radius:12px}
+[data-uikit="K02"] [class*="-sec"]{padding-top:3rem;padding-bottom:3rem}
+[data-uikit="K02"] [class*="-cards"],[data-uikit="K02"] [class*="-gal"]{gap:1rem}
+[data-uikit="K02"] [class*="-p"],[data-uikit="K02"] p{line-height:1.5}
+@media(min-width:900px){[data-uikit="K02"] [class*="-cards"]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 단단한 박스 — 4px·테두리 2px·그림자 없음·또렷한 경계 */
+[data-uikit="K03"]{--radius:4px;--ui-dur:.2s;--ui-ez:ease-out}
+[data-uikit="K03"] [class*="-btn"],[data-uikit="K03"] button[class*="-btn"]{border-radius:4px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K03"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K03"] [class*="-card"]{border-radius:4px;box-shadow:none;border:2px solid var(--line)}
+[data-uikit="K03"] figure,[data-uikit="K03"] .ph{border-radius:4px}
+[data-uikit="K03"] [class*="-sec"]{padding-top:4.5rem;padding-bottom:4.5rem}
+[data-uikit="K03"] [class*="-cards"],[data-uikit="K03"] [class*="-gal"]{gap:1.5rem}
+[data-uikit="K03"] [class*="-p"],[data-uikit="K03"] p{line-height:1.6}
+@media(min-width:900px){[data-uikit="K03"] [class*="-cards"]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 알약 미니멀 — 알약 버튼·모서리 8px·그림자 없음·여백 넓음 */
+[data-uikit="K04"]{--radius:8px;--ui-dur:.3s;--ui-ez:ease-in-out}
+[data-uikit="K04"] [class*="-btn"],[data-uikit="K04"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K04"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K04"] [class*="-card"]{border-radius:8px;box-shadow:none;border:1px solid var(--line)}
+[data-uikit="K04"] figure,[data-uikit="K04"] .ph{border-radius:8px}
+[data-uikit="K04"] [class*="-sec"]{padding-top:7rem;padding-bottom:7rem}
+[data-uikit="K04"] [class*="-cards"],[data-uikit="K04"] [class*="-gal"]{gap:2.5rem}
+[data-uikit="K04"] [class*="-p"],[data-uikit="K04"] p{line-height:1.75}
+@media(min-width:900px){[data-uikit="K04"] [class*="-cards"]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 깊은 그림자 — 둥근 16px·큰 그림자·떠 있는 카드 */
+[data-uikit="K05"]{--radius:16px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K05"] [class*="-btn"],[data-uikit="K05"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K05"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K05"] [class*="-card"]{border-radius:16px;box-shadow:0 2px 8px rgba(0,0,0,.10),0 16px 40px rgba(0,0,0,.10)}
+[data-uikit="K05"] figure,[data-uikit="K05"] .ph{border-radius:16px}
+[data-uikit="K05"] [class*="-sec"]{padding-top:4.5rem;padding-bottom:4.5rem}
+[data-uikit="K05"] [class*="-cards"],[data-uikit="K05"] [class*="-gal"]{gap:1.5rem}
+[data-uikit="K05"] [class*="-p"],[data-uikit="K05"] p{line-height:1.6}
+@media(min-width:900px){[data-uikit="K05"] [class*="-cards"]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 선 중심 — 모서리 2px·테두리 1px·그림자 없음·표처럼 정렬 */
+[data-uikit="K06"]{--radius:2px;--ui-dur:.2s;--ui-ez:linear}
+[data-uikit="K06"] [class*="-btn"],[data-uikit="K06"] button[class*="-btn"]{border-radius:2px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K06"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K06"] [class*="-card"]{border-radius:2px;box-shadow:none;border:1px solid var(--line)}
+[data-uikit="K06"] figure,[data-uikit="K06"] .ph{border-radius:2px}
+[data-uikit="K06"] [class*="-sec"]{padding-top:3rem;padding-bottom:3rem}
+[data-uikit="K06"] [class*="-cards"],[data-uikit="K06"] [class*="-gal"]{gap:1rem}
+[data-uikit="K06"] [class*="-p"],[data-uikit="K06"] p{line-height:1.5}
+@media(min-width:900px){[data-uikit="K06"] [class*="-cards"]{grid-template-columns:1fr}}
+@media(min-width:900px){[data-uikit="K06"] [class*="-cards"]>*{display:grid;grid-template-columns:minmax(0,14rem) 1fr;gap:1.5rem;align-items:center}}
+
+/* 둥근 블록 — 20px·색 블록 강조·테두리 없음·시원한 여백 */
+[data-uikit="K07"]{--radius:20px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K07"] [class*="-btn"],[data-uikit="K07"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K07"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K07"] [class*="-card"]{border-radius:20px;box-shadow:none}
+[data-uikit="K07"] figure,[data-uikit="K07"] .ph{border-radius:20px}
+[data-uikit="K07"] [class*="-sec"]{padding-top:7rem;padding-bottom:7rem}
+[data-uikit="K07"] [class*="-cards"],[data-uikit="K07"] [class*="-gal"]{gap:2.5rem}
+[data-uikit="K07"] [class*="-p"],[data-uikit="K07"] p{line-height:1.75}
+@media(min-width:900px){[data-uikit="K07"] [class*="-cards"]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 원형 강조 — 사진 원형·알약 버튼·중간 여백 */
+[data-uikit="K08"]{--radius:10px;--ui-dur:.3s;--ui-ez:ease-out}
+[data-uikit="K08"] [class*="-btn"],[data-uikit="K08"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K08"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K08"] [class*="-card"]{border-radius:10px;box-shadow:0 1px 2px rgba(0,0,0,.06);border:1px solid var(--line)}
+[data-uikit="K08"] figure,[data-uikit="K08"] .ph{border-radius:50%}
+[data-uikit="K08"] [class*="-sec"]{padding-top:4.5rem;padding-bottom:4.5rem}
+[data-uikit="K08"] [class*="-cards"],[data-uikit="K08"] [class*="-gal"]{gap:1.5rem}
+[data-uikit="K08"] [class*="-p"],[data-uikit="K08"] p{line-height:1.6}
+@media(min-width:900px){[data-uikit="K08"] [class*="-cards"]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 촘촘한 격자 — 4열·모서리 3px·테두리 1px·그림자 없음·밀집 */
+[data-uikit="K09"]{--radius:3px;--ui-dur:.2s;--ui-ez:ease-out}
+[data-uikit="K09"] [class*="-btn"],[data-uikit="K09"] button[class*="-btn"]{border-radius:3px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K09"] [class*="-btn"]:hover{box-shadow:inset 0 -2px 0 0 currentColor}
+[data-uikit="K09"] [class*="-card"]{border-radius:3px;box-shadow:none;border:1px solid var(--line)}
+[data-uikit="K09"] figure,[data-uikit="K09"] .ph{border-radius:3px}
+[data-uikit="K09"] [class*="-sec"]{padding-top:3rem;padding-bottom:3rem}
+[data-uikit="K09"] [class*="-cards"],[data-uikit="K09"] [class*="-gal"]{gap:1rem}
+[data-uikit="K09"] [class*="-p"],[data-uikit="K09"] p{line-height:1.5}
+@media(min-width:900px){[data-uikit="K09"] [class*="-cards"]{grid-template-columns:repeat(4,minmax(0,1fr))}}
+
+/* 각진 부양 — 각진 모서리인데 크게 떠 있다·테두리 없음 */
+[data-uikit="K10"]{--radius:0px;--ui-dur:.3s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K10"] [class*="-btn"],[data-uikit="K10"] button[class*="-btn"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K10"] [class*="-btn"]:hover{transform:scale(1.02)}
+[data-uikit="K10"] [class*="-card"]{border-radius:0px;box-shadow:0 4px 12px rgba(0,0,0,.10),0 20px 48px rgba(0,0,0,.08)}
+[data-uikit="K10"] figure,[data-uikit="K10"] .ph{border-radius:0px}
+[data-uikit="K10"] [class*="-sec"]{padding-top:4.5rem;padding-bottom:4.5rem}
+[data-uikit="K10"] [class*="-cards"],[data-uikit="K10"] [class*="-gal"]{gap:1.5rem}
+[data-uikit="K10"] [class*="-p"],[data-uikit="K10"] p{line-height:1.6}
+@media(min-width:900px){[data-uikit="K10"] [class*="-cards"]{grid-template-columns:repeat(3,minmax(0,1fr))}}
+
+/* 굵은 아웃라인 — 테두리 3px·모서리 0·그림자 없음·여백 넓음 */
+[data-uikit="K11"]{--radius:0px;--ui-dur:.15s;--ui-ez:linear}
+[data-uikit="K11"] [class*="-btn"],[data-uikit="K11"] button[class*="-btn"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K11"] [class*="-btn"]:hover{filter:brightness(.92)}
+[data-uikit="K11"] [class*="-card"]{border-radius:0px;box-shadow:none;border:3px solid var(--line)}
+[data-uikit="K11"] figure,[data-uikit="K11"] .ph{border-radius:0px}
+[data-uikit="K11"] [class*="-sec"]{padding-top:7rem;padding-bottom:7rem}
+[data-uikit="K11"] [class*="-cards"],[data-uikit="K11"] [class*="-gal"]{gap:2.5rem}
+[data-uikit="K11"] [class*="-p"],[data-uikit="K11"] p{line-height:1.75}
+@media(min-width:900px){[data-uikit="K11"] [class*="-cards"]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 말랑 블록 — 모서리 28px·테두리 없음·시원한 여백·알약 */
+[data-uikit="K12"]{--radius:28px;--ui-dur:.35s;--ui-ez:cubic-bezier(.33,1,.68,1)}
+[data-uikit="K12"] [class*="-btn"],[data-uikit="K12"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K12"] [class*="-btn"]:hover{transform:scale(1.02)}
+[data-uikit="K12"] [class*="-card"]{border-radius:28px;box-shadow:none}
+[data-uikit="K12"] figure,[data-uikit="K12"] .ph{border-radius:28px}
+[data-uikit="K12"] [class*="-sec"]{padding-top:7rem;padding-bottom:7rem}
+[data-uikit="K12"] [class*="-cards"],[data-uikit="K12"] [class*="-gal"]{gap:2.5rem}
+[data-uikit="K12"] [class*="-p"],[data-uikit="K12"] p{line-height:1.75}
+@media(min-width:900px){[data-uikit="K12"] [class*="-cards"]{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* 대표 강조 — 첫 항목이 2칸·모서리 5px·옅은 그림자 */
+[data-uikit="K13"]{--radius:5px;--ui-dur:.3s;--ui-ez:ease-out}
+[data-uikit="K13"] [class*="-btn"],[data-uikit="K13"] button[class*="-btn"]{border-radius:999px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K13"] [class*="-btn"]:hover{transform:translateY(-3px)}
+[data-uikit="K13"] [class*="-card"]{border-radius:5px;box-shadow:0 1px 4px rgba(0,0,0,.07)}
+[data-uikit="K13"] figure,[data-uikit="K13"] .ph{border-radius:5px}
+[data-uikit="K13"] [class*="-sec"]{padding-top:4.5rem;padding-bottom:4.5rem}
+[data-uikit="K13"] [class*="-cards"],[data-uikit="K13"] [class*="-gal"]{gap:1.5rem}
+[data-uikit="K13"] [class*="-p"],[data-uikit="K13"] p{line-height:1.6}
+@media(min-width:900px){[data-uikit="K13"] [class*="-cards"]{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:900px){[data-uikit="K13"] [class*="-cards"]>*:first-child{grid-column:span 2;grid-row:span 2}}
+
+/* 서류형 — 모서리 0·테두리 1px·4열·아주 밀집·움직임 없음 */
+[data-uikit="K14"]{--radius:0px;--ui-dur:.15s;--ui-ez:linear}
+[data-uikit="K14"] [class*="-btn"],[data-uikit="K14"] button[class*="-btn"]{border-radius:0px;transition:background .25s var(--ui-ez),color .25s var(--ui-ez),transform .25s var(--ui-ez)}
+[data-uikit="K14"] [class*="-card"]{border-radius:0px;box-shadow:none;border:1px solid var(--line)}
+[data-uikit="K14"] figure,[data-uikit="K14"] .ph{border-radius:0px}
+[data-uikit="K14"] [class*="-sec"]{padding-top:3rem;padding-bottom:3rem}
+[data-uikit="K14"] [class*="-cards"],[data-uikit="K14"] [class*="-gal"]{gap:1rem}
+[data-uikit="K14"] [class*="-p"],[data-uikit="K14"] p{line-height:1.5}
+@media(min-width:900px){[data-uikit="K14"] [class*="-cards"]{grid-template-columns:repeat(4,minmax(0,1fr))}}

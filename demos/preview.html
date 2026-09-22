@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"><title>preview</title>
+<style>body{margin:0;display:flex;gap:16px;background:#888;padding:0}iframe{border:0;background:#fff;height:100vh!important}
+body.wide{display:block;gap:0}body.wide #d{width:100vw!important;display:block}</style></head>
+<body>
+<iframe id="d" style="width:1040px;height:880px"></iframe>
+<iframe id="m" style="width:390px;height:880px"></iframe>
+<script>
+var q=new URLSearchParams(location.search);var s=q.get('s')||'cafe-ondo';var y=+(q.get('y')||0);var g=q.has('guide')?'?guide=1':'?export=1';
+if(q.has('wide')){document.body.className='wide';document.getElementById('m').style.display='none';if(!q.has('guide'))g='';}
+['d','m'].forEach(function(id){var f=document.getElementById(id);f.src=s+'/index.html'+g;f.onload=function(){setTimeout(function(){f.contentWindow.scrollTo(0,id==='m'?y*2.2:y)},300)}});
+</script></body></html>

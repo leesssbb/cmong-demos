@@ -1,0 +1,104 @@
+/* 재디자인 24개 공용 베이스.
+   여기에는 구조(배치·겹침·접근성·모션 훅)만 둔다.
+   색·타이포·여백·라운드 같은 시각 결정은 전부 각 사이트의 site.css 가 한다. */
+
+:root { --ease: cubic-bezier(.16,1,.3,1); }
+
+/* ---------- 접근성 / 폼 가드 ---------- */
+input, textarea, select, table { min-width: 0; }
+form > *, form label { min-width: 0; }
+input[type="file"] { max-width: 100%; }
+details > summary { list-style: none; cursor: pointer; }
+details > summary::-webkit-details-marker { display: none; }
+img, svg, video { max-width: 100%; }
+
+/* ---------- 헤더 골격 (site.js 가 .is-scrolled 를 토글한다) ---------- */
+.site-head { position: sticky; top: 0; z-index: 40; }
+.site-head.is-overlay { position: fixed; left: 0; right: 0; background: transparent; }
+.head-in { display: flex; align-items: center; justify-content: space-between; }
+.gnb { display: none; align-items: stretch; height: 100%; }
+@media (min-width: 1024px) { .gnb { display: flex; } }
+.gnb-item { position: relative; display: flex; align-items: center; }
+.gnb-link { display: block; white-space: nowrap; position: relative; }
+.gnb-drop { position: absolute; top: 100%; left: 50%; opacity: 0; visibility: hidden;
+            transform: translate(-50%, 8px); transition: opacity .25s, visibility .25s, transform .25s var(--ease); }
+.gnb-item:hover .gnb-drop, .gnb-item:focus-within .gnb-drop { opacity: 1; visibility: visible; transform: translate(-50%, 0); }
+.gnb-drop a { display: block; white-space: nowrap; }
+.head-actions { display: flex; align-items: center; }
+.menu-btn { display: grid; place-items: center; }
+@media (min-width: 1024px) { .menu-btn { display: none; } }
+
+/* ---------- 전체화면 메뉴 ---------- */
+.full-menu { position: fixed; inset: 0; z-index: 55; overflow-y: auto; visibility: hidden;
+             clip-path: circle(0% at calc(100% - 42px) 40px); transition: clip-path .6s var(--ease); }
+.full-menu.is-open { clip-path: circle(150% at calc(100% - 42px) 40px); visibility: visible; }
+.full-menu .fm-close { position: absolute; display: grid; place-items: center; }
+.fm-sub { display: flex; flex-wrap: wrap; }
+.full-menu.is-open .fm-group { animation: fmIn .6s var(--ease) both; }
+.full-menu.is-open .fm-group:nth-child(2) { animation-delay: .05s }
+.full-menu.is-open .fm-group:nth-child(3) { animation-delay: .1s }
+.full-menu.is-open .fm-group:nth-child(4) { animation-delay: .15s }
+.full-menu.is-open .fm-group:nth-child(5) { animation-delay: .2s }
+.full-menu.is-open .fm-group:nth-child(6) { animation-delay: .25s }
+@keyframes fmIn { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+/* ---------- 서브 비주얼 / 경로 / LNB ---------- */
+.subvis { position: relative; overflow: hidden; }
+.subvis > img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.subvis-in { position: relative; z-index: 2; width: 100%; }
+.crumbs { display: flex; flex-wrap: wrap; align-items: center; }
+.lnb-in { display: flex; overflow-x: auto; scrollbar-width: none; }
+.lnb-in::-webkit-scrollbar { display: none; }
+.lnb a { flex: none; white-space: nowrap; }
+
+/* ---------- 게시판 골격 ---------- */
+.board { width: 100%; border-collapse: collapse; }
+.board td.t { text-align: left; }
+@media (max-width: 640px) { .board .hide-sm { display: none; } }
+.pager { display: flex; justify-content: center; }
+.pager a, .pager span { display: grid; place-items: center; }
+
+/* ---------- 푸터 골격 ---------- */
+.foot-in { display: grid; }
+.foot-links { display: flex; flex-wrap: wrap; }
+.foot-bottom { display: flex; flex-wrap: wrap; justify-content: space-between;
+               padding-bottom: calc(1.25rem + env(safe-area-inset-bottom, 0px)); }
+
+/* ---------- 모바일 고정 바 ---------- */
+.m-bar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+         display: grid; grid-auto-flow: column; grid-auto-columns: 1fr;
+         padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)); }
+@media (min-width: 1024px) { .m-bar { display: none; } .m-bar-space { display: none; } }
+.m-bar a { display: flex; align-items: center; justify-content: center; }
+
+/* ---------- 프리로더 / 페이지 전환 커튼 ---------- */
+.curtain { position: fixed; inset: 0; z-index: 90; display: grid; place-items: center;
+           pointer-events: none; transform: translateY(0); transition: transform .7s var(--ease); }
+.curtain.is-gone { transform: translateY(-100%); }
+.curtain.is-enter { transition: none; transform: translateY(100%); }
+.curtain .c-bar { position: absolute; left: 0; bottom: 0; width: 100%; transform-origin: left;
+                  animation: cBar .8s var(--ease) forwards; }
+@keyframes cBar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+html.no-curtain .curtain { display: none; }
+
+/* ---------- 모션 훅 (site.js 와 짝) ---------- */
+.split-line { display: block; overflow: hidden; padding-bottom: .08em; }
+.split-line > span { display: inline-block; transform: translateY(105%);
+                     transition: transform 1s var(--ease); transition-delay: calc(var(--l, 0) * 90ms + 150ms); }
+.split-in .split-line > span, html.still .split-line > span { transform: none; }
+[data-parallax] { will-change: transform; }
+@keyframes kenburns { from { transform: scale(1.1); } to { transform: none; } }
+.marquee-track { display: flex; width: max-content; animation: marq var(--marq, 30s) linear infinite; }
+@keyframes marq { to { transform: translateX(-50%); } }
+
+/* 사진 자리. pack.css 가 .ph-1..8 배경을 끼워 넣는다. */
+.ph { background-size: cover; background-position: center; background-repeat: no-repeat; }
+
+@media (prefers-reduced-motion: reduce) {
+  .subvis > img { animation: none; transform: none; }
+  .split-line > span { transform: none; transition: none; }
+  .marquee-track { animation: none; }
+  .curtain { display: none; }
+  .full-menu { transition: none; }
+  * { scroll-behavior: auto !important; }
+}

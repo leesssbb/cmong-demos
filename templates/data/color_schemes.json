@@ -1,0 +1,1186 @@
+[
+ {
+  "id": "CS01",
+  "name": "차콜 코발트",
+  "mood": "신뢰·전문",
+  "industries": [
+   "로펌",
+   "세무회계",
+   "IT솔루션"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f5f6f8",
+  "ink": "#16181d",
+  "mute": "#586074",
+  "line": "#e6e6e6",
+  "accent": "#2f5fe0",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#2f5fe0",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#537be4"
+  },
+  "contrast": {
+   "inkOnBg": "17.8:1",
+   "muteOnBg": "6.3:1",
+   "accentOnBg": "5.5:1",
+   "accentInkOnAccent": "5.5:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "1152006779748150496",
+   "12314598976370028"
+  ]
+ },
+ {
+  "id": "CS02",
+  "name": "강철 인디고",
+  "mood": "견고·기술",
+  "industries": [
+   "중소제조",
+   "물류운송",
+   "부품"
+  ],
+  "bg": "#fbfbfc",
+  "surface": "#f1f2f5",
+  "ink": "#14161b",
+  "mute": "#555e73",
+  "line": "#dedee6",
+  "accent": "#3341b8",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#3341b8",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#6f78d6"
+  },
+  "contrast": {
+   "inkOnBg": "17.5:1",
+   "muteOnBg": "6.3:1",
+   "accentOnBg": "7.8:1",
+   "accentInkOnAccent": "8.1:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "1337074889241138",
+   "1337074889611804"
+  ]
+ },
+ {
+  "id": "CS03",
+  "name": "페이퍼 네이비",
+  "mood": "단정·행정",
+  "industries": [
+   "노무사",
+   "행정사",
+   "협회"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f4f6f9",
+  "ink": "#1a1e27",
+  "mute": "#576583",
+  "line": "#e6e6e6",
+  "accent": "#1f4788",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#1f4788",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#4a7ed5"
+  },
+  "contrast": {
+   "inkOnBg": "16.7:1",
+   "muteOnBg": "5.8:1",
+   "accentOnBg": "9.1:1",
+   "accentInkOnAccent": "9.1:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "14777505022156471",
+   "14777505022160124"
+  ]
+ },
+ {
+  "id": "CS04",
+  "name": "콘크리트 스카이",
+  "mood": "중립·설계",
+  "industries": [
+   "건축사",
+   "인테리어",
+   "설계"
+  ],
+  "bg": "#f7f7f6",
+  "surface": "#ededeb",
+  "ink": "#1b1c1c",
+  "mute": "#666a6a",
+  "line": "#dfdfdb",
+  "accent": "#2b76c4",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#2971bc",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#3280d2"
+  },
+  "contrast": {
+   "inkOnBg": "15.9:1",
+   "muteOnBg": "5.1:1",
+   "accentOnBg": "4.7:1",
+   "accentInkOnAccent": "4.7:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "15270086235010223",
+   "15270086238558774"
+  ]
+ },
+ {
+  "id": "CS05",
+  "name": "클리닉 블루",
+  "mood": "위생·차분",
+  "industries": [
+   "피부과",
+   "내과",
+   "검진센터"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f2f7fb",
+  "ink": "#141a20",
+  "mute": "#4f667e",
+  "line": "#e6e6e6",
+  "accent": "#1c6fb5",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#1c6fb5",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#2083d9"
+  },
+  "contrast": {
+   "inkOnBg": "17.5:1",
+   "muteOnBg": "5.9:1",
+   "accentOnBg": "5.3:1",
+   "accentInkOnAccent": "5.3:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "168462842299908175",
+   "173670129377627741"
+  ]
+ },
+ {
+  "id": "CS06",
+  "name": "미드나잇 코발트",
+  "mood": "기술·야간",
+  "industries": [
+   "IT솔루션",
+   "보안",
+   "데이터"
+  ],
+  "bg": "#0e1015",
+  "surface": "#171a21",
+  "ink": "#eef0f4",
+  "mute": "#8b99b4",
+  "line": "#222734",
+  "accent": "#4b7bff",
+  "accentInk": "#111111",
+  "accentOnBg": "#4b7bff",
+  "darkMode": {
+   "bg": "#0e1015",
+   "surface": "#181c24",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#222734",
+   "accent": "#4b7bff"
+  },
+  "contrast": {
+   "inkOnBg": "16.7:1",
+   "muteOnBg": "6.6:1",
+   "accentOnBg": "5.1:1",
+   "accentInkOnAccent": "5.0:1",
+   "darkInkOnBg": "17.1:1"
+  },
+  "refs": [
+   "196047390020525376",
+   "1970393573853651"
+  ]
+ },
+ {
+  "id": "CS07",
+  "name": "딥슬레이트 아쿠아",
+  "mood": "정밀·산업",
+  "industries": [
+   "정밀가공",
+   "금형",
+   "자동화"
+  ],
+  "bg": "#101317",
+  "surface": "#191d23",
+  "ink": "#e8ebef",
+  "mute": "#8897ac",
+  "line": "#252c35",
+  "accent": "#33b0c4",
+  "accentInk": "#111111",
+  "accentOnBg": "#33b0c4",
+  "darkMode": {
+   "bg": "#101317",
+   "surface": "#1a1f26",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#252c35",
+   "accent": "#33b0c4"
+  },
+  "contrast": {
+   "inkOnBg": "15.6:1",
+   "muteOnBg": "6.3:1",
+   "accentOnBg": "7.2:1",
+   "accentInkOnAccent": "7.3:1",
+   "darkInkOnBg": "16.8:1"
+  },
+  "refs": [
+   "8655424282802767",
+   "10344274142873995"
+  ]
+ },
+ {
+  "id": "CS08",
+  "name": "오프화이트 오렌지",
+  "mood": "친근·소상공인",
+  "industries": [
+   "카페",
+   "베이커리",
+   "공방"
+  ],
+  "bg": "#faf9f7",
+  "surface": "#f0efec",
+  "ink": "#191817",
+  "mute": "#696460",
+  "line": "#e6e1d8",
+  "accent": "#e4551f",
+  "accentInk": "#111111",
+  "accentOnBg": "#c34718",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#e4551f"
+  },
+  "contrast": {
+   "inkOnBg": "16.9:1",
+   "muteOnBg": "5.6:1",
+   "accentOnBg": "4.7:1",
+   "accentInkOnAccent": "5.1:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "422281211026509",
+   "656258976989837291"
+  ]
+ },
+ {
+  "id": "CS09",
+  "name": "라이트그레이 버밀리언",
+  "mood": "활력·리테일",
+  "industries": [
+   "쇼핑몰",
+   "유통",
+   "프랜차이즈"
+  ],
+  "bg": "#f8f8f8",
+  "surface": "#efefef",
+  "ink": "#151515",
+  "mute": "#626262",
+  "line": "#dedede",
+  "accent": "#d93b2b",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#d43626",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#dd4b3d"
+  },
+  "contrast": {
+   "inkOnBg": "17.2:1",
+   "muteOnBg": "5.7:1",
+   "accentOnBg": "4.5:1",
+   "accentInkOnAccent": "4.6:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "14847873766895781",
+   "15058979995786698"
+  ]
+ },
+ {
+  "id": "CS10",
+  "name": "아이보리 테라코타",
+  "mood": "온기·생활",
+  "industries": [
+   "꽃집",
+   "소품샵",
+   "공방"
+  ],
+  "bg": "#fbf9f6",
+  "surface": "#f2efe9",
+  "ink": "#1c1a18",
+  "mute": "#6e665f",
+  "line": "#ebe1d3",
+  "accent": "#c0552f",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#b8512d",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#ce5e36"
+  },
+  "contrast": {
+   "inkOnBg": "16.5:1",
+   "muteOnBg": "5.4:1",
+   "accentOnBg": "4.7:1",
+   "accentInkOnAccent": "4.6:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "9007268003139887",
+   "Aa366N_uFC9Wo_62byHa6lfYCYr8DdanuNg076dw5msvihOL7bqEvOn_adsKyM348wlDWFuySj86iyMj5pbDnM0"
+  ]
+ },
+ {
+  "id": "CS11",
+  "name": "화이트 포레스트",
+  "mood": "자연·건강",
+  "industries": [
+   "한의원",
+   "요양원",
+   "헬스"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f3f6f2",
+  "ink": "#161a16",
+  "mute": "#5c6d5c",
+  "line": "#e6e6e6",
+  "accent": "#2f6b46",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#2f6b46",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#3e8e5f"
+  },
+  "contrast": {
+   "inkOnBg": "17.6:1",
+   "muteOnBg": "5.5:1",
+   "accentOnBg": "6.3:1",
+   "accentInkOnAccent": "6.3:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "620793129899311699",
+   "436778863884505506"
+  ]
+ },
+ {
+  "id": "CS12",
+  "name": "세이지 딥그린",
+  "mood": "차분·치유",
+  "industries": [
+   "한의원",
+   "요가",
+   "명상"
+  ],
+  "bg": "#f6f8f5",
+  "surface": "#eaeee7",
+  "ink": "#171b18",
+  "mute": "#5d6e61",
+  "line": "#dbe3d7",
+  "accent": "#356b4e",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#356b4e",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#448e67"
+  },
+  "contrast": {
+   "inkOnBg": "16.3:1",
+   "muteOnBg": "5.1:1",
+   "accentOnBg": "5.8:1",
+   "accentInkOnAccent": "6.2:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "436778863884505506",
+   "620793129899311699"
+  ]
+ },
+ {
+  "id": "CS13",
+  "name": "블랙 라임",
+  "mood": "선명·운동",
+  "industries": [
+   "헬스장",
+   "크로스핏",
+   "스포츠"
+  ],
+  "bg": "#0d0e0d",
+  "surface": "#161816",
+  "ink": "#f0f2ef",
+  "mute": "#9ca995",
+  "line": "#262826",
+  "accent": "#b7e04a",
+  "accentInk": "#111111",
+  "accentOnBg": "#b7e04a",
+  "darkMode": {
+   "bg": "#0d0e0d",
+   "surface": "#191b19",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#262826",
+   "accent": "#b7e04a"
+  },
+  "contrast": {
+   "inkOnBg": "17.2:1",
+   "muteOnBg": "7.8:1",
+   "accentOnBg": "12.7:1",
+   "accentInkOnAccent": "12.4:1",
+   "darkInkOnBg": "17.4:1"
+  },
+  "refs": [
+   "620793129899311699",
+   "436778863884505506"
+  ]
+ },
+ {
+  "id": "CS14",
+  "name": "차콜 앰버",
+  "mood": "고급·야간",
+  "industries": [
+   "바",
+   "레스토랑",
+   "스튜디오"
+  ],
+  "bg": "#121110",
+  "surface": "#1b1a18",
+  "ink": "#f2f0ed",
+  "mute": "#aea18e",
+  "line": "#2d2b28",
+  "accent": "#e0a23c",
+  "accentInk": "#111111",
+  "accentOnBg": "#e0a23c",
+  "darkMode": {
+   "bg": "#121110",
+   "surface": "#201e1c",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#2d2b28",
+   "accent": "#e0a23c"
+  },
+  "contrast": {
+   "inkOnBg": "16.6:1",
+   "muteOnBg": "7.4:1",
+   "accentOnBg": "8.4:1",
+   "accentInkOnAccent": "8.5:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "1548181182659935",
+   "218283913186474087"
+  ]
+ },
+ {
+  "id": "CS15",
+  "name": "화이트 틸",
+  "mood": "위생·동물",
+  "industries": [
+   "동물병원",
+   "펫",
+   "수의"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f1f7f7",
+  "ink": "#131819",
+  "mute": "#556b70",
+  "line": "#e6e6e6",
+  "accent": "#0f7b82",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#0f7b82",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#118d94"
+  },
+  "contrast": {
+   "inkOnBg": "17.9:1",
+   "muteOnBg": "5.6:1",
+   "accentOnBg": "5.0:1",
+   "accentInkOnAccent": "5.0:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "13792342602673602",
+   "439593613643719534"
+  ]
+ },
+ {
+  "id": "CS16",
+  "name": "페일블루 딥틸",
+  "mood": "수영·해양",
+  "industries": [
+   "수영장",
+   "해양",
+   "레저"
+  ],
+  "bg": "#f6fafb",
+  "surface": "#e9f1f3",
+  "ink": "#121718",
+  "mute": "#546b6f",
+  "line": "#d3e6eb",
+  "accent": "#136b74",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#136b74",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#178b98"
+  },
+  "contrast": {
+   "inkOnBg": "17.2:1",
+   "muteOnBg": "5.4:1",
+   "accentOnBg": "5.9:1",
+   "accentInkOnAccent": "6.2:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "533535887116331392",
+   "575475658650725969"
+  ]
+ },
+ {
+  "id": "CS17",
+  "name": "페이퍼 크림슨",
+  "mood": "강직·전문직",
+  "industries": [
+   "로펌",
+   "감정평가",
+   "법무"
+  ],
+  "bg": "#fdfdfd",
+  "surface": "#f4f4f5",
+  "ink": "#17181a",
+  "mute": "#5f636b",
+  "line": "#e4e4e4",
+  "accent": "#a72235",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#a72235",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#d94a5f"
+  },
+  "contrast": {
+   "inkOnBg": "17.5:1",
+   "muteOnBg": "5.9:1",
+   "accentOnBg": "7.1:1",
+   "accentInkOnAccent": "7.2:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "15058979995786698",
+   "15270086238676207"
+  ]
+ },
+ {
+  "id": "CS18",
+  "name": "그레이 마젠타",
+  "mood": "감각·뷰티",
+  "industries": [
+   "네일",
+   "에스테틱",
+   "헤어"
+  ],
+  "bg": "#fafafa",
+  "surface": "#f1f0f1",
+  "ink": "#171518",
+  "mute": "#655c6a",
+  "line": "#e0e0e0",
+  "accent": "#b8276e",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#b8276e",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#d7448c"
+  },
+  "contrast": {
+   "inkOnBg": "17.4:1",
+   "muteOnBg": "6.1:1",
+   "accentOnBg": "5.7:1",
+   "accentInkOnAccent": "5.9:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "211174973404885",
+   "84724036726973212"
+  ]
+ },
+ {
+  "id": "CS19",
+  "name": "오프화이트 플럼",
+  "mood": "차분·여성",
+  "industries": [
+   "필라테스",
+   "요가",
+   "스튜디오"
+  ],
+  "bg": "#faf9fa",
+  "surface": "#f1eff2",
+  "ink": "#191719",
+  "mute": "#696069",
+  "line": "#e3dde3",
+  "accent": "#6d3f8f",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#6d3f8f",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#9a6bbe"
+  },
+  "contrast": {
+   "inkOnBg": "17.0:1",
+   "muteOnBg": "5.7:1",
+   "accentOnBg": "7.3:1",
+   "accentInkOnAccent": "7.6:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "4503668372529167",
+   "211174971257922"
+  ]
+ },
+ {
+  "id": "CS20",
+  "name": "차콜 라벤더",
+  "mood": "조용·예약",
+  "industries": [
+   "사진스튜디오",
+   "갤러리",
+   "공연"
+  ],
+  "bg": "#131217",
+  "surface": "#1c1b21",
+  "ink": "#f0eff3",
+  "mute": "#9992ad",
+  "line": "#2b2834",
+  "accent": "#a08bff",
+  "accentInk": "#111111",
+  "accentOnBg": "#a08bff",
+  "darkMode": {
+   "bg": "#131217",
+   "surface": "#1f1d25",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#2b2834",
+   "accent": "#a08bff"
+  },
+  "contrast": {
+   "inkOnBg": "16.3:1",
+   "muteOnBg": "6.3:1",
+   "accentOnBg": "6.8:1",
+   "accentInkOnAccent": "6.9:1",
+   "darkInkOnBg": "16.8:1"
+  },
+  "refs": [
+   "211174971257922",
+   "4503668372529167"
+  ]
+ },
+ {
+  "id": "CS21",
+  "name": "뉴트럴 딥블루",
+  "mood": "교육·신뢰",
+  "industries": [
+   "입시학원",
+   "교습소",
+   "학습"
+  ],
+  "bg": "#ffffff",
+  "surface": "#f4f5f8",
+  "ink": "#15171c",
+  "mute": "#575f73",
+  "line": "#e6e6e6",
+  "accent": "#1d4ed8",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#1d4ed8",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#547be7"
+  },
+  "contrast": {
+   "inkOnBg": "17.9:1",
+   "muteOnBg": "6.4:1",
+   "accentOnBg": "6.7:1",
+   "accentInkOnAccent": "6.7:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "771663717428438169",
+   "77757531058939836"
+  ]
+ },
+ {
+  "id": "CS22",
+  "name": "밝은회색 선샛",
+  "mood": "보육·따뜻",
+  "industries": [
+   "어린이집",
+   "유치원",
+   "키즈"
+  ],
+  "bg": "#fffdfa",
+  "surface": "#f6f2ec",
+  "ink": "#1b1917",
+  "mute": "#6e665d",
+  "line": "#ffe9c7",
+  "accent": "#d2691e",
+  "accentInk": "#111111",
+  "accentOnBg": "#b75d1b",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#d2691e"
+  },
+  "contrast": {
+   "inkOnBg": "17.3:1",
+   "muteOnBg": "5.6:1",
+   "accentOnBg": "4.5:1",
+   "accentInkOnAccent": "5.2:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "1548181152174653",
+   "2181499816906507"
+  ]
+ },
+ {
+  "id": "CS23",
+  "name": "화이트 인더스트리",
+  "mood": "정비·현장",
+  "industries": [
+   "자동차정비",
+   "설비",
+   "공사"
+  ],
+  "bg": "#f9f9f9",
+  "surface": "#efefef",
+  "ink": "#141414",
+  "mute": "#606060",
+  "line": "#e0e0e0",
+  "accent": "#e06f12",
+  "accentInk": "#111111",
+  "accentOnBg": "#b3560d",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#e06f12"
+  },
+  "contrast": {
+   "inkOnBg": "17.5:1",
+   "muteOnBg": "6.0:1",
+   "accentOnBg": "4.7:1",
+   "accentInkOnAccent": "5.8:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "293437731991452501",
+   "299559812736320637"
+  ]
+ },
+ {
+  "id": "CS24",
+  "name": "네이비 스틸",
+  "mood": "물류·운송",
+  "industries": [
+   "물류",
+   "운송",
+   "창고"
+  ],
+  "bg": "#0f1218",
+  "surface": "#181c24",
+  "ink": "#eceff4",
+  "mute": "#8598b8",
+  "line": "#232a37",
+  "accent": "#5e8cff",
+  "accentInk": "#111111",
+  "accentOnBg": "#5e8cff",
+  "darkMode": {
+   "bg": "#0f1218",
+   "surface": "#191e28",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#232a37",
+   "accent": "#5e8cff"
+  },
+  "contrast": {
+   "inkOnBg": "16.3:1",
+   "muteOnBg": "6.4:1",
+   "accentOnBg": "6.0:1",
+   "accentInkOnAccent": "6.0:1",
+   "darkInkOnBg": "16.9:1"
+  },
+  "refs": [
+   "86061042863743243",
+   "86342517853576023"
+  ]
+ },
+ {
+  "id": "CS25",
+  "name": "화이트 브릭",
+  "mood": "부동산·정직",
+  "industries": [
+   "부동산중개",
+   "분양",
+   "임대"
+  ],
+  "bg": "#fcfcfb",
+  "surface": "#f2f2f0",
+  "ink": "#181817",
+  "mute": "#666662",
+  "line": "#e6e6de",
+  "accent": "#9a4a2b",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#9a4a2b",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#c96238"
+  },
+  "contrast": {
+   "inkOnBg": "17.3:1",
+   "muteOnBg": "5.6:1",
+   "accentOnBg": "6.0:1",
+   "accentInkOnAccent": "6.2:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "771663717404355486",
+   "844493676784201"
+  ]
+ },
+ {
+  "id": "CS26",
+  "name": "라이트샌드 슬레이트",
+  "mood": "청소·생활",
+  "industries": [
+   "이사청소",
+   "하우스키핑",
+   "생활"
+  ],
+  "bg": "#f9f8f6",
+  "surface": "#efeeeb",
+  "ink": "#171715",
+  "mute": "#67675e",
+  "line": "#e5e0d7",
+  "accent": "#3c6e9c",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#3c6e9c",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#4882b8"
+  },
+  "contrast": {
+   "inkOnBg": "16.9:1",
+   "muteOnBg": "5.4:1",
+   "accentOnBg": "5.1:1",
+   "accentInkOnAccent": "5.4:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "924082417297840182",
+   "96194142039039244"
+  ]
+ },
+ {
+  "id": "CS27",
+  "name": "그레이 모노",
+  "mood": "절제·포트폴리오",
+  "industries": [
+   "사진스튜디오",
+   "디자인",
+   "건축"
+  ],
+  "bg": "#f4f4f4",
+  "surface": "#e9e9e9",
+  "ink": "#121212",
+  "mute": "#5e5e5e",
+  "line": "#dbdbdb",
+  "accent": "#4a4a4a",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#4a4a4a",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#7c7c7c"
+  },
+  "contrast": {
+   "inkOnBg": "17.0:1",
+   "muteOnBg": "5.9:1",
+   "accentOnBg": "8.1:1",
+   "accentInkOnAccent": "8.9:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "970666525940097043",
+   "977351556655891696"
+  ]
+ },
+ {
+  "id": "CS28",
+  "name": "블랙 화이트",
+  "mood": "전시·미니멀",
+  "industries": [
+   "갤러리",
+   "스튜디오",
+   "브랜드"
+  ],
+  "bg": "#0b0b0b",
+  "surface": "#151515",
+  "ink": "#f5f5f5",
+  "mute": "#a3a3a3",
+  "line": "#242424",
+  "accent": "#bdbdbd",
+  "accentInk": "#111111",
+  "accentOnBg": "#bdbdbd",
+  "darkMode": {
+   "bg": "#0b0b0b",
+   "surface": "#181818",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#242424",
+   "accent": "#bdbdbd"
+  },
+  "contrast": {
+   "inkOnBg": "18.1:1",
+   "muteOnBg": "7.8:1",
+   "accentOnBg": "10.5:1",
+   "accentInkOnAccent": "10.1:1",
+   "darkInkOnBg": "17.7:1"
+  },
+  "refs": [
+   "AR-RNrCK3XGmGSuvj-LOh7Boctvf6nKJsILB4yrgUWbHgg8GyCCKk5kc00Q3LQCbso1xo2zz-96RnP7TxutJTj0",
+   "ATEStXh86ASuobx_XQFfBNsbLvFjdsOzJg3qpCho50rFgaDC9Xk82Om9TDi1agyCLQh_NXkhG5nIrNMKNdg54aw"
+  ]
+ },
+ {
+  "id": "CS29",
+  "name": "화이트 딥로즈",
+  "mood": "한식·전통",
+  "industries": [
+   "한식당",
+   "떡집",
+   "전통"
+  ],
+  "bg": "#fcfaf8",
+  "surface": "#f3efeb",
+  "ink": "#1a1714",
+  "mute": "#706457",
+  "line": "#ede0d4",
+  "accent": "#9c2f3b",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#9c2f3b",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#cd5865"
+  },
+  "contrast": {
+   "inkOnBg": "17.1:1",
+   "muteOnBg": "5.5:1",
+   "accentOnBg": "7.0:1",
+   "accentInkOnAccent": "7.3:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "6544361955358255",
+   "7951736835969808"
+  ]
+ },
+ {
+  "id": "CS30",
+  "name": "차콜 브론즈그린",
+  "mood": "숙박·휴양",
+  "industries": [
+   "펜션",
+   "리조트",
+   "글램핑"
+  ],
+  "bg": "#14161a",
+  "surface": "#1d2025",
+  "ink": "#eef0f2",
+  "mute": "#929eab",
+  "line": "#2a2e37",
+  "accent": "#6fae86",
+  "accentInk": "#111111",
+  "accentOnBg": "#6fae86",
+  "darkMode": {
+   "bg": "#14161a",
+   "surface": "#1f2228",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#2a2e37",
+   "accent": "#6fae86"
+  },
+  "contrast": {
+   "inkOnBg": "15.9:1",
+   "muteOnBg": "6.6:1",
+   "accentOnBg": "7.0:1",
+   "accentInkOnAccent": "7.3:1",
+   "darkInkOnBg": "16.3:1"
+  },
+  "refs": [
+   "436778863884505506",
+   "620793129899311699"
+  ]
+ },
+ {
+  "id": "CS31",
+  "name": "페일그린 그래스",
+  "mood": "골프·야외",
+  "industries": [
+   "골프연습장",
+   "스크린골프",
+   "레저"
+  ],
+  "bg": "#f7faf6",
+  "surface": "#eceee8",
+  "ink": "#151814",
+  "mute": "#5e6b5a",
+  "line": "#dae8d5",
+  "accent": "#2f7d4f",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#2f7d4f",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#38925e"
+  },
+  "contrast": {
+   "inkOnBg": "17.0:1",
+   "muteOnBg": "5.4:1",
+   "accentOnBg": "4.8:1",
+   "accentInkOnAccent": "5.0:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "620793129899311699",
+   "436778863884505506"
+  ]
+ },
+ {
+  "id": "CS32",
+  "name": "아이스블루 네이비",
+  "mood": "세무·회계",
+  "industries": [
+   "세무회계",
+   "재무",
+   "컨설팅"
+  ],
+  "bg": "#fbfcfd",
+  "surface": "#f0f3f7",
+  "ink": "#13161c",
+  "mute": "#515e77",
+  "line": "#d9e3ec",
+  "accent": "#27508f",
+  "accentInk": "#ffffff",
+  "accentOnBg": "#27508f",
+  "darkMode": {
+   "bg": "#101114",
+   "surface": "#1b1d22",
+   "ink": "#f2f3f5",
+   "mute": "#969eae",
+   "line": "#272930",
+   "accent": "#4b7dcf"
+  },
+  "contrast": {
+   "inkOnBg": "17.6:1",
+   "muteOnBg": "6.4:1",
+   "accentOnBg": "7.8:1",
+   "accentInkOnAccent": "8.0:1",
+   "darkInkOnBg": "17.0:1"
+  },
+  "refs": [
+   "140244975884532886",
+   "14777505022156471"
+  ]
+ }
+]

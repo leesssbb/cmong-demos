@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://narae-works.example.com/sitemap.xml

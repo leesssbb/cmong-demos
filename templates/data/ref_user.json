@@ -1,0 +1,135 @@
+[
+{
+"id": "U-apply-iscu-ac-kr",
+"name": "서울사이버대학교 입학지원센터",
+"url": "https://apply.iscu.ac.kr/",
+"domain": "apply.iscu.ac.kr",
+"source": "user",
+"desc": "서울사이버대학교는 No.1 사이버대, 정규 4년제 사이버대, 신입학, 편입학, 11개 단과대학, 49개 학과(전공) 운영, 대학교 인텔리전트 캠퍼스 보유, 1년 4학기제, 100% 사이버 강의, 오프대학1/3 수준의 등록금, 온, 온라인, 오프라인 특강 및 실습",
+"shot": "https://apply.iscu.ac.kr/images/com/bg_cct_scu_20220110.jpg?version=2",
+"fonts": [
+"Segoe UI",
+"Roboto",
+"Helvetica Neue",
+"Arial",
+"Noto Sans",
+"Apple Color Emoji"
+],
+"profile": {
+"fonts": {
+"raw": [
+"Outfit",
+"Noto Sans",
+"Pretendard",
+"LINESeedKR-Rg",
+"Hahmlet"
+],
+"headRaw": "Pretendard",
+"bodyRaw": "Noto Sans",
+"headClass": "grotesk",
+"bodyClass": "grotesk"
+},
+"radius": "4px",
+"pill": false,
+"border": "1px",
+"thick": false,
+"shadow": "soft",
+"shadowCss": "0 4px 20px 0 rgba(0, 0, 0, 0.08)",
+"dur": ".2s",
+"ease": "cubic-bezier(.55,.085,.68,.53)",
+"headWeight": 800,
+"headLs": "-0.02em",
+"upper": false,
+"bigType": true,
+"n": {
+"fonts": 30,
+"radius": 138,
+"border": 158,
+"shadow": 20,
+"transition": 112
+}
+},
+"tokens": {
+"bg": "#dee2e6",
+"surface": "#dae0e5",
+"ink": "#000000",
+"mute": "#007bff",
+"line": "#ffe8a1",
+"acc": "#dc3545",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 16.1,
+"accOnBg": 3.5,
+"muteOnBg": 3.1
+},
+"ok": true,
+"seen": "2026-09-20"
+},
+{
+"id": "U-bluebottlecoffeekorea-com",
+"name": "블루보틀 커피 &ndash; BLUE BOTTLE COFFEE KOREA",
+"url": "https://www.bluebottlecoffeekorea.com",
+"domain": "bluebottlecoffeekorea.com",
+"source": "user",
+"desc": "2002년 미국 캘리포니아주 오클랜드에서 탄생한 스페셜티 커피 브랜드 블루보틀 입니다.",
+"shot": "http://kr.bluebottlecoffee.com/cdn/shop/files/D3_PC_824654de-19e8-42bc-b0a1-a1ed48de8599.jpg?v=1770177899",
+"fonts": [
+"Noto Sans KR",
+"Halis GR",
+"Assistant",
+"Roboto",
+"Segoe UI",
+"Oxygen"
+],
+"profile": {
+"fonts": {
+"raw": [
+"Noto Sans KR",
+"Halis GR",
+"Assistant",
+"Oxygen"
+],
+"headRaw": "Noto Sans KR",
+"bodyRaw": "Noto Sans KR",
+"headClass": "grotesk",
+"bodyClass": "grotesk"
+},
+"radius": "5px",
+"pill": false,
+"border": "1px",
+"thick": false,
+"shadow": "soft",
+"shadowCss": "1px 1px 5px grey",
+"dur": ".3s",
+"ease": "cubic-bezier(.4,0,.2,1)",
+"headWeight": 350,
+"headLs": "0",
+"upper": false,
+"bigType": true,
+"n": {
+"fonts": 142,
+"radius": 43,
+"border": 44,
+"shadow": 20,
+"transition": 14
+}
+},
+"tokens": {
+"bg": "#000000",
+"surface": "#000000",
+"ink": "#fdfbf7",
+"mute": "#3b99fc",
+"line": "#333333",
+"acc": "#fdfbf7",
+"accInk": "#000000"
+},
+"contrast": {
+"inkOnBg": 20.3,
+"accOnBg": 20.3,
+"muteOnBg": 7.1
+},
+"ok": true,
+"seen": "2026-09-20"
+}
+]

@@ -1,0 +1,93 @@
+/* 공유 페이지(404·공지·공지상세·개인정보) 전용 최소 스타일.
+   시각은 각 사이트가 정의한 변수(--bg --fg --muted --line --accent --accent-fg --radius)를 그대로 상속한다.
+   여기에 사이트 고유 디자인을 넣지 않는다. */
+
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+           overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.skip { position: absolute; left: -9999px; top: 0; z-index: 95; }
+.skip:focus { left: .5rem; top: .5rem; padding: .6rem 1rem; background: var(--fg); color: var(--bg); }
+
+.sh-wrap { width: 100%; margin: 0 auto; padding: 4rem 1rem; }
+@media (min-width: 640px) { .sh-wrap { padding: 4.5rem 1.5rem; } }
+@media (min-width: 768px) { .sh-wrap { padding: 6rem 1.5rem; } }
+.sh-wrap.is-wide { max-width: 80rem; }
+.sh-wrap.is-mid { max-width: 64rem; }
+.sh-wrap.is-narrow { max-width: 52rem; }
+.sh-wrap.is-doc { max-width: 44rem; }
+.sh-scroll { overflow-x: auto; }
+
+/* 404 */
+.sh-404 { display: grid; gap: 2.5rem; align-items: center; min-height: 62dvh; }
+@media (min-width: 768px) { .sh-404 { grid-template-columns: 1fr 1fr; gap: 3rem; } }
+.sh-404-num { font-size: clamp(6rem, 20vw, 14rem); line-height: .9; font-weight: 700;
+              letter-spacing: -.05em; color: var(--accent); user-select: none; }
+.sh-404 h1 { font-size: clamp(1.35rem, 5vw, 2.1rem); font-weight: 700; letter-spacing: -.03em; line-height: 1.25; }
+.sh-404 p { margin-top: 1rem; color: var(--muted); line-height: 1.75; }
+.sh-btns { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2rem; }
+.sh-btn { display: inline-flex; align-items: center; gap: .5rem; padding: .95rem 1.7rem;
+          border-radius: var(--radius, 999px); font-weight: 600; background: var(--accent); color: var(--accent-fg); }
+.sh-btn.is-ghost { background: transparent; color: inherit; border: 1px solid var(--line); }
+
+/* 게시판 */
+.sh-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+          gap: 1rem; margin-bottom: 1.5rem; }
+.sh-count { font-size: 15px; color: var(--muted); }
+.sh-count b { color: var(--fg); }
+.sh-search { display: flex; gap: .5rem; }
+.sh-search input { width: 14rem; max-width: 46vw; padding: .65rem 1rem; font-size: 15px;
+                   background: transparent; border: 1px solid var(--line); border-radius: var(--radius, 999px); color: inherit; }
+.sh-search button { padding: .65rem 1.1rem; font-size: 15px; font-weight: 600;
+                    border-radius: var(--radius, 999px); background: var(--fg); color: var(--bg); }
+.board { font-size: 15px; border-top: 2px solid var(--fg); }
+.board th, .board td { padding: 1.05rem .75rem; border-bottom: 1px solid var(--line); text-align: center; }
+.board th { font-weight: 600; background: color-mix(in srgb, var(--fg) 4%, var(--bg)); }
+.board td.t a:hover { text-decoration: underline; }
+.board .pin { display: inline-block; font-size: 12px; font-weight: 700; padding: 2px 8px;
+              border-radius: 999px; background: var(--accent); color: var(--accent-fg); }
+@media (max-width: 640px) { .board td, .board th { padding: .9rem .4rem; } }
+.pager { gap: .35rem; margin-top: 2rem; }
+.pager a, .pager span { min-width: 40px; height: 40px; border-radius: 10px;
+                        border: 1px solid var(--line); font-size: 14px; }
+.pager span[aria-current] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+/* 게시글 */
+.article-head { border-top: 2px solid var(--fg); border-bottom: 1px solid var(--line); padding: 1.5rem 0; }
+.sh-cat { font-size: 14px; font-weight: 600; color: var(--accent); }
+.sh-title { margin-top: .5rem; font-size: clamp(1.35rem, 3vw, 1.85rem); font-weight: 700; letter-spacing: -.025em; }
+.sh-meta { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: .75rem; font-size: 14px; color: var(--muted); }
+.article-body { padding: 2rem 0 3rem; border-bottom: 1px solid var(--line); font-size: 16px; line-height: 1.9; }
+.article-body p + p { margin-top: 1rem; }
+.sh-nav { border-bottom: 1px solid var(--line); font-size: 15px; }
+.sh-nav a { display: flex; gap: 1rem; padding: 1rem 0; }
+.sh-nav a:first-child { border-bottom: 1px solid var(--line); }
+.sh-nav .lbl { width: 4rem; flex: none; color: var(--muted); }
+.sh-nav .t { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sh-back { margin-top: 2rem; text-align: center; }
+.sh-back a { display: inline-flex; padding: .9rem 2rem; font-weight: 600;
+             border-radius: var(--radius, 999px); background: var(--fg); color: var(--bg); }
+
+/* 약관 문서 */
+.sh-doc { font-size: 15.5px; line-height: 1.8; }
+.sh-doc .sh-lead { color: var(--muted); }
+.sh-doc .sh-note { margin-top: .75rem; font-size: 14px; color: var(--muted); }
+.sh-doc h2 { margin-top: 3rem; font-size: 1.25rem; font-weight: 700; }
+.sh-doc h2 + p, .sh-doc h2 + div, .sh-doc h2 + ul { margin-top: 1rem; }
+.sh-doc ul { display: grid; gap: .25rem; list-style: none; }
+.sh-doc .sh-scroll { margin-top: 1rem; }
+
+/* ── 모션 초기 상태 ───────────────────────────────────────────
+   .js-motion 은 motion.js 를 붙인 페이지에서 head 인라인으로 먼저 단다.
+   JS 가 없거나 CDN 이 죽으면 클래스가 없거나 제거되므로 내용은 항상 보인다. */
+.js-motion [data-mo-reveal],
+.js-motion [data-mo-stagger] > * { opacity: 0; }
+.js-motion [data-mo-parallax] { will-change: transform; }
+
+@media (prefers-reduced-motion: reduce) {
+  .js-motion [data-mo-reveal],
+  .js-motion [data-mo-stagger] > * { opacity: 1; }
+  .js-motion [data-mo-parallax] { will-change: auto; transform: none !important; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important; scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mareum-labor.example.com/sitemap.xml
